@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Jethro_Tull" ID="{BC649C46-6EFE-4EE2-AFA4-74A743099CF2}" ShortID="145781386">
+					<ChildrenList>
+						<Folder Name="Jethro_Tull_Stereo" ID="{1FEA8361-9040-41BC-93EC-0BD5C5E022B2}" ShortID="968711007">
+							<ChildrenList>
+								<Sound Name="Jethro_Tull_L" ID="{3DF0182A-E819-440B-A7DF-01EC05983B41}" ShortID="5982134">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}">
+												<Attenuation Name="LR_Emitters (Custom)" ID="{127C3229-387E-4479-877E-837B84AA4650}" ShortID="292766665">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="10"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{3C29A650-9BEF-401D-8FD7-5945389988B6}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>SCurve</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>8.91205</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Constant</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_User_Left_Channel" ID="{393E5666-EF92-4295-9106-FE44096C395C}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="L04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{10C0B782-E934-4ED1-87B5-0C5A7EE098E8}">
+											<Language>SFX</Language>
+											<AudioFile>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1021326720"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="L04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{10C0B782-E934-4ED1-87B5-0C5A7EE098E8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jethro_Tull_R" ID="{2D751851-3711-41D3-97BF-85931F7742D1}" ShortID="159102937">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom CreatedFrom="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}">
+												<Attenuation Name="LR_Emitters (Custom)" ID="{F53F52E5-8010-4BC0-8F37-081C49A720E0}" ShortID="43884836">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="10"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{9809D4F6-6534-45E7-8527-3BE04DD74501}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																			<SegmentShape>SCurve</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>8.91205</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>0</Flags>
+																			<SegmentShape>Constant</SegmentShape>
+																		</Point>
+																		<Point>
+																			<XPos>10</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_User_Right_Channel" ID="{3CFD8E5B-6044-40D1-89F2-55FF9C180C6B}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="R04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{0D524884-98CA-45ED-8179-7702A80FD5EC}">
+											<Language>SFX</Language>
+											<AudioFile>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137534949"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="R04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{0D524884-98CA-45ED-8179-7702A80FD5EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="New Sound SFX" ID="{81AF04B5-5EBF-4892-AEF7-D029D941A093}" ShortID="895305119">
+									<PropertyList>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{C2F646B6-C5C3-41E6-A4D6-0D095D816C01}">
+											<Language>SFX</Language>
+											<AudioFile>Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="345248522"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Panner Name="" ID="{8726CEF0-1195-4502-B66A-D1E8605EFE54}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{308F4150-1AC9-45D1-8742-8CD90F3B91A7}" ShortID="229884211">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Stereo_User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{BAA61B50-AF06-4E79-A9D4-9AF49F664F2B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{C2F646B6-C5C3-41E6-A4D6-0D095D816C01}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Jethro_Tull_Spatial" ID="{259AAF12-D0DB-42E3-8915-C7C284F1233D}" ShortID="1070447904">
+							<ChildrenList>
+								<Sound Name="Jethro_Tull_L_Spatial" ID="{0626FABF-2241-41CE-96F8-EB65D34AA965}" ShortID="949662763">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Spatial_Reference" ID="{94AA1216-40A6-4C90-9C9E-9DC2C8680114}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Left_Channel_Spatial_Reference_Aux" ID="{E89694BB-B4F0-433F-AE9B-6027EEE2C23D}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="L04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{4D92802A-AF88-4339-9EB8-4A3B3940C222}">
+											<Language>SFX</Language>
+											<AudioFile>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1021326720"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="L04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{4D92802A-AF88-4339-9EB8-4A3B3940C222}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jethro_Tull_R_Spatial" ID="{1C6303E7-9451-4954-80CB-BD42844E2142}" ShortID="557740408">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="R04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{5A311F5B-970E-47C7-9FD4-D8C1D91451B6}">
+											<Language>SFX</Language>
+											<AudioFile>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="137534949"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="R04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{5A311F5B-970E-47C7-9FD4-D8C1D91451B6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Jethro_Tull_Sub_Spatial" ID="{6E09B375-AE1A-49CA-9174-DFB51A87D91F}" ShortID="934784239">
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{13311B75-B2BD-432B-B55A-4072550515AF}">
+											<Language>SFX</Language>
+											<AudioFile>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="275939375"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{13311B75-B2BD-432B-B55A-4072550515AF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Recording_w_Sam" ID="{3F6F6F69-7577-4E62-B0A6-FFCA9780B361}" ShortID="1064311776">
+					<ChildrenList>
+						<Sound Name="Bass_1" ID="{F42FA13E-5946-4305-938B-854629C98BF5}" ShortID="721798022">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="BypassEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise RoomVerb (Custom)" ID="{E81A37BD-190E-454D-BB5D-DD9EEAA4396E}" ShortID="234927676" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="5.9"/>
+												<Property Name="DryLevel" Type="Real32" Value="-3.3"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Matrix Reverb (Custom)" ID="{24B9F3E8-F051-4DB4-8929-B26F687C8F44}" ShortID="974229594" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect3">
+									<Custom>
+										<Effect Name="Wwise Recorder (Custom)" ID="{49352BC2-AE86-4B70-8FE9-D2043C5FD4D9}" ShortID="305167139" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+											<PropertyList>
+												<Property Name="AuthoringFilename" Type="string" Value="C:\Users\G14\Documents\School Work\5A\JCURA\Sounds\Record.wav"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BASS_1_dry" ID="{7A6F2A5A-AA1D-4FD8-8AF1-B18ED5411A57}">
+									<Language>SFX</Language>
+									<AudioFile>BASS_1_dry.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="634916686"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BASS_1_dry" ID="{7A6F2A5A-AA1D-4FD8-8AF1-B18ED5411A57}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EG_1" ID="{944FAC3A-1346-41DD-9146-438A92A4CAC2}" ShortID="535923469">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+								</Reference>
+								<Reference Name="Effect3">
+									<Custom>
+										<Effect Name="Wwise Recorder (Custom)" ID="{51BC459A-A417-4039-9F43-DE6A29D51B46}" ShortID="404684125" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EG_1_dry" ID="{F2393268-F0DA-41F8-9505-792F2015E48D}">
+									<Language>SFX</Language>
+									<AudioFile>EG_1_dry.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="531709310"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="EG_1_dry" ID="{F2393268-F0DA-41F8-9505-792F2015E48D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VOX_1" ID="{E33EDB6F-075D-464C-AB5B-4E30E02571B5}" ShortID="56520295">
+							<PropertyList>
+								<Property Name="BypassEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="BypassEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Matrix Reverb (Custom)" ID="{9A67761E-59A0-4ACF-B600-FA450FDA0464}" ShortID="67637725" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<PropertyList>
+												<Property Name="DryLevel" Type="Real32" Value="0"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise RoomVerb (Custom)" ID="{64060C34-231E-4731-B047-8F4B6CD7C0D5}" ShortID="935248661" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect3">
+									<Custom>
+										<Effect Name="Wwise Recorder (Custom)" ID="{9F135A20-83FD-4546-AD76-7CFBACF9A7AA}" ShortID="708946804" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3"/>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="VOX_1_dry" ID="{7A43D8EF-597A-4606-9167-561FC1465385}">
+									<Language>SFX</Language>
+									<AudioFile>VOX_1_dry.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="746958930"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="VOX_1_dry" ID="{7A43D8EF-597A-4606-9167-561FC1465385}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Opera_Voice_1" ID="{B6F71BE2-7C60-48BF-9D76-A09029E497ED}" ShortID="969629699">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Matrix Reverb (Custom)" ID="{B83E2C4A-A9AF-44E4-84D0-D2F027A3DDBF}" ShortID="35170395" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+											<PropertyList>
+												<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+												<Property Name="ReverbTime" Type="Real32" Value="3.5"/>
+												<Property Name="WetLevel" Type="Real32" Value="-40"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect3">
+									<Custom>
+										<Effect Name="Wwise Recorder (Custom)" ID="{80F4FA08-DB54-4526-8A76-CF4FDC7AF9F4}" ShortID="246419888" PluginName="Wwise Recorder" CompanyID="0" PluginID="132" PluginType="3">
+											<PropertyList>
+												<Property Name="AuthoringFilename" Type="string" Value="C:\Users\G14\Documents\School Work\5A\JCURA\Sounds\Opera_Voice_RL_3.5_WL_-40.wav"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="singing" ID="{8D267C90-A8C3-4148-A8B1-FA05B4DBECBA}">
+									<Language>SFX</Language>
+									<AudioFile>singing.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="630929123"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="singing" ID="{8D267C90-A8C3-4148-A8B1-FA05B4DBECBA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

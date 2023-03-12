@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7A1988D8-70AF-4EB3-A471-3C1EB773D01B}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7A1988D8-70AF-4EB3-A471-3C1EB773D01B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{72F67BEA-3B99-4C58-B081-A1C3E3D3FC5F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Jethro_Tull_Sub" ID="{CF4301AD-A57D-40E4-8E2B-2BE819AE60AD}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Jethro_Tull_R" ID="{55A79C47-83CA-4112-B627-D166E5CBAE50}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jethro_Tull_L_Spatial" ID="{0626FABF-2241-41CE-96F8-EB65D34AA965}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jethro_Tull_R_Spatial" ID="{1C6303E7-9451-4954-80CB-BD42844E2142}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Jethro_Tull_L" ID="{DEE99872-04D2-4996-8173-93B05D2E2D81}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jethro_Tull_Sub_Spatial" ID="{6E09B375-AE1A-49CA-9174-DFB51A87D91F}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

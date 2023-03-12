@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1547780001	Play_Jethro_Tull_Sub			\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub	
+	1979987118	Play_Jethro_Tull_L_Spatial			\Default Work Unit\Play_Jethro_Tull_L_Spatial	
+	2087463309	Play_Jethro_Tull_R			\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_R	
+	2087463315	Play_Jethro_Tull_L			\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_L	
+	2451900932	Play_Jethro_Tull_Sub_Spatial			\Default Work Unit\Play_Jethro_Tull_Sub_Spatial	
+	3705538616	Play_Jethro_Tull_R_Spatial			\Default Work Unit\Play_Jethro_Tull_R_Spatial	
+
+Effect plug-ins	ID	Name	Type				Notes
+	927685878	LR_Emitter_Parametric_EQ	Wwise Parametric EQ			
+	3459526528	Sub_Emitter_Parametric_EQ	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	137534949	Jethro_Tull_R_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull_Spatial\Jethro_Tull_R_Spatial		22348864
+	275939375	Jethro_Tull_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull_Spatial\Jethro_Tull_Sub_Spatial		22348864
+	1021326720	Jethro_Tull_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull_Spatial\Jethro_Tull_L_Spatial		22348864
+

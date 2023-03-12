@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F33F1267-E221-4098-BEB1-85DE33E568A0}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{F33F1267-E221-4098-BEB1-85DE33E568A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Test" ID="{0B9CA9BE-C732-484C-918B-098329E14F21}"/>
+				<GameParameter Name="Stereo_User_Left_Channel_Bus_Volume" ID="{AEE36E6E-9CBC-49A0-8C98-FA845F06FCFE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="64"/>
+						<Property Name="Max" Type="Real64" Value="127"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Stereo_User_Right_Channel_Bus_Volume" ID="{D9083DD0-73E1-441D-B113-98DEEC5E8681}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="64"/>
+						<Property Name="Max" Type="Real64" Value="127"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Stereo_User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="15117371">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="520916303">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2087463315" Name="Play_Jethro_Tull_L" ObjectPath="\Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_L" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="1021326720" Language="SFX">
+							<ShortName>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1979987118" Name="Play_Jethro_Tull_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_L_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
+				<Event Id="2087463309" Name="Play_Jethro_Tull_R" ObjectPath="\Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_R" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="137534949" Language="SFX">
+							<ShortName>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3705538616" Name="Play_Jethro_Tull_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_R_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
+				<Event Id="1547780001" Name="Play_Jethro_Tull_Sub" ObjectPath="\Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="275939375" Language="SFX">
+							<ShortName>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2451900932" Name="Play_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="137534949" Language="SFX">
+					<ShortName>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+					<Path>SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+				</File>
+				<File Id="275939375" Language="SFX">
+					<ShortName>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+					<Path>SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+				</File>
+				<File Id="1021326720" Language="SFX">
+					<ShortName>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+					<Path>SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

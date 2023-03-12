@@ -1,0 +1,1027 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcfdb3995cb3eab42a436808c5492ab6, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 55adfd354f6356439d8baefd5da29a92
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 55adfd354f6356439d8baefd5da29a92
+    GuidInternal: 
+    m_lastTime: -8585242350812188747
+    List: []
+  - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Factory Acoustic Textures
+      ObjectType: 12
+      guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    ParentPath: Virtual Acoustics\Factory Acoustic Textures
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    GuidInternal: 
+    m_lastTime: -8585242369625275014
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+        guid: f2532d2fccda8e408b8898b1b52a26d6
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Anechoic
+        ObjectType: 15
+        guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Brick
+        ObjectType: 15
+        guid: a9a586b004f2534ca838bdb18b18f6d6
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Carpet
+        ObjectType: 15
+        guid: 8975223456dc604296c4b9f4b669092b
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Concrete
+        ObjectType: 15
+        guid: 001cf85c9628e04aaf7c3080bdaba682
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+        guid: 19c9d2305f92434189063dbb3c4ae5e2
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Curtains
+        ObjectType: 15
+        guid: 339ee6f8975c6849b508a1535f2d66e8
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Drywall
+        ObjectType: 15
+        guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Fabric
+        ObjectType: 15
+        guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Mountain
+        ObjectType: 15
+        guid: 313793c51a00b44a98dd9b033a8c8eab
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain
+    - name: Textures
+      guid: a3121e7828e3df4a8bba5fb89c74031d
+      id: 1276632493
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Tile
+        ObjectType: 15
+        guid: c4da82a82a13b747ba9db9907ba29cc0
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood
+        ObjectType: 15
+        guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood_Bright
+        ObjectType: 15
+        guid: e5d1857ba2c1634e9a13cec54b641adc
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood_Deep
+        ObjectType: 15
+        guid: 8e474652dac50c4ea0dec98d1479529a
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7da56598dbf1594cb6bbc350b43efc88
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 7da56598dbf1594cb6bbc350b43efc88
+    GuidInternal: 
+    m_lastTime: -8585230222722067087
+    List:
+    - name: Early_Reflection_Bus
+      guid: b487c8644d907b44983818d8febf41bb
+      id: 3567840041
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Early_Reflection_Bus
+        ObjectType: 1
+        guid: b487c8644d907b44983818d8febf41bb
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus
+    - name: Left_Channel_Spatial_Reference_Aux
+      guid: bb9496e8f0b43f43ae9b6027eee2c23d
+      id: 2544506526
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_Reference
+        ObjectType: 2
+        guid: 1612aa94a640904c9c9e9dc2c8680114
+      - ElementName: Left_Channel_Spatial_Reference_Aux
+        ObjectType: 1
+        guid: bb9496e8f0b43f43ae9b6027eee2c23d
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Left_Channel_Spatial_Reference_Aux
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Recording_Bus
+      guid: 3c411de3baf2dc42a4eff5c859ecabac
+      id: 484837253
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Recording_Bus
+        ObjectType: 2
+        guid: 3c411de3baf2dc42a4eff5c859ecabac
+      Path: Master-Mixer Hierarchy\Default Work Unit\Recording_Bus
+    - name: Spatial
+      guid: 131d1a0728534d419b82cee93ef89791
+      id: 378350335
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial
+    - name: Spatial_Reference
+      guid: 1612aa94a640904c9c9e9dc2c8680114
+      id: 2333863985
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_Reference
+        ObjectType: 2
+        guid: 1612aa94a640904c9c9e9dc2c8680114
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference
+    - name: Spatial_Reference_Left_Channel
+      guid: b1e5b270b153ae4198a6e3e980b3147f
+      id: 2078929843
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_Reference
+        ObjectType: 2
+        guid: 1612aa94a640904c9c9e9dc2c8680114
+      - ElementName: Spatial_Reference_Left_Channel
+        ObjectType: 2
+        guid: b1e5b270b153ae4198a6e3e980b3147f
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Left_Channel
+    - name: Spatial_Reference_Right_Channel
+      guid: 66c4066149dd55499378a31d13355718
+      id: 2895984142
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_Reference
+        ObjectType: 2
+        guid: 1612aa94a640904c9c9e9dc2c8680114
+      - ElementName: Spatial_Reference_Right_Channel
+        ObjectType: 2
+        guid: 66c4066149dd55499378a31d13355718
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Right_Channel
+    - name: Spatial_Reference_Sub_Channel
+      guid: 76182fc3e3b01e469cb333a551ead007
+      id: 1960054678
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_Reference
+        ObjectType: 2
+        guid: 1612aa94a640904c9c9e9dc2c8680114
+      - ElementName: Spatial_Reference_Sub_Channel
+        ObjectType: 2
+        guid: 76182fc3e3b01e469cb333a551ead007
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Sub_Channel
+    - name: Spatial_User
+      guid: 5bbbc5a506eae84cb66d7ccdcd349c09
+      id: 1950295347
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_User
+        ObjectType: 2
+        guid: 5bbbc5a506eae84cb66d7ccdcd349c09
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_User
+    - name: Spatial_User_Left_Channel
+      guid: 78d6bf03598dda45b6c8c7a5e62ebd31
+      id: 3155929625
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_User
+        ObjectType: 2
+        guid: 5bbbc5a506eae84cb66d7ccdcd349c09
+      - ElementName: Spatial_User_Left_Channel
+        ObjectType: 2
+        guid: 78d6bf03598dda45b6c8c7a5e62ebd31
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Left_Channel
+    - name: Spatial_User_Right_Channel
+      guid: bbb6a8d8a71f12469aa06ebf20ce1cb8
+      id: 685045684
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_User
+        ObjectType: 2
+        guid: 5bbbc5a506eae84cb66d7ccdcd349c09
+      - ElementName: Spatial_User_Right_Channel
+        ObjectType: 2
+        guid: bbb6a8d8a71f12469aa06ebf20ce1cb8
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Right_Channel
+    - name: Spatial_User_Sub_Channel
+      guid: a7d13b671e984245812b33204d5b17bd
+      id: 2125435124
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Spatial
+        ObjectType: 2
+        guid: 131d1a0728534d419b82cee93ef89791
+      - ElementName: Spatial_User
+        ObjectType: 2
+        guid: 5bbbc5a506eae84cb66d7ccdcd349c09
+      - ElementName: Spatial_User_Sub_Channel
+        ObjectType: 2
+        guid: a7d13b671e984245812b33204d5b17bd
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Sub_Channel
+    - name: Stereo
+      guid: c04645e75b38f54b9abe63119400a44a
+      id: 3729966089
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Stereo
+        ObjectType: 2
+        guid: c04645e75b38f54b9abe63119400a44a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo
+    - name: Stereo_Reference
+      guid: 4e6c6df9a8695240beb2769187204c50
+      id: 2083607115
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Stereo
+        ObjectType: 2
+        guid: c04645e75b38f54b9abe63119400a44a
+      - ElementName: Stereo_Reference
+        ObjectType: 2
+        guid: 4e6c6df9a8695240beb2769187204c50
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_Reference
+    - name: Stereo_Reference_Left_Channel
+      guid: 585445f32b17e74ea061b58b805181d6
+      id: 1739100433
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Stereo
+        ObjectType: 2
+        guid: c04645e75b38f54b9abe63119400a44a
+      - ElementName: Stereo_Reference
+        ObjectType: 2
+        guid: 4e6c6df9a8695240beb2769187204c50
+      - ElementName: Stereo_Reference_Left_Channel
+        ObjectType: 2
+        guid: 585445f32b17e74ea061b58b805181d6
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_Reference\Stereo_Reference_Left_Channel
+    - name: Stereo_Reference_Right_Channel
+      guid: f5bd84c6175fe04c8e55f578c176814a
+      id: 1426654380
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Stereo
+        ObjectType: 2
+        guid: c04645e75b38f54b9abe63119400a44a
+      - ElementName: Stereo_Reference
+        ObjectType: 2
+        guid: 4e6c6df9a8695240beb2769187204c50
+      - ElementName: Stereo_Reference_Right_Channel
+        ObjectType: 2
+        guid: f5bd84c6175fe04c8e55f578c176814a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_Reference\Stereo_Reference_Right_Channel
+    - name: Stereo_User
+      guid: dbf598630c8dfe4d94a0f15049937c1e
+      id: 3223052229
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Stereo
+        ObjectType: 2
+        guid: c04645e75b38f54b9abe63119400a44a
+      - ElementName: Stereo_User
+        ObjectType: 2
+        guid: dbf598630c8dfe4d94a0f15049937c1e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_User
+    - name: Stereo_User_Left_Channel
+      guid: 66563e3992ef95429106fe44096c395c
+      id: 199285087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Stereo
+        ObjectType: 2
+        guid: c04645e75b38f54b9abe63119400a44a
+      - ElementName: Stereo_User
+        ObjectType: 2
+        guid: dbf598630c8dfe4d94a0f15049937c1e
+      - ElementName: Stereo_User_Left_Channel
+        ObjectType: 2
+        guid: 66563e3992ef95429106fe44096c395c
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_User\Stereo_User_Left_Channel
+    - name: Stereo_User_Right_Channel
+      guid: 5b8efd3c4460d14089f255ff9c180c6b
+      id: 3911940818
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 7da56598dbf1594cb6bbc350b43efc88
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Stereo
+        ObjectType: 2
+        guid: c04645e75b38f54b9abe63119400a44a
+      - ElementName: Stereo_User
+        ObjectType: 2
+        guid: dbf598630c8dfe4d94a0f15049937c1e
+      - ElementName: Stereo_User_Right_Channel
+        ObjectType: 2
+        guid: 5b8efd3c4460d14089f255ff9c180c6b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_User\Stereo_User_Right_Channel
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d888197aaf70b34ea4713c1eb773d01b
+    ParentPath: SoundBanks\Default Work Unit
+    guid: d888197aaf70b34ea4713c1eb773d01b
+    GuidInternal: 
+    m_lastTime: -8585236486924597701
+    List:
+    - name: Main
+      guid: ea7bf672993b584cb081a1c3e3d3fc5f
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d888197aaf70b34ea4713c1eb773d01b
+      - ElementName: Main
+        ObjectType: 7
+        guid: ea7bf672993b584cb081a1c3e3d3fc5f
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+    ParentPath: Events\Default Work Unit
+    guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+    GuidInternal: 
+    m_lastTime: -8585236486923577560
+    List:
+    - name: Jethro_Tull_Separate
+      guid: 337972ad6e1c5641a739162d9bf2e940
+      id: 2836760221
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull_Separate
+        ObjectType: 4
+        guid: 337972ad6e1c5641a739162d9bf2e940
+      Path: Events\Default Work Unit\Jethro_Tull_Separate
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Jethro_Tull_L
+      guid: 7298e9ded2049649817393b05d2e2d81
+      id: 2087463315
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull_Separate
+        ObjectType: 4
+        guid: 337972ad6e1c5641a739162d9bf2e940
+      - ElementName: Play_Jethro_Tull_L
+        ObjectType: 3
+        guid: 7298e9ded2049649817393b05d2e2d81
+      Path: Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_L
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Jethro_Tull_L_Spatial
+      guid: d26e9bd33abe294e8f8c40e890ca426d
+      id: 1979987118
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Jethro_Tull_L_Spatial
+        ObjectType: 3
+        guid: d26e9bd33abe294e8f8c40e890ca426d
+      Path: Events\Default Work Unit\Play_Jethro_Tull_L_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Jethro_Tull_R
+      guid: 479ca755ca831241b627d166e5cbae50
+      id: 2087463309
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull_Separate
+        ObjectType: 4
+        guid: 337972ad6e1c5641a739162d9bf2e940
+      - ElementName: Play_Jethro_Tull_R
+        ObjectType: 3
+        guid: 479ca755ca831241b627d166e5cbae50
+      Path: Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_R
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Jethro_Tull_R_Spatial
+      guid: 74ae4d0dc773ac4d8ebbf1cb38f21989
+      id: 3705538616
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Jethro_Tull_R_Spatial
+        ObjectType: 3
+        guid: 74ae4d0dc773ac4d8ebbf1cb38f21989
+      Path: Events\Default Work Unit\Play_Jethro_Tull_R_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Jethro_Tull_Sub
+      guid: ad0143cf7da5e4408e2b2be819ae60ad
+      id: 1547780001
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull_Separate
+        ObjectType: 4
+        guid: 337972ad6e1c5641a739162d9bf2e940
+      - ElementName: Play_Jethro_Tull_Sub
+        ObjectType: 3
+        guid: ad0143cf7da5e4408e2b2be819ae60ad
+      Path: Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Jethro_Tull_Sub_Spatial
+      guid: 08bde0a28509f34e935f76b8bc27cdff
+      id: 2451900932
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Jethro_Tull_Sub_Spatial
+        ObjectType: 3
+        guid: 08bde0a28509f34e935f76b8bc27cdff
+      Path: Events\Default Work Unit\Play_Jethro_Tull_Sub_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Test_ASIO_Input
+      guid: 9ec7e74d7a5c004b81adcac9ec421b70
+      id: 1030068932
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Test_ASIO_Input
+        ObjectType: 3
+        guid: 9ec7e74d7a5c004b81adcac9ec421b70
+      Path: Events\Default Work Unit\Play_Test_ASIO_Input
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 67123ff321e29840beb185de33e568a0
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 67123ff321e29840beb185de33e568a0
+    GuidInternal: 
+    m_lastTime: -8585230222721697103
+    List:
+    - name: Stereo_User_Left_Channel_Bus_Volume
+      guid: 6e6ee3aebc9ca0498c98fa845f06fcfe
+      id: 2828194053
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo_User_Left_Channel_Bus_Volume
+        ObjectType: 13
+        guid: 6e6ee3aebc9ca0498c98fa845f06fcfe
+      Path: Game Parameters\Default Work Unit\Stereo_User_Left_Channel_Bus_Volume
+    - name: Stereo_User_Pan
+      guid: 6c1831d9cb57574aa34e3a998bed907a
+      id: 3227346317
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo_User_Pan
+        ObjectType: 13
+        guid: 6c1831d9cb57574aa34e3a998bed907a
+      Path: Game Parameters\Default Work Unit\Stereo_User_Pan
+    - name: Stereo_User_Right_Channel_Bus_Volume
+      guid: d03d08d9e1731d44b11398deec5e8681
+      id: 583735402
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo_User_Right_Channel_Bus_Volume
+        ObjectType: 13
+        guid: d03d08d9e1731d44b11398deec5e8681
+      Path: Game Parameters\Default Work Unit\Stereo_User_Right_Channel_Bus_Volume
+    - name: Test
+      guid: bea99c0b32c74c48918b098329e14f21
+      id: 3157003241
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Test
+        ObjectType: 13
+        guid: bea99c0b32c74c48918b098329e14f21
+      Path: Game Parameters\Default Work Unit\Test
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 360c90569be4724083208580f139fdd0
+    ParentPath: States\Default Work Unit
+    guid: 360c90569be4724083208580f139fdd0
+    GuidInternal: 
+    m_lastTime: -8585242350814363047
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: ba798827a7817d41b74c3e6c2c194f19
+    ParentPath: Switches\Default Work Unit
+    guid: ba798827a7817d41b74c3e6c2c194f19
+    GuidInternal: 
+    m_lastTime: -8585242350814753072
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: dd30047c0af3b348be3484795ac76b01
+    ParentPath: Triggers\Default Work Unit
+    guid: dd30047c0af3b348be3484795ac76b01
+    GuidInternal: 
+    m_lastTime: -8585242350812978746
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000a0000000b0000000f000000100000004a0000004b0000004c000000ba000000bb000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

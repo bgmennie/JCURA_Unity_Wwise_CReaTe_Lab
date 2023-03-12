@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{D145DBE8-D534-4CFF-AD9A-FFD4252A934F}" WorkUnitID="{21C93AC6-46A6-4C15-8859-74DAE98C2F8B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Spatial" ID="{071A1D13-5328-414D-9B82-CEE93EF89791}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="ReflectionsAuxSend">
+									<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="Spatial_Reference" ID="{94AA1216-40A6-4C90-9C9E-9DC2C8680114}">
+									<ReferenceList/>
+									<ChildrenList>
+										<Bus Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{57F01DB1-CC7F-4AD9-A183-604168B86F2B}" ShortID="305086506"/>
+													</RTPCList>
+												</Property>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<ObjectRef Name="Sub_Emitter_Parametric_EQ" ID="{9C81F0A8-D033-418B-8E4B-149AAD37EA5D}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+										<AuxBus Name="Left_Channel_Spatial_Reference_Aux" ID="{E89694BB-B4F0-433F-AE9B-6027EEE2C23D}">
+											<PropertyList>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Matrix Reverb (Custom)" ID="{58576A3A-5843-44D8-9BB8-AB3C2EC5F59C}" ShortID="631267967" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3"/>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</AuxBus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Spatial_User" ID="{A5C5BB5B-EA06-4CE8-B66D-7CCDCD349C09}">
+									<ChildrenList>
+										<Bus Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{69F4542C-660E-4C01-A3E6-BC5C923F8FCD}" ShortID="965347904"/>
+													</RTPCList>
+												</Property>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>0</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+													<ObjectRef Name="Sub_Emitter_Parametric_EQ" ID="{9C81F0A8-D033-418B-8E4B-149AAD37EA5D}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<AuxBus Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>16641</Value>
+											</ValueList>
+										</Property>
+										<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+											<ObjectRef Name="Wwise_Reflect" ID="{37779A87-4754-4420-8175-3236FA46AA12}" WorkUnitID="{923039AD-F8B4-46D4-BDA7-CB5A6EE595E0}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Stereo" ID="{E74546C0-385B-4BF5-9ABE-63119400A44A}">
+							<ChildrenList>
+								<Bus Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}">
+									<ChildrenList>
+										<Bus Name="Stereo_Reference_Left_Channel" ID="{F3455458-172B-4EE7-A061-B58B805181D6}">
+											<ReferenceList/>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Stereo_Reference_Right_Channel" ID="{C684BDF5-5F17-4CE0-8E55-F578C176814A}">
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}">
+									<ReferenceList/>
+									<ChildrenList>
+										<Bus Name="Stereo_User_Right_Channel" ID="{3CFD8E5B-6044-40D1-89F2-55FF9C180C6B}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{19C6203F-F383-43F8-BBA6-008B0325EDBD}" ShortID="325693355">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Stereo_User_Right_Channel_Bus_Volume" ID="{D9083DD0-73E1-441D-B113-98DEEC5E8681}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{ADA88923-B2D6-4619-A121-1B4F04B4AE38}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-64</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>127</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Stereo_Matrix_Reverb" ID="{19CBA189-0F49-4F86-80FD-63AECF986120}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+										<Bus Name="Stereo_User_Left_Channel" ID="{393E5666-EF92-4295-9106-FE44096C395C}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{4BE80EDA-120B-4DC8-86D7-6CF4FF34A3C5}" ShortID="1025969491">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Stereo_User_Left_Channel_Bus_Volume" ID="{AEE36E6E-9CBC-49A0-8C98-FA845F06FCFE}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{7E3C6735-8479-44EE-91F7-37192483205F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>127</XPos>
+																		<YPos>-64</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Stereo_Matrix_Reverb" ID="{19CBA189-0F49-4F86-80FD-63AECF986120}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Recording_Bus" ID="{E31D413C-F2BA-42DC-A4EF-F5C859ECABAC}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{D145DBE8-D534-4CFF-AD9A-FFD4252A934F}" WorkUnitID="{21C93AC6-46A6-4C15-8859-74DAE98C2F8B}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
