@@ -1070,6 +1070,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GainMatchTest Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2590294885053389113, guid: 8168c405f90f6fa4b88b403d7618d80e, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2590294885053389113, guid: 8168c405f90f6fa4b88b403d7618d80e, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1000
+      objectReference: {fileID: 0}
     - target: {fileID: 2590294885053389115, guid: 8168c405f90f6fa4b88b403d7618d80e, type: 3}
       propertyPath: m_Pivot.x
       value: 0

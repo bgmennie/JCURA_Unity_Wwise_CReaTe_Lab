@@ -6,7 +6,6 @@ using MidiJack;
 
 public class ScreenManager : MonoBehaviour
 {
-    private float mk2ContinuePressed;
     private float mk3ContinuePressed;
 
     // The amount of time needed before the next screen can be loaded
@@ -21,8 +20,6 @@ public class ScreenManager : MonoBehaviour
     [Header("MIDI Settings")]
     public int midiChannel = 1;
     
-    public int mk2MidiPad1 = 48;
-    
     public int mk3MidiPad1 = 40;
     public int mk3MidiPad2 = 41;
     public int mk3MidiPad3 = 42;
@@ -35,18 +32,21 @@ public class ScreenManager : MonoBehaviour
     public float screenLoadDelay = 0.5f;
 
     [Header("Screen Indices")]
-    public int loudspeakerTestDescription;
-    public int hpSystem1TestDescription;
-    public int hpSystem2TestDescription;
+    public int loudspeakerTestDescriptionScreenIndex = 7;
+    public int hpSystem1TestDescriptionScreenIndex = 8;
+    public int hpSystem2TestDescriptionScreenIndex = 9;
+    public int exitScreenIndex = 11;
 
     [SerializeField]
-    private Screen[] m_Screens;
+    private Screen[] openExitDescScreens;
     [SerializeField]
-    private Screen[] reverb_Screens;
+    private Screen[] panningScreens;
     [SerializeField]
-    private Screen[] gain_Match_Screens;
+    private Screen[] reverbScreens;
     [SerializeField]
-    private Screen[] panning_Screens;
+    private Screen[] gainMatchScreens;
+
+    private Screen[] allScreens;
 
     public static ScreenManager s_ScreenManagerSingleton;
 
@@ -60,12 +60,15 @@ public class ScreenManager : MonoBehaviour
     {
         screenLoadDelayTimer = 0.0f;
         SceneManager.LoadScene("Basic_Room_Spatial_Demo_w_Headtracking", LoadSceneMode.Additive);
+        initializeAllScreens();
         if (firstScreenVisible)
         {
-            m_Screens[0].Open();
+            //Debug.Log("openExitDescScreens Length: " + openExitDescScreens.Length);
+            allScreens[0].Open();
             currentScreen = 0;
             nextScreen = 1;
-        } 
+        }
+
     }
 
     // Update is called once per frame
@@ -82,17 +85,15 @@ public class ScreenManager : MonoBehaviour
 
     void midiMapManager()
     {
-        mk2ContinuePressed = MidiMaster.GetKey(mk2MidiPad1);
         mk3ContinuePressed = MidiMaster.GetKey(mk3MidiPad8);
 
-        Debug.Log("mk2ContinuePressed: " + mk2ContinuePressed);
-        Debug.Log("mk3ContinuePressed: " + mk3ContinuePressed);
+        //Debug.Log("mk3ContinuePressed: " + mk3ContinuePressed);
 
         // Continue to the next screen if the top-left MIDI pad has been selected
         if (screenLoadDelayTimer >= screenLoadDelay)
         {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) || 
-                mk2ContinuePressed > 0.0 || mk3ContinuePressed > 0.0)
+                mk3ContinuePressed > 0.0)
             {
                 loadNextScreen();
                 screenLoadDelayTimer = 0.0f;
@@ -100,12 +101,150 @@ public class ScreenManager : MonoBehaviour
         }
     }
 
+    void initializeAllScreens()
+    {
+        Debug.Log("Test");
+        int numOfTestScreens = panningScreens.Length + reverbScreens.Length + gainMatchScreens.Length;
+        int numOfScreens = openExitDescScreens.Length + (numOfTestScreens * 3);
+
+        allScreens = new Screen[numOfScreens];
+
+        int panningScreenIndex = 0;
+        int reverbScreenIndex = 0;
+        int gainMatchScreenIndex = 0;
+        int openExitDescScreenIndex = 0;
+
+        hpSystem1TestDescriptionScreenIndex += numOfTestScreens;
+        hpSystem2TestDescriptionScreenIndex += numOfTestScreens * 2;
+        exitScreenIndex += numOfTestScreens * 3;
+
+        bool screenAdded;
+
+        for (int screenIndex = 0; screenIndex < numOfScreens; screenIndex++)
+        {
+            screenAdded = false;
+
+            if (screenIndex <= loudspeakerTestDescriptionScreenIndex)
+            {
+                allScreens[screenIndex] = openExitDescScreens[openExitDescScreenIndex];
+                openExitDescScreenIndex++;
+            }
+            else if (screenIndex > loudspeakerTestDescriptionScreenIndex && screenIndex < hpSystem1TestDescriptionScreenIndex)
+            {
+                int testType = Random.Range(0, 3); // Selects a random test: 0 = pan; 1 = reverb; 2 = gain match
+                while (!screenAdded)
+                {
+                    if (testType == 0 && panningScreenIndex < panningScreens.Length)
+                    {
+                        allScreens[screenIndex] = panningScreens[panningScreenIndex];
+                        panningScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else if (testType == 1 && reverbScreenIndex < reverbScreens.Length)
+                    {
+                        allScreens[screenIndex] = reverbScreens[reverbScreenIndex];
+                        reverbScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else if (testType == 2 && gainMatchScreenIndex < gainMatchScreens.Length)
+                    {
+                        allScreens[screenIndex] = gainMatchScreens[gainMatchScreenIndex];
+                        gainMatchScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else
+                    {
+                        testType = (testType + 1) % 3;
+                    }
+                }
+            }
+            else if (screenIndex == hpSystem1TestDescriptionScreenIndex)
+            {
+                panningScreenIndex = 0;
+                reverbScreenIndex = 0;
+                gainMatchScreenIndex = 0;
+                allScreens[screenIndex] = openExitDescScreens[openExitDescScreenIndex];
+                openExitDescScreenIndex++;
+            }
+            else if (screenIndex > hpSystem1TestDescriptionScreenIndex && screenIndex < hpSystem2TestDescriptionScreenIndex)
+            {
+                int testType = Random.Range(0, 3); // Selects a random test: 0 = pan; 1 = reverb; 2 = gain match
+                while (!screenAdded)
+                {
+                    if (testType == 0 && panningScreenIndex < panningScreens.Length)
+                    {
+                        allScreens[screenIndex] = panningScreens[panningScreenIndex];
+                        panningScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else if (testType == 1 && reverbScreenIndex < reverbScreens.Length)
+                    {
+                        allScreens[screenIndex] = reverbScreens[reverbScreenIndex];
+                        reverbScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else if (testType == 2 && gainMatchScreenIndex < gainMatchScreens.Length)
+                    {
+                        allScreens[screenIndex] = gainMatchScreens[gainMatchScreenIndex];
+                        gainMatchScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else
+                    {
+                        testType = (testType + 1) % 3;
+                    }
+                }
+            }
+            else if (screenIndex == hpSystem2TestDescriptionScreenIndex || screenIndex == hpSystem2TestDescriptionScreenIndex + 1)
+            {
+                panningScreenIndex = 0;
+                reverbScreenIndex = 0;
+                gainMatchScreenIndex = 0;
+                allScreens[screenIndex] = openExitDescScreens[openExitDescScreenIndex];
+                openExitDescScreenIndex++;
+            }
+            else if (screenIndex > hpSystem2TestDescriptionScreenIndex + 1 && screenIndex < exitScreenIndex)
+            {
+                int testType = Random.Range(0, 3); // Selects a random test: 0 = pan; 1 = reverb; 2 = gain match
+                while (!screenAdded)
+                {
+                    if (testType == 0 && panningScreenIndex < panningScreens.Length)
+                    {
+                        allScreens[screenIndex] = panningScreens[panningScreenIndex];
+                        panningScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else if (testType == 1 && reverbScreenIndex < reverbScreens.Length)
+                    {
+                        allScreens[screenIndex] = reverbScreens[reverbScreenIndex];
+                        reverbScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else if (testType == 2 && gainMatchScreenIndex < gainMatchScreens.Length)
+                    {
+                        allScreens[screenIndex] = gainMatchScreens[gainMatchScreenIndex];
+                        gainMatchScreenIndex++;
+                        screenAdded = true;
+                    }
+                    else
+                    {
+                        testType = (testType + 1) % 3;
+                    }
+                }
+            }
+            else if (screenIndex == exitScreenIndex)
+            {
+                allScreens[screenIndex] = openExitDescScreens[openExitDescScreenIndex];
+            }
+        }
+    }
+
     void loadNextScreen()
     {
-        m_Screens[currentScreen].Close();
-        m_Screens[nextScreen].Open();
+        allScreens[currentScreen].Close();
+        allScreens[nextScreen].Open();
 
-        if (nextScreen < m_Screens.Length-1)
+        if (nextScreen < allScreens.Length-1)
         {
             currentScreen++;
             nextScreen++;

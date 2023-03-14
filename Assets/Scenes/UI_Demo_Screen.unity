@@ -279,7 +279,7 @@ Transform:
   - {fileID: 357065263}
   - {fileID: 1640576142}
   m_Father: {fileID: 1095710010}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &59410678
 GameObject:
@@ -1230,7 +1230,7 @@ Transform:
   - {fileID: 331813233}
   - {fileID: 284864994}
   m_Father: {fileID: 1095710010}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &462248900 stripped
 RectTransform:
@@ -1363,7 +1363,7 @@ Transform:
   - {fileID: 1134878785}
   - {fileID: 1785565830}
   m_Father: {fileID: 1095710010}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!224 &609767888 stripped
 RectTransform:
@@ -2573,9 +2573,9 @@ Transform:
   - {fileID: 1743086722}
   - {fileID: 1358059686}
   - {fileID: 193943581}
+  - {fileID: 595918131}
   - {fileID: 378171112}
   - {fileID: 27528027}
-  - {fileID: 595918131}
   - {fileID: 921492733}
   - {fileID: 1979438243}
   - {fileID: 1235527072}
@@ -3252,7 +3252,6 @@ MonoBehaviour:
   nextScreen: 0
   firstScreenVisible: 1
   midiChannel: 0
-  mk2MidiPad1: 48
   mk3MidiPad1: 40
   mk3MidiPad2: 41
   mk3MidiPad3: 42
@@ -3261,11 +3260,12 @@ MonoBehaviour:
   mk3MidiPad6: 37
   mk3MidiPad7: 38
   mk3MidiPad8: 39
-  screenLoadDelay: 1
-  loudspeakerTestDescription: 7
-  hpSystem1TestDescription: 8
-  hpSystem2TestDescription: 9
-  m_Screens:
+  screenLoadDelay: 0.5
+  loudspeakerTestDescriptionScreenIndex: 7
+  hpSystem1TestDescriptionScreenIndex: 8
+  hpSystem2TestDescriptionScreenIndex: 9
+  exitScreenIndex: 11
+  openExitDescScreens:
   - {fileID: 1466031164}
   - {fileID: 609767892}
   - {fileID: 2076744671}
@@ -3275,29 +3275,30 @@ MonoBehaviour:
   - {fileID: 1358059687}
   - {fileID: 193943582}
   - {fileID: 921492734}
+  - {fileID: 1979438244}
   - {fileID: 1235527073}
   - {fileID: 2076332208}
-  reverb_Screens:
-  - {fileID: 126959435}
-  - {fileID: 745994024}
-  - {fileID: 1774597704}
-  - {fileID: 294158814}
-  - {fileID: 331813234}
-  - {fileID: 284864995}
-  gain_Match_Screens:
-  - {fileID: 1176744831}
-  - {fileID: 279771734}
-  - {fileID: 946461834}
-  - {fileID: 1474537381}
-  - {fileID: 357065264}
-  - {fileID: 1640576143}
-  panning_Screens:
+  panningScreens:
   - {fileID: 1251509374}
   - {fileID: 786093833}
   - {fileID: 673546558}
   - {fileID: 1268680687}
   - {fileID: 1134878786}
   - {fileID: 1785565831}
+  reverbScreens:
+  - {fileID: 126959435}
+  - {fileID: 745994024}
+  - {fileID: 1774597704}
+  - {fileID: 294158814}
+  - {fileID: 331813234}
+  - {fileID: 284864995}
+  gainMatchScreens:
+  - {fileID: 1176744831}
+  - {fileID: 279771734}
+  - {fileID: 946461834}
+  - {fileID: 1474537381}
+  - {fileID: 357065264}
+  - {fileID: 1640576143}
 --- !u!4 &1228200182
 Transform:
   m_ObjectHideFlags: 0
@@ -5675,6 +5676,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2590294885053389115, guid: 1f44b57c9f12bc340baaf29119556922, type: 3}
   m_PrefabInstance: {fileID: 1979438242}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1979438244 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -4128623501640979761, guid: 1f44b57c9f12bc340baaf29119556922, type: 3}
+  m_PrefabInstance: {fileID: 1979438242}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07dbad68c8fd4b54cb758f7400e3f26f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2076332208 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: -4128623501640979761, guid: 1f44b57c9f12bc340baaf29119556922, type: 3}
