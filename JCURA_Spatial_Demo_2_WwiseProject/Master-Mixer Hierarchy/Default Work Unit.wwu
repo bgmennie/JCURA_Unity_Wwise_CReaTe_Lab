@@ -21,7 +21,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Spatial_Reference" ID="{94AA1216-40A6-4C90-9C9E-9DC2C8680114}">
-									<ReferenceList/>
 									<ChildrenList>
 										<Bus Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}">
 											<PropertyList>
@@ -43,11 +42,6 @@
 										<Bus Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="BusVolume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{57F01DB1-CC7F-4AD9-A183-604168B86F2B}" ShortID="305086506"/>
-													</RTPCList>
-												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
@@ -111,11 +105,6 @@
 										<Bus Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="BusVolume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{69F4542C-660E-4C01-A3E6-BC5C923F8FCD}" ShortID="965347904"/>
-													</RTPCList>
-												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
@@ -170,7 +159,6 @@
 								<Bus Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}">
 									<ChildrenList>
 										<Bus Name="Stereo_Reference_Left_Channel" ID="{F3455458-172B-4EE7-A061-B58B805181D6}">
-											<ReferenceList/>
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="Stereo_Reference_Right_Channel" ID="{C684BDF5-5F17-4CE0-8E55-F578C176814A}">
@@ -180,7 +168,6 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}">
-									<ReferenceList/>
 									<ChildrenList>
 										<Bus Name="Stereo_User_Right_Channel" ID="{3CFD8E5B-6044-40D1-89F2-55FF9C180C6B}">
 											<PropertyList>

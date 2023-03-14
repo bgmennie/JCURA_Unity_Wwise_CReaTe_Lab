@@ -11,12 +11,21 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="15117371">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3527000626">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2544506526" Name="Left_Channel_Spatial_Reference_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Left_Channel_Spatial_Reference_Aux"/>
+				<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="583735402" Name="Stereo_User_Right_Channel_Bus_Volume" ObjectPath="\Game Parameters\Default Work Unit\Stereo_User_Right_Channel_Bus_Volume"/>
+				<GameParameter Id="2828194053" Name="Stereo_User_Left_Channel_Bus_Volume" ObjectPath="\Game Parameters\Default Work Unit\Stereo_User_Left_Channel_Bus_Volume"/>
+				<GameParameter Id="3157003241" Name="Test" ObjectPath="\Game Parameters\Default Work Unit\Test"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="520916303">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1459587747">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -39,15 +48,17 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3705538616" Name="Play_Jethro_Tull_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_R_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
-				<Event Id="1547780001" Name="Play_Jethro_Tull_Sub" ObjectPath="\Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+				<Event Id="1547780001" Name="Play_Jethro_Tull_Sub" ObjectPath="\Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2451900932" Name="Play_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
+				<Event Id="3286096225" Name="Play_Pink_Noise" ObjectPath="\Events\Default Work Unit\Play_Pink_Noise" DurationType="OneShot" DurationMin="10." DurationMax="10.">
 					<IncludedMemoryFiles>
-						<File Id="275939375" Language="SFX">
-							<ShortName>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
-							<Path>SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						<File Id="523312821" Language="SFX">
+							<ShortName>Pink Noise.wav</ShortName>
+							<Path>SFX\Pink Noise_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2451900932" Name="Play_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="137534949" Language="SFX">
@@ -57,6 +68,10 @@
 				<File Id="275939375" Language="SFX">
 					<ShortName>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
 					<Path>SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+				</File>
+				<File Id="523312821" Language="SFX">
+					<ShortName>Pink Noise.wav</ShortName>
+					<Path>SFX\Pink Noise_10C4C929.wem</Path>
 				</File>
 				<File Id="1021326720" Language="SFX">
 					<ShortName>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>

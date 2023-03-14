@@ -5,17 +5,24 @@ using UnityEngine;
 public class AudioScreen : Screen
 {
     // Functionality:
-        // Events to post
-            // Randomness handled on Unity side
-        // Stereo/ spatialized cases
-        // RTPCs to use (maybe have a flag for reverb vs. panning vs. gain match)
+    // Events to post
+    // Randomness handled on Unity side
+    // Stereo/ spatialized cases
+    // RTPCs to use (maybe have a flag for reverb vs. panning vs. gain match)
 
     // Input:
-        // stereoSpatial flag (int)
-        // testType (string): 
-            // Pan
-            // Reverb
-            // Gain
+    // stereoSpatial flag (int)
+    // testType (string): 
+    // Pan
+    // Reverb
+    // Gain
+    // VolumeSetup
+    public override void Close()
+    {
+        base.Close();
+        WwiseManager.wwiseManagerSingleton.postWwiseEvent("Stop_All");
+    }
+
     public override void Open(int stereoSpatialFlag, string testType)
     {
         base.Open();
@@ -35,6 +42,10 @@ public class AudioScreen : Screen
             else if (testType == "Gain")
             {
 
+            }
+            else if (testType == "VolumeSetup")
+            {
+                WwiseManager.wwiseManagerSingleton.postWwiseEvent(new string[] { "stereoEmitter" });
             }
             else
             {

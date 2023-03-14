@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7da56598dbf1594cb6bbc350b43efc88
     GuidInternal: 
-    m_lastTime: -8585230222722067087
+    m_lastTime: -8585227978081102484
     List:
     - name: Early_Reflection_Bus
       guid: b487c8644d907b44983818d8febf41bb
@@ -732,7 +732,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d888197aaf70b34ea4713c1eb773d01b
     GuidInternal: 
-    m_lastTime: -8585236486924597701
+    m_lastTime: -8585227974932878449
     List:
     - name: Main
       guid: ea7bf672993b584cb081a1c3e3d3fc5f
@@ -760,7 +760,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
     GuidInternal: 
-    m_lastTime: -8585236486923577560
+    m_lastTime: -8585227974933394051
     List:
     - name: Jethro_Tull_Separate
       guid: 337972ad6e1c5641a739162d9bf2e940
@@ -870,9 +870,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: ad0143cf7da5e4408e2b2be819ae60ad
       Path: Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub
-      maxAttenuation: 10
-      maxDuration: 232.8
-      minDuration: 232.8
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Jethro_Tull_Sub_Spatial
       guid: 08bde0a28509f34e935f76b8bc27cdff
       id: 2451900932
@@ -890,6 +890,23 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 232.8
       minDuration: 232.8
+    - name: Play_Pink_Noise
+      guid: 30da365c9f220e4fa8829006ccc29365
+      id: 3286096225
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Pink_Noise
+        ObjectType: 3
+        guid: 30da365c9f220e4fa8829006ccc29365
+      Path: Events\Default Work Unit\Play_Pink_Noise
+      maxAttenuation: 0
+      maxDuration: 10
+      minDuration: 10
     - name: Play_Test_ASIO_Input
       guid: 9ec7e74d7a5c004b81adcac9ec421b70
       id: 1030068932
@@ -907,6 +924,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_All
+      guid: 52d0d94af40fd1458d8d0fc9519db5cd
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Stop_All
+        ObjectType: 3
+        guid: 52d0d94af40fd1458d8d0fc9519db5cd
+      Path: Events\Default Work Unit\Stop_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1020,7 +1054,7 @@ MonoBehaviour:
     m_lastTime: -8585242350812978746
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000a0000000b0000000f000000100000004a0000004b0000004c000000ba000000bb000000
+  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000a0000000b0000000f000000100000004a0000004b0000004c0000006000000061000000ba000000bb000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

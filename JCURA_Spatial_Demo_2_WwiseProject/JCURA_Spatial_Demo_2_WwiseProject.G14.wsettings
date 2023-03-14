@@ -3,10 +3,11 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{33766B12-440B-451C-B41F-FB4F0ACFDC9D}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\G14\Documents\School Work\5A\JCURA\Music\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\G14\Documents\School Work\5A\JCURA\Sounds\Test Signals\"/>
 				<Property Name="Event Action List\{0D4DAE74-73C7-4DAC-8EBB-F1CB38F21989}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{4DE7C79E-5C7A-4B00-81AD-CAC9EC421B70}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{55A79C47-83CA-4112-B627-D166E5CBAE50}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5C36DA30-229F-4F0E-A882-9006CCC29365}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A2E0BD08-0985-4EF3-935F-76B8BC27CDFF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CF4301AD-A57D-40E4-8E2B-2BE819AE60AD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D39B6ED2-BE3A-4E29-8F8C-40E890CA426D}\x64_Expand States" Type="string" Value=""/>
@@ -28,6 +29,7 @@
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Windows"/>
+				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="SSbnBFPJ806k83hbTRxvhQ=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="6nv2cpk7WEywgaHD49P8Xw=="/>

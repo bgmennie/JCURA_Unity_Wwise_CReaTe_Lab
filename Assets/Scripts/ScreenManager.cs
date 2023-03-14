@@ -19,7 +19,7 @@ public class ScreenManager : MonoBehaviour
 
     [Header("MIDI Settings")]
     public int midiChannel = 1;
-    
+
     public int mk3MidiPad1 = 40;
     public int mk3MidiPad2 = 41;
     public int mk3MidiPad3 = 42;
@@ -32,6 +32,7 @@ public class ScreenManager : MonoBehaviour
     public float screenLoadDelay = 0.5f;
 
     [Header("Screen Indices")]
+    public int volumeSetupIndex = 6;
     public int loudspeakerTestDescriptionScreenIndex = 7;
     public int hpSystem1TestDescriptionScreenIndex = 8;
     public int hpSystem2TestDescriptionScreenIndex = 9;
@@ -47,6 +48,7 @@ public class ScreenManager : MonoBehaviour
     private Screen[] gainMatchScreens;
 
     private Screen[] allScreens;
+    private int[] testScreenTypeOrder;
 
     public static ScreenManager s_ScreenManagerSingleton;
 
@@ -92,7 +94,7 @@ public class ScreenManager : MonoBehaviour
         // Continue to the next screen if the top-left MIDI pad has been selected
         if (screenLoadDelayTimer >= screenLoadDelay)
         {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) || 
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) ||
                 mk3ContinuePressed > 0.0)
             {
                 loadNextScreen();
@@ -103,16 +105,18 @@ public class ScreenManager : MonoBehaviour
 
     void initializeAllScreens()
     {
-        Debug.Log("Test");
         int numOfTestScreens = panningScreens.Length + reverbScreens.Length + gainMatchScreens.Length;
         int numOfScreens = openExitDescScreens.Length + (numOfTestScreens * 3);
 
         allScreens = new Screen[numOfScreens];
+        testScreenTypeOrder = new int[numOfTestScreens*3];
 
         int panningScreenIndex = 0;
         int reverbScreenIndex = 0;
         int gainMatchScreenIndex = 0;
         int openExitDescScreenIndex = 0;
+
+        int testScreenTypeOrderIndex = 0;
 
         hpSystem1TestDescriptionScreenIndex += numOfTestScreens;
         hpSystem2TestDescriptionScreenIndex += numOfTestScreens * 2;
@@ -137,18 +141,24 @@ public class ScreenManager : MonoBehaviour
                     if (testType == 0 && panningScreenIndex < panningScreens.Length)
                     {
                         allScreens[screenIndex] = panningScreens[panningScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 0;
+                        testScreenTypeOrderIndex++;
                         panningScreenIndex++;
                         screenAdded = true;
                     }
                     else if (testType == 1 && reverbScreenIndex < reverbScreens.Length)
                     {
                         allScreens[screenIndex] = reverbScreens[reverbScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 1;
+                        testScreenTypeOrderIndex++;
                         reverbScreenIndex++;
                         screenAdded = true;
                     }
                     else if (testType == 2 && gainMatchScreenIndex < gainMatchScreens.Length)
                     {
                         allScreens[screenIndex] = gainMatchScreens[gainMatchScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 2;
+                        testScreenTypeOrderIndex++;
                         gainMatchScreenIndex++;
                         screenAdded = true;
                     }
@@ -174,18 +184,24 @@ public class ScreenManager : MonoBehaviour
                     if (testType == 0 && panningScreenIndex < panningScreens.Length)
                     {
                         allScreens[screenIndex] = panningScreens[panningScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 0;
+                        testScreenTypeOrderIndex++;
                         panningScreenIndex++;
                         screenAdded = true;
                     }
                     else if (testType == 1 && reverbScreenIndex < reverbScreens.Length)
                     {
                         allScreens[screenIndex] = reverbScreens[reverbScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 1;
+                        testScreenTypeOrderIndex++;
                         reverbScreenIndex++;
                         screenAdded = true;
                     }
                     else if (testType == 2 && gainMatchScreenIndex < gainMatchScreens.Length)
                     {
                         allScreens[screenIndex] = gainMatchScreens[gainMatchScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 2;
+                        testScreenTypeOrderIndex++;
                         gainMatchScreenIndex++;
                         screenAdded = true;
                     }
@@ -211,18 +227,24 @@ public class ScreenManager : MonoBehaviour
                     if (testType == 0 && panningScreenIndex < panningScreens.Length)
                     {
                         allScreens[screenIndex] = panningScreens[panningScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 0;
+                        testScreenTypeOrderIndex++;
                         panningScreenIndex++;
                         screenAdded = true;
                     }
                     else if (testType == 1 && reverbScreenIndex < reverbScreens.Length)
                     {
                         allScreens[screenIndex] = reverbScreens[reverbScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 1;
+                        testScreenTypeOrderIndex++;
                         reverbScreenIndex++;
                         screenAdded = true;
                     }
                     else if (testType == 2 && gainMatchScreenIndex < gainMatchScreens.Length)
                     {
                         allScreens[screenIndex] = gainMatchScreens[gainMatchScreenIndex];
+                        testScreenTypeOrder[testScreenTypeOrderIndex] = 2;
+                        testScreenTypeOrderIndex++;
                         gainMatchScreenIndex++;
                         screenAdded = true;
                     }
@@ -241,13 +263,126 @@ public class ScreenManager : MonoBehaviour
 
     void loadNextScreen()
     {
-        allScreens[currentScreen].Close();
-        allScreens[nextScreen].Open();
+        //allScreens[0].Close();
+        //allScreens[1].Open();
+        //currentScreen++;
+        //nextScreen++;
 
-        if (nextScreen < allScreens.Length-1)
+        int testScreenTypeOrderIndex = 0;
+
+        if (nextScreen <= loudspeakerTestDescriptionScreenIndex && nextScreen != volumeSetupIndex)
         {
+            allScreens[currentScreen].Close();
+            allScreens[nextScreen].Open();
             currentScreen++;
             nextScreen++;
+        }
+        else if (nextScreen == volumeSetupIndex)
+        {
+            allScreens[currentScreen].Close();
+            allScreens[nextScreen].Open(0, "VolumeSetup");
+            currentScreen++;
+            nextScreen++;
+        }
+        else if (nextScreen > loudspeakerTestDescriptionScreenIndex && nextScreen < hpSystem1TestDescriptionScreenIndex)
+        {
+            if (testScreenTypeOrder[testScreenTypeOrderIndex] == 0)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(0, "Pan");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+            else if (testScreenTypeOrder[testScreenTypeOrderIndex] == 1)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(0, "Reverb");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+            else if (testScreenTypeOrder[testScreenTypeOrderIndex] == 2)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(0, "Gain");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+        }
+        else if (nextScreen == hpSystem1TestDescriptionScreenIndex)
+        {
+            allScreens[currentScreen].Close();
+            allScreens[nextScreen].Open();
+            currentScreen++;
+            nextScreen++;
+        }
+        else if (nextScreen > hpSystem1TestDescriptionScreenIndex && nextScreen < hpSystem2TestDescriptionScreenIndex)
+        {
+            if (testScreenTypeOrder[testScreenTypeOrderIndex] == 0)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(0, "Pan");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+            else if (testScreenTypeOrder[testScreenTypeOrderIndex] == 1)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(0, "Reverb");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+            else if (testScreenTypeOrder[testScreenTypeOrderIndex] == 2)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(0, "Gain");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+        }
+        else if (nextScreen == hpSystem2TestDescriptionScreenIndex || nextScreen == hpSystem2TestDescriptionScreenIndex + 1)
+        {
+            allScreens[currentScreen].Close();
+            allScreens[nextScreen].Open();
+            currentScreen++;
+            nextScreen++;
+        }
+        else if (nextScreen > hpSystem2TestDescriptionScreenIndex + 1 && nextScreen < exitScreenIndex)
+        {
+            if (testScreenTypeOrder[testScreenTypeOrderIndex] == 0)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(1, "Pan");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+            else if (testScreenTypeOrder[testScreenTypeOrderIndex] == 1)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(2, "Reverb");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+            else if (testScreenTypeOrder[testScreenTypeOrderIndex] == 2)
+            {
+                allScreens[currentScreen].Close();
+                allScreens[nextScreen].Open(3, "Gain");
+                testScreenTypeOrderIndex++;
+                currentScreen++;
+                nextScreen++;
+            }
+        }
+        else if (nextScreen == exitScreenIndex)
+        {
+            allScreens[currentScreen].Close();
+            allScreens[nextScreen].Open();
         }
     }
 }

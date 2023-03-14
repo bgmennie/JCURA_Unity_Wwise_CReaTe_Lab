@@ -8,9 +8,12 @@
 						<ObjectRef Name="Play_Jethro_Tull_Sub" ID="{CF4301AD-A57D-40E4-8E2B-2BE819AE60AD}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Jethro_Tull_R" ID="{55A79C47-83CA-4112-B627-D166E5CBAE50}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jethro_Tull_L_Spatial" ID="{0626FABF-2241-41CE-96F8-EB65D34AA965}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_All" ID="{4AD9D052-0FF4-45D1-8D8D-0FC9519DB5CD}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jethro_Tull_R_Spatial" ID="{1C6303E7-9451-4954-80CB-BD42844E2142}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Jethro_Tull_L" ID="{DEE99872-04D2-4996-8173-93B05D2E2D81}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Jethro_Tull_Sub_Spatial" ID="{6E09B375-AE1A-49CA-9174-DFB51A87D91F}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pink Noise" ID="{6951C5C9-9A17-4DEF-B0AC-27D7DC644324}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Pink_Noise" ID="{5C36DA30-229F-4F0E-A882-9006CCC29365}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -22,11 +22,17 @@ public class WwiseManager : MonoBehaviour
     public GameObject leftEmitter;
     public GameObject rightEmitter;
     public GameObject subEmitter;
-    
+
     [Header("Stereo WwiseEvents")]
+
+    [Header("Test Signal WwiseEvents")]
+    public AK.Wwise.Event Pink_Noise;
 
     [Header("Stereo WwiseEmitters")]
     public GameObject stereoEmitter;
+
+    [Header("Utility Events")]
+    public AK.Wwise.Event Stop_All;
 
     private void Awake()
     {
@@ -56,25 +62,23 @@ public class WwiseManager : MonoBehaviour
 
     // TODO: An overloaded method that allows for events to be specified
     // from the scene manager
+    
+    public void postWwiseEvent(string eventName)
+    {
+        if (eventName == "Stop_All")
+        {
+            Stop_All.Post(stereoEmitter);
+        }
+    }
+    
     public void postWwiseEvent(string[] emitters)
     {
-        //foreach (string emitter in emitters)
-        //{
-        //    if (emitter == "leftEmitter")
-        //    {
-        //        Play_Jethro_Tull_L.Post(leftEmitter);
-        //    }
-        //    if (emitter == "rightEmitter")
-        //    {
-        //        Play_Jethro_Tull_R.Post(rightEmitter);
-        //    }
-        //    if (emitter == "subEmitter")
-        //    {
-        //        Play_Jethro_Tull_Sub.Post(subEmitter);
-        //    }
-        //}
         foreach (string emitter in emitters)
         {
+            if (emitter == "stereoEmitter")
+            {
+                Pink_Noise.Post(stereoEmitter);
+            }
             if (emitter == "leftEmitter")
             {
                 Play_Jethro_Tull_L_Spatial.Post(leftEmitter);

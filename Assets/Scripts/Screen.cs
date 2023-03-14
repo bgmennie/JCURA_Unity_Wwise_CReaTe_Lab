@@ -5,6 +5,9 @@ using UnityEngine;
 public class Screen : MonoBehaviour
 {
     // Start is called before the first frame update
+
+    public string screenType;
+
     void Start()
     {
         
