@@ -1,16 +1,35 @@
 Event	ID	Name			Wwise Object Path	Notes
+	243939828	Play_User_Jethro_Tull_R_Spatial			\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_R_Spatial	
 	452547817	Stop_All			\Default Work Unit\Stop_All	
-	1547780001	Play_Jethro_Tull_Sub			\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub	
-	1979987118	Play_Jethro_Tull_L_Spatial			\Default Work Unit\Play_Jethro_Tull_L_Spatial	
-	2087463309	Play_Jethro_Tull_R			\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_R	
-	2087463315	Play_Jethro_Tull_L			\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_L	
-	2451900932	Play_Jethro_Tull_Sub_Spatial			\Default Work Unit\Play_Jethro_Tull_Sub_Spatial	
+	750340830	Play_Reference_Jethro_Tull_R_Spatial			\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_R_Spatial	
+	824084648	Play_User_Jethro_Tull_Mother_Goose			\Default Work Unit\Jethro_Tull\Play_User_Jethro_Tull_Mother_Goose	
+	1402898358	Play_Reference_Jethro_Tull_Sub_Spatial			\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_Sub_Spatial	
+	1634674446	Play_Reference_Jethro_Tull_Mother_Goose			\Default Work Unit\Jethro_Tull\Play_Reference_Jethro_Tull_Mother_Goose	
+	2119947682	Play_User_Jethro_Tull_L_Spatial			\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_L_Spatial	
+	2202538504	Play_Reference_Jethro_Tull_L_Spatial			\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_L_Spatial	
 	3286096225	Play_Pink_Noise			\Default Work Unit\Play_Pink_Noise	
-	3705538616	Play_Jethro_Tull_R_Spatial			\Default Work Unit\Play_Jethro_Tull_R_Spatial	
+	4044639464	Play_User_Jethro_Tull_Sub_Spatial			\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_Sub_Spatial	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2573722612	Master_Bus_Mute			\Default Work Unit\Master_Bus_Mute	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	378350335	Spatial			\Default Work Unit\Master Audio Bus\Spatial	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3260635663	Late_Reverberation_Bus			\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	966971050	Wwise Convolution Reverb (Custom)	Wwise Convolution Reverb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	137534949	Jethro_Tull_R_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\Jethro_Tull_R_Spatial		22348864
-	275939375	Jethro_Tull_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\Jethro_Tull_Sub_Spatial		22348864
-	523312821	Pink Noise	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Pink Noise_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test Signals\Pink Noise		960064
-	1021326720	Jethro_Tull_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\Jethro_Tull_L_Spatial		22348864
+	137534949	User_Jethro_Tull_R_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\User\User_Jethro_Tull_R_Spatial		22348864
+	275939375	User_Jethro_Tull_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\User\User_Jethro_Tull_Sub_Spatial		22348864
+	345248522	User_Jethro_Tull_Mother_Goose	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Stereo\User_Jethro_Tull_Mother_Goose		44697664
+	523312821	Pink Noise	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Pink Noise_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test Signals\Pink Noise		960064
+	1021326720	User_Jethro_Tull_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\User\User_Jethro_Tull_L_Spatial		22348864
+
+Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
+	1013251151	Wwise Convolution Reverb (Custom)	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_DED178AB.wem	Wwise Convolution Reverb (Custom)	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus\Wwise Convolution Reverb (Custom)		268640
 

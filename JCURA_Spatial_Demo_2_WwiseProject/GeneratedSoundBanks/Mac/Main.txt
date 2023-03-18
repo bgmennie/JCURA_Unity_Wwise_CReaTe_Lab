@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	452547817	Stop_All			\Default Work Unit\Stop_All	
+	871590676	Play_Jethro_Tull_Mother_Goose			\Default Work Unit\Jethro_Tull\Play_Jethro_Tull_Mother_Goose	
+	3286096225	Play_Pink_Noise			\Default Work Unit\Play_Pink_Noise	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3227346317	Stereo_User_Pan			\Default Work Unit\Stereo\Stereo_User_Pan	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	345248522	Jethro_Tull_Mother_Goose	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Mac\SFX\Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Stereo\Jethro_Tull_Mother_Goose		44697664
+	523312821	Pink Noise	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Mac\SFX\Pink Noise_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test Signals\Pink Noise		960064
+

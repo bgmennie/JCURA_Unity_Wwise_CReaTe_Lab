@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3861179494">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2544506526" Name="Left_Channel_Spatial_Reference_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Left_Channel_Spatial_Reference_Aux"/>
+				<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="694743187" Name="Stereo_User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Reverb_Length"/>
+				<GameParameter Id="752449211" Name="Stereo_User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Wet_Level"/>
+				<GameParameter Id="1409897668" Name="Bus_Switch" ObjectPath="\Game Parameters\Default Work Unit\Bus_Switch"/>
+				<GameParameter Id="3227346317" Name="Stereo_User_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Pan"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="4116879807">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="871590676" Name="Play_Jethro_Tull_Mother_Goose" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Play_Jethro_Tull_Mother_Goose" DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="345248522" Language="SFX">
+							<ShortName>Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3286096225" Name="Play_Pink_Noise" ObjectPath="\Events\Default Work Unit\Play_Pink_Noise" DurationType="OneShot" DurationMin="10." DurationMax="10.">
+					<IncludedMemoryFiles>
+						<File Id="523312821" Language="SFX">
+							<ShortName>Pink Noise.wav</ShortName>
+							<Path>SFX\Pink Noise_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3227346317" Name="Stereo_User_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Pan"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -6,7 +6,6 @@ using MidiJack;
 
 public class ScreenManager : MonoBehaviour
 {
-    private float mk3ContinuePressed;
 
     // The amount of time needed before the next screen can be loaded
     private float screenLoadDelayTimer;
@@ -18,16 +17,49 @@ public class ScreenManager : MonoBehaviour
     public bool firstScreenVisible = true;
 
     [Header("MIDI Settings")]
-    public int midiChannel = 1;
+    public MidiChannel midiChannel = MidiChannel.Ch1;
 
     public int mk3MidiPad1 = 40;
+    private float mk3MidiPad1Value;
+    
     public int mk3MidiPad2 = 41;
+    
     public int mk3MidiPad3 = 42;
+    
     public int mk3MidiPad4 = 43;
+    
     public int mk3MidiPad5 = 36;
+    
     public int mk3MidiPad6 = 37;
+    
     public int mk3MidiPad7 = 38;
+    
     public int mk3MidiPad8 = 39;
+    private float mk3ContinuePressed;
+
+    public int mk3MidiKnob1 = 70;
+    private float mk3MidiKnob1Value;
+
+    public int mk3MidiKnob2 = 71;
+    private float mk3MidiKnob2Value;
+
+    public int mk3MidiKnob3 = 72;
+    private float mk3MidiKnob3Value;
+
+    public int mk3MidiKnob4 = 73;
+    private float mk3MidiKnob4Value;
+
+    public int mk3MidiKnob5 = 74;
+    private float mk3MidiKnob5Value;
+
+    public int mk3MidiKnob6 = 75;
+    private float mk3MidiKnob6Value;
+
+    public int mk3MidiKnob7 = 76;
+    private float mk3MidiKnob7Value;
+
+    public int mk3MidiKnob8 = 77;
+    private float mk3MidiKnob8Value;
 
     public float screenLoadDelay = 0.5f;
 
@@ -88,10 +120,42 @@ public class ScreenManager : MonoBehaviour
     void midiMapManager()
     {
         mk3ContinuePressed = MidiMaster.GetKey(mk3MidiPad8);
-
         //Debug.Log("mk3ContinuePressed: " + mk3ContinuePressed);
 
-        // Continue to the next screen if the top-left MIDI pad has been selected
+        //int[] knobNumbers = MidiMaster.GetKnobNumbers(midiChannel);
+        //int i = 0;
+
+        //foreach (int knobNumber in knobNumbers)
+        //{
+        //    Debug.Log("Knob Number " + i + ": " + knobNumber);
+        //}
+
+
+        //mk3MidiKnob1Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob1, 0.5f);
+        //Debug.Log("mk3MidiKnob1Value: " + mk3MidiKnob1Value);
+
+        //mk3MidiKnob2Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob2, 0.5f);
+        //Debug.Log("mk3MidiKnob2Value: " + mk3MidiKnob2Value);
+
+        //mk3MidiKnob3Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob3, 0.5f);
+        //Debug.Log("mk3MidiKnob3Value: " + mk3MidiKnob3Value);
+
+        //mk3MidiKnob4Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob4, 0.5f);
+        //Debug.Log("mk3MidiKnob4Value: " + mk3MidiKnob4Value);
+
+        //mk3MidiKnob5Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob5, 0.5f);
+        //Debug.Log("mk3MidiKnob5Value: " + mk3MidiKnob5Value);
+
+        //mk3MidiKnob6Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob6, 0.5f);
+        //Debug.Log("mk3MidiKnob6Value: " + mk3MidiKnob6Value);
+
+        //mk3MidiKnob7Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob7, 0.5f);
+        //Debug.Log("mk3MidiKnob7Value: " + mk3MidiKnob7Value);
+
+        //mk3MidiKnob8Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob8, 0.5f);
+        //Debug.Log("mk3MidiKnob8Value: " + mk3MidiKnob8Value);
+
+        // Continue to the next screen if the bottom-right MIDI pad has been selected
         if (screenLoadDelayTimer >= screenLoadDelay)
         {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.KeypadEnter) ||
@@ -263,11 +327,6 @@ public class ScreenManager : MonoBehaviour
 
     void loadNextScreen()
     {
-        //allScreens[0].Close();
-        //allScreens[1].Open();
-        //currentScreen++;
-        //nextScreen++;
-
         int testScreenTypeOrderIndex = 0;
 
         if (nextScreen <= loudspeakerTestDescriptionScreenIndex && nextScreen != volumeSetupIndex)
@@ -365,7 +424,7 @@ public class ScreenManager : MonoBehaviour
             else if (testScreenTypeOrder[testScreenTypeOrderIndex] == 1)
             {
                 allScreens[currentScreen].Close();
-                allScreens[nextScreen].Open(2, "Reverb");
+                allScreens[nextScreen].Open(1, "Reverb");
                 testScreenTypeOrderIndex++;
                 currentScreen++;
                 nextScreen++;
@@ -373,7 +432,7 @@ public class ScreenManager : MonoBehaviour
             else if (testScreenTypeOrder[testScreenTypeOrderIndex] == 2)
             {
                 allScreens[currentScreen].Close();
-                allScreens[nextScreen].Open(3, "Gain");
+                allScreens[nextScreen].Open(1, "Gain");
                 testScreenTypeOrderIndex++;
                 currentScreen++;
                 nextScreen++;

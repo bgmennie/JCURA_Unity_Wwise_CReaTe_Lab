@@ -605,6 +605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3d589d615450c046b3d7108eb8fad9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screenType: 
 --- !u!1 &2590294885094670142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,7 +1259,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

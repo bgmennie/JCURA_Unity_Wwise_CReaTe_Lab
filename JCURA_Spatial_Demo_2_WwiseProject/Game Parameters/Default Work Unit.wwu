@@ -4,19 +4,61 @@
 		<WorkUnit Name="Default Work Unit" ID="{F33F1267-E221-4098-BEB1-85DE33E568A0}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Test" ID="{0B9CA9BE-C732-484C-918B-098329E14F21}"/>
-				<GameParameter Name="Stereo_User_Left_Channel_Bus_Volume" ID="{AEE36E6E-9CBC-49A0-8C98-FA845F06FCFE}">
+				<GameParameter Name="Bus_Switch" ID="{5A7AF6F9-6E14-44B2-9F8E-033A3749A15B}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="64"/>
-						<Property Name="Max" Type="Real64" Value="127"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="Stereo_User_Right_Channel_Bus_Volume" ID="{D9083DD0-73E1-441D-B113-98DEEC5E8681}">
+				<Folder Name="Stereo" ID="{6754BE81-9337-487C-A55B-AC40554E7AAF}" ShortID="1000475177">
+					<ChildrenList>
+						<GameParameter Name="Stereo_User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Stereo_User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Stereo_User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Stereo_User_Dry_Level" ID="{DE54D404-C5E8-4A0B-8EF7-AFDDB9FBAB37}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="Master_Bus_Mute" ID="{7542A346-BB51-4584-A6AA-056A864D4217}">
 					<PropertyList>
-						<Property Name="InitialValue" Type="Real64" Value="64"/>
-						<Property Name="Max" Type="Real64" Value="127"/>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
-				<GameParameter Name="Stereo_User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}"/>
+				<Folder Name="Spatial" ID="{12EAED3D-D79C-4947-AAAD-49150B869309}" ShortID="214470041">
+					<ChildrenList>
+						<GameParameter Name="Spatial_Pan_R_Channel" ID="{5FD974C0-10A7-4828-85A0-9362C39F40E4}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Spatial_Pan_L_Channel" ID="{7F210EAB-EA9C-454D-B09D-8A32D833CAD6}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

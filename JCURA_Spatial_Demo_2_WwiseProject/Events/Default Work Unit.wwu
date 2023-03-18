@@ -3,87 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Jethro_Tull_Separate" ID="{AD727933-1C6E-4156-A739-162D9BF2E940}" ShortID="344474805">
-					<ChildrenList>
-						<Event Name="Play_Jethro_Tull_L" ID="{DEE99872-04D2-4996-8173-93B05D2E2D81}">
-							<ChildrenList>
-								<Action Name="" ID="{14EDEE3A-41D7-4333-98A9-80DB2DEA80F5}" ShortID="1017013460">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Jethro_Tull_L" ID="{3DF0182A-E819-440B-A7DF-01EC05983B41}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Jethro_Tull_R" ID="{55A79C47-83CA-4112-B627-D166E5CBAE50}">
-							<ChildrenList>
-								<Action Name="" ID="{30929E74-4DB0-449F-9A5C-0AD71403A37D}" ShortID="152329344">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Jethro_Tull_R" ID="{2D751851-3711-41D3-97BF-85931F7742D1}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Jethro_Tull_Sub" ID="{CF4301AD-A57D-40E4-8E2B-2BE819AE60AD}">
-							<ChildrenList>
-								<Action Name="" ID="{075EF88E-71F1-4C59-ACA0-6C6A0E00BFC2}" ShortID="574834669">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Jethro_Tull_Sub" ID="{4F03CED1-BD12-4BA5-936F-FA17B37CB916}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
-				<Event Name="Play_Test_ASIO_Input" ID="{4DE7C79E-5C7A-4B00-81AD-CAC9EC421B70}">
-					<ChildrenList>
-						<Action Name="" ID="{7D3AE972-9886-43C7-BB2F-0CD366DD391E}" ShortID="157437834">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Test_ASIO_Input" ID="{6C6B24FF-3030-4C68-A27E-13EF9FBE22D4}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Jethro_Tull_L_Spatial" ID="{D39B6ED2-BE3A-4E29-8F8C-40E890CA426D}">
-					<ChildrenList>
-						<Action Name="" ID="{3B081531-375C-4F92-9E6E-5DC259E2C77E}" ShortID="782197696">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Jethro_Tull_L_Spatial" ID="{0626FABF-2241-41CE-96F8-EB65D34AA965}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Jethro_Tull_R_Spatial" ID="{0D4DAE74-73C7-4DAC-8EBB-F1CB38F21989}">
-					<ChildrenList>
-						<Action Name="" ID="{AEB216A5-33F6-474C-9118-4D4C536F32C5}" ShortID="651999595">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Jethro_Tull_R_Spatial" ID="{1C6303E7-9451-4954-80CB-BD42844E2142}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Jethro_Tull_Sub_Spatial" ID="{A2E0BD08-0985-4EF3-935F-76B8BC27CDFF}">
-					<ChildrenList>
-						<Action Name="" ID="{D8BAC819-2065-4FBC-B3BA-496987C5884D}" ShortID="197985108">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Jethro_Tull_Sub_Spatial" ID="{6E09B375-AE1A-49CA-9174-DFB51A87D91F}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_Pink_Noise" ID="{5C36DA30-229F-4F0E-A882-9006CCC29365}">
 					<ChildrenList>
 						<Action Name="" ID="{FB25D685-9EE4-4515-867A-4071F3CAA4C4}" ShortID="357885417">
@@ -105,6 +24,110 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Jethro_Tull" ID="{2D96C024-D75F-4359-A9AD-EE640E53DAA7}" ShortID="273885251">
+					<ChildrenList>
+						<Event Name="Play_User_Jethro_Tull_Mother_Goose" ID="{72ADC24C-49D5-4805-89E7-077E458D59A1}">
+							<ChildrenList>
+								<Action Name="" ID="{2CD2860D-036C-4C0A-A07D-5BA9D747FC1D}" ShortID="623004031">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="User_Jethro_Tull_Mother_Goose" ID="{81AF04B5-5EBF-4892-AEF7-D029D941A093}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Reference_Jethro_Tull_Mother_Goose" ID="{5B59C1A5-7160-42A0-B3F8-E54FBC0DF626}">
+							<ChildrenList>
+								<Action Name="" ID="{DBAF7A15-3B09-451B-A5D5-0554E4DD3B35}" ShortID="845929352">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Reference_Jethro_Tull_Mother_Goose" ID="{75AB50AB-E960-43E8-A5E7-34A5AAF488F7}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Spatial" ID="{319D2CA9-7737-462D-B15C-3B923EA3D9F9}" ShortID="775499614">
+							<ChildrenList>
+								<Folder Name="Reference" ID="{B200301B-0803-4BC9-9F7A-A76EA9614EDF}" ShortID="53895264">
+									<ChildrenList>
+										<Event Name="Play_Reference_Jethro_Tull_L_Spatial" ID="{8A0F8D7E-26D0-46A8-A946-359D8CE4B3DD}">
+											<ChildrenList>
+												<Action Name="" ID="{0782D49C-E10B-4B52-A56B-8F7441A773BB}" ShortID="1039175408">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Reference_Jethro_Tull_L_Spatial" ID="{0626FABF-2241-41CE-96F8-EB65D34AA965}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Reference_Jethro_Tull_R_Spatial" ID="{3219EB14-0E57-480E-9432-FA8538FFED02}">
+											<ChildrenList>
+												<Action Name="" ID="{943FA67A-F16D-42AB-9344-5B33ACE4F8A8}" ShortID="133749917">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Reference_Jethro_Tull_R_Spatial" ID="{1C6303E7-9451-4954-80CB-BD42844E2142}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_Reference_Jethro_Tull_Sub_Spatial" ID="{5468DE39-D8BD-460E-88CB-99668340E224}">
+											<ChildrenList>
+												<Action Name="" ID="{7200E0FA-85CC-42E6-B083-F36FAA8F2D65}" ShortID="6383193">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Reference_Jethro_Tull_Sub_Spatial" ID="{6E09B375-AE1A-49CA-9174-DFB51A87D91F}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="User" ID="{F9BF6BDB-1F4E-43F8-B5F0-07880AF9A6E2}" ShortID="1063383414">
+									<ChildrenList>
+										<Event Name="Play_User_Jethro_Tull_L_Spatial" ID="{B3067660-0845-441F-9D1A-2475CEF1AFE5}">
+											<ChildrenList>
+												<Action Name="" ID="{426088DC-68A2-49DD-8614-C97011EDBC77}" ShortID="236429287">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="User_Jethro_Tull_L_Spatial" ID="{5640059E-A681-4850-B466-AD6FDA3231E2}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_User_Jethro_Tull_R_Spatial" ID="{EEE7F2FB-9FF8-4FCE-893A-EDE6C6FDC4A0}">
+											<ChildrenList>
+												<Action Name="" ID="{D34DBE2D-0114-45B8-B37B-E01459B9E37F}" ShortID="745556784">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="User_Jethro_Tull_R_Spatial" ID="{B85F2511-9B7D-4043-8A17-3034CB1FCA5E}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_User_Jethro_Tull_Sub_Spatial" ID="{AB1F80C4-4D15-4DC1-8A75-F4CDED243F57}">
+											<ChildrenList>
+												<Action Name="" ID="{0FDE53F0-BD48-4509-83F1-74D53B28672E}" ShortID="806461319">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="User_Jethro_Tull_Sub_Spatial" ID="{7C664B6F-538C-484E-BBEA-16DF7ED0E192}" WorkUnitID="{F8A33FFB-6F30-4EB7-A48B-F43536A800C9}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

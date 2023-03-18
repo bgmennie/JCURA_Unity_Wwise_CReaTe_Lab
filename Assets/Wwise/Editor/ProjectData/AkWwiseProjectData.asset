@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7da56598dbf1594cb6bbc350b43efc88
     GuidInternal: 
-    m_lastTime: -8585227978081102484
+    m_lastTime: -8585224455524043927
     List:
     - name: Early_Reflection_Bus
       guid: b487c8644d907b44983818d8febf41bb
@@ -325,9 +325,9 @@ MonoBehaviour:
         ObjectType: 1
         guid: b487c8644d907b44983818d8febf41bb
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus
-    - name: Left_Channel_Spatial_Reference_Aux
-      guid: bb9496e8f0b43f43ae9b6027eee2c23d
-      id: 2544506526
+    - name: Late_Reverberation_Bus
+      guid: 2ed3c943e66ed54786e9d127db9d3718
+      id: 3260635663
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -341,13 +341,10 @@ MonoBehaviour:
       - ElementName: Spatial
         ObjectType: 2
         guid: 131d1a0728534d419b82cee93ef89791
-      - ElementName: Spatial_Reference
-        ObjectType: 2
-        guid: 1612aa94a640904c9c9e9dc2c8680114
-      - ElementName: Left_Channel_Spatial_Reference_Aux
+      - ElementName: Late_Reverberation_Bus
         ObjectType: 1
-        guid: bb9496e8f0b43f43ae9b6027eee2c23d
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Left_Channel_Spatial_Reference_Aux
+        guid: 2ed3c943e66ed54786e9d127db9d3718
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -608,52 +605,6 @@ MonoBehaviour:
         ObjectType: 2
         guid: 4e6c6df9a8695240beb2769187204c50
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_Reference
-    - name: Stereo_Reference_Left_Channel
-      guid: 585445f32b17e74ea061b58b805181d6
-      id: 1739100433
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 7da56598dbf1594cb6bbc350b43efc88
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Stereo
-        ObjectType: 2
-        guid: c04645e75b38f54b9abe63119400a44a
-      - ElementName: Stereo_Reference
-        ObjectType: 2
-        guid: 4e6c6df9a8695240beb2769187204c50
-      - ElementName: Stereo_Reference_Left_Channel
-        ObjectType: 2
-        guid: 585445f32b17e74ea061b58b805181d6
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_Reference\Stereo_Reference_Left_Channel
-    - name: Stereo_Reference_Right_Channel
-      guid: f5bd84c6175fe04c8e55f578c176814a
-      id: 1426654380
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 7da56598dbf1594cb6bbc350b43efc88
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Stereo
-        ObjectType: 2
-        guid: c04645e75b38f54b9abe63119400a44a
-      - ElementName: Stereo_Reference
-        ObjectType: 2
-        guid: 4e6c6df9a8695240beb2769187204c50
-      - ElementName: Stereo_Reference_Right_Channel
-        ObjectType: 2
-        guid: f5bd84c6175fe04c8e55f578c176814a
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_Reference\Stereo_Reference_Right_Channel
     - name: Stereo_User
       guid: dbf598630c8dfe4d94a0f15049937c1e
       id: 3223052229
@@ -674,52 +625,6 @@ MonoBehaviour:
         ObjectType: 2
         guid: dbf598630c8dfe4d94a0f15049937c1e
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_User
-    - name: Stereo_User_Left_Channel
-      guid: 66563e3992ef95429106fe44096c395c
-      id: 199285087
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 7da56598dbf1594cb6bbc350b43efc88
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Stereo
-        ObjectType: 2
-        guid: c04645e75b38f54b9abe63119400a44a
-      - ElementName: Stereo_User
-        ObjectType: 2
-        guid: dbf598630c8dfe4d94a0f15049937c1e
-      - ElementName: Stereo_User_Left_Channel
-        ObjectType: 2
-        guid: 66563e3992ef95429106fe44096c395c
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_User\Stereo_User_Left_Channel
-    - name: Stereo_User_Right_Channel
-      guid: 5b8efd3c4460d14089f255ff9c180c6b
-      id: 3911940818
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 7da56598dbf1594cb6bbc350b43efc88
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Stereo
-        ObjectType: 2
-        guid: c04645e75b38f54b9abe63119400a44a
-      - ElementName: Stereo_User
-        ObjectType: 2
-        guid: dbf598630c8dfe4d94a0f15049937c1e
-      - ElementName: Stereo_User_Right_Channel
-        ObjectType: 2
-        guid: 5b8efd3c4460d14089f255ff9c180c6b
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Stereo\Stereo_User\Stereo_User_Right_Channel
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -732,7 +637,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d888197aaf70b34ea4713c1eb773d01b
     GuidInternal: 
-    m_lastTime: -8585227974932878449
+    m_lastTime: -8585224482930211214
     List:
     - name: Main
       guid: ea7bf672993b584cb081a1c3e3d3fc5f
@@ -760,11 +665,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
     GuidInternal: 
-    m_lastTime: -8585227974933394051
+    m_lastTime: -8585224486510598278
     List:
-    - name: Jethro_Tull_Separate
-      guid: 337972ad6e1c5641a739162d9bf2e940
-      id: 2836760221
+    - name: Jethro_Tull
+      guid: 24c0962d5fd75943a9adee640e53daa7
+      id: 4087577171
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -772,124 +677,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
-      - ElementName: Jethro_Tull_Separate
+      - ElementName: Jethro_Tull
         ObjectType: 4
-        guid: 337972ad6e1c5641a739162d9bf2e940
-      Path: Events\Default Work Unit\Jethro_Tull_Separate
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      Path: Events\Default Work Unit\Jethro_Tull
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Jethro_Tull_L
-      guid: 7298e9ded2049649817393b05d2e2d81
-      id: 2087463315
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
-      - ElementName: Jethro_Tull_Separate
-        ObjectType: 4
-        guid: 337972ad6e1c5641a739162d9bf2e940
-      - ElementName: Play_Jethro_Tull_L
-        ObjectType: 3
-        guid: 7298e9ded2049649817393b05d2e2d81
-      Path: Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_L
-      maxAttenuation: 10
-      maxDuration: 232.8
-      minDuration: 232.8
-    - name: Play_Jethro_Tull_L_Spatial
-      guid: d26e9bd33abe294e8f8c40e890ca426d
-      id: 1979987118
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
-      - ElementName: Play_Jethro_Tull_L_Spatial
-        ObjectType: 3
-        guid: d26e9bd33abe294e8f8c40e890ca426d
-      Path: Events\Default Work Unit\Play_Jethro_Tull_L_Spatial
-      maxAttenuation: 10
-      maxDuration: 232.8
-      minDuration: 232.8
-    - name: Play_Jethro_Tull_R
-      guid: 479ca755ca831241b627d166e5cbae50
-      id: 2087463309
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
-      - ElementName: Jethro_Tull_Separate
-        ObjectType: 4
-        guid: 337972ad6e1c5641a739162d9bf2e940
-      - ElementName: Play_Jethro_Tull_R
-        ObjectType: 3
-        guid: 479ca755ca831241b627d166e5cbae50
-      Path: Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_R
-      maxAttenuation: 10
-      maxDuration: 232.8
-      minDuration: 232.8
-    - name: Play_Jethro_Tull_R_Spatial
-      guid: 74ae4d0dc773ac4d8ebbf1cb38f21989
-      id: 3705538616
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
-      - ElementName: Play_Jethro_Tull_R_Spatial
-        ObjectType: 3
-        guid: 74ae4d0dc773ac4d8ebbf1cb38f21989
-      Path: Events\Default Work Unit\Play_Jethro_Tull_R_Spatial
-      maxAttenuation: 10
-      maxDuration: 232.8
-      minDuration: 232.8
-    - name: Play_Jethro_Tull_Sub
-      guid: ad0143cf7da5e4408e2b2be819ae60ad
-      id: 1547780001
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
-      - ElementName: Jethro_Tull_Separate
-        ObjectType: 4
-        guid: 337972ad6e1c5641a739162d9bf2e940
-      - ElementName: Play_Jethro_Tull_Sub
-        ObjectType: 3
-        guid: ad0143cf7da5e4408e2b2be819ae60ad
-      Path: Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Play_Jethro_Tull_Sub_Spatial
-      guid: 08bde0a28509f34e935f76b8bc27cdff
-      id: 2451900932
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
-      - ElementName: Play_Jethro_Tull_Sub_Spatial
-        ObjectType: 3
-        guid: 08bde0a28509f34e935f76b8bc27cdff
-      Path: Events\Default Work Unit\Play_Jethro_Tull_Sub_Spatial
-      maxAttenuation: 10
-      maxDuration: 232.8
-      minDuration: 232.8
     - name: Play_Pink_Noise
       guid: 30da365c9f220e4fa8829006ccc29365
       id: 3286096225
@@ -905,11 +699,11 @@ MonoBehaviour:
         guid: 30da365c9f220e4fa8829006ccc29365
       Path: Events\Default Work Unit\Play_Pink_Noise
       maxAttenuation: 0
-      maxDuration: 10
-      minDuration: 10
-    - name: Play_Test_ASIO_Input
-      guid: 9ec7e74d7a5c004b81adcac9ec421b70
-      id: 1030068932
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Jethro_Tull_L_Spatial
+      guid: 7e8d0f8ad026a846a946359d8ce4b3dd
+      id: 2202538504
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -917,10 +711,232 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
-      - ElementName: Play_Test_ASIO_Input
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      - ElementName: Reference
+        ObjectType: 4
+        guid: 1b3000b20308c94b9f7aa76ea9614edf
+      - ElementName: Play_Reference_Jethro_Tull_L_Spatial
         ObjectType: 3
-        guid: 9ec7e74d7a5c004b81adcac9ec421b70
-      Path: Events\Default Work Unit\Play_Test_ASIO_Input
+        guid: 7e8d0f8ad026a846a946359d8ce4b3dd
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_L_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Reference_Jethro_Tull_Mother_Goose
+      guid: a5c1595b6071a042b3f8e54fbc0df626
+      id: 1634674446
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Play_Reference_Jethro_Tull_Mother_Goose
+        ObjectType: 3
+        guid: a5c1595b6071a042b3f8e54fbc0df626
+      Path: Events\Default Work Unit\Jethro_Tull\Play_Reference_Jethro_Tull_Mother_Goose
+      maxAttenuation: 0
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Reference_Jethro_Tull_R_Spatial
+      guid: 14eb1932570e0e489432fa8538ffed02
+      id: 750340830
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      - ElementName: Reference
+        ObjectType: 4
+        guid: 1b3000b20308c94b9f7aa76ea9614edf
+      - ElementName: Play_Reference_Jethro_Tull_R_Spatial
+        ObjectType: 3
+        guid: 14eb1932570e0e489432fa8538ffed02
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_R_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_Reference_Jethro_Tull_Sub_Spatial
+      guid: 39de6854bdd80e4688cb99668340e224
+      id: 1402898358
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      - ElementName: Reference
+        ObjectType: 4
+        guid: 1b3000b20308c94b9f7aa76ea9614edf
+      - ElementName: Play_Reference_Jethro_Tull_Sub_Spatial
+        ObjectType: 3
+        guid: 39de6854bdd80e4688cb99668340e224
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_Sub_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_User_Jethro_Tull_L_Spatial
+      guid: 607606b345081f449d1a2475cef1afe5
+      id: 2119947682
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      - ElementName: User
+        ObjectType: 4
+        guid: db6bbff94e1ff843b5f007880af9a6e2
+      - ElementName: Play_User_Jethro_Tull_L_Spatial
+        ObjectType: 3
+        guid: 607606b345081f449d1a2475cef1afe5
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_L_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_User_Jethro_Tull_Mother_Goose
+      guid: 4cc2ad72d549054889e7077e458d59a1
+      id: 824084648
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Play_User_Jethro_Tull_Mother_Goose
+        ObjectType: 3
+        guid: 4cc2ad72d549054889e7077e458d59a1
+      Path: Events\Default Work Unit\Jethro_Tull\Play_User_Jethro_Tull_Mother_Goose
+      maxAttenuation: 0
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_User_Jethro_Tull_R_Spatial
+      guid: fbf2e7eef89fce4f893aede6c6fdc4a0
+      id: 243939828
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      - ElementName: User
+        ObjectType: 4
+        guid: db6bbff94e1ff843b5f007880af9a6e2
+      - ElementName: Play_User_Jethro_Tull_R_Spatial
+        ObjectType: 3
+        guid: fbf2e7eef89fce4f893aede6c6fdc4a0
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_R_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Play_User_Jethro_Tull_Sub_Spatial
+      guid: c4801fab154dc14d8a75f4cded243f57
+      id: 4044639464
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      - ElementName: User
+        ObjectType: 4
+        guid: db6bbff94e1ff843b5f007880af9a6e2
+      - ElementName: Play_User_Jethro_Tull_Sub_Spatial
+        ObjectType: 3
+        guid: c4801fab154dc14d8a75f4cded243f57
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_Sub_Spatial
+      maxAttenuation: 10
+      maxDuration: 232.8
+      minDuration: 232.8
+    - name: Reference
+      guid: 1b3000b20308c94b9f7aa76ea9614edf
+      id: 1785692004
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      - ElementName: Reference
+        ObjectType: 4
+        guid: 1b3000b20308c94b9f7aa76ea9614edf
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial\Reference
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Spatial
+      guid: a92c9d3137772d46b15c3b923ea3d9f9
+      id: 378350335
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -941,6 +957,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: User
+      guid: db6bbff94e1ff843b5f007880af9a6e2
+      id: 1303565252
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Jethro_Tull
+        ObjectType: 4
+        guid: 24c0962d5fd75943a9adee640e53daa7
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: a92c9d3137772d46b15c3b923ea3d9f9
+      - ElementName: User
+        ObjectType: 4
+        guid: db6bbff94e1ff843b5f007880af9a6e2
+      Path: Events\Default Work Unit\Jethro_Tull\Spatial\User
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -953,11 +992,11 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 67123ff321e29840beb185de33e568a0
     GuidInternal: 
-    m_lastTime: -8585230222721697103
+    m_lastTime: -8585224486510138396
     List:
-    - name: Stereo_User_Left_Channel_Bus_Volume
-      guid: 6e6ee3aebc9ca0498c98fa845f06fcfe
-      id: 2828194053
+    - name: Bus_Switch
+      guid: f9f67a5a146eb2449f8e033a3749a15b
+      id: 1409897668
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -965,10 +1004,103 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo_User_Left_Channel_Bus_Volume
+      - ElementName: Bus_Switch
         ObjectType: 13
-        guid: 6e6ee3aebc9ca0498c98fa845f06fcfe
-      Path: Game Parameters\Default Work Unit\Stereo_User_Left_Channel_Bus_Volume
+        guid: f9f67a5a146eb2449f8e033a3749a15b
+      Path: Game Parameters\Default Work Unit\Bus_Switch
+    - name: Master_Bus_Mute
+      guid: 46a3427551bb8445a6aa056a864d4217
+      id: 2573722612
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Master_Bus_Mute
+        ObjectType: 13
+        guid: 46a3427551bb8445a6aa056a864d4217
+      Path: Game Parameters\Default Work Unit\Master_Bus_Mute
+    - name: Spatial
+      guid: 3dedea129cd74749aaad49150b869309
+      id: 378350335
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: 3dedea129cd74749aaad49150b869309
+      Path: Game Parameters\Default Work Unit\Spatial
+    - name: Spatial_Pan_L_Channel
+      guid: ab0e217f9cea4d45b09d8a32d833cad6
+      id: 3148723270
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: 3dedea129cd74749aaad49150b869309
+      - ElementName: Spatial_Pan_L_Channel
+        ObjectType: 13
+        guid: ab0e217f9cea4d45b09d8a32d833cad6
+      Path: Game Parameters\Default Work Unit\Spatial\Spatial_Pan_L_Channel
+    - name: Spatial_Pan_R_Channel
+      guid: c074d95fa710284885a09362c39f40e4
+      id: 106087048
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Spatial
+        ObjectType: 4
+        guid: 3dedea129cd74749aaad49150b869309
+      - ElementName: Spatial_Pan_R_Channel
+        ObjectType: 13
+        guid: c074d95fa710284885a09362c39f40e4
+      Path: Game Parameters\Default Work Unit\Spatial\Spatial_Pan_R_Channel
+    - name: Stereo
+      guid: 81be546737937c48a55bac40554e7aaf
+      id: 3729966089
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
+      Path: Game Parameters\Default Work Unit\Stereo
+    - name: Stereo_User_Dry_Level
+      guid: 04d454dee8c50b4a8ef7afddb9fbab37
+      id: 2340516672
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: Stereo_User_Dry_Level
+        ObjectType: 13
+        guid: 04d454dee8c50b4a8ef7afddb9fbab37
+      Path: Game Parameters\Default Work Unit\Stereo\Stereo_User_Dry_Level
     - name: Stereo_User_Pan
       guid: 6c1831d9cb57574aa34e3a998bed907a
       id: 3227346317
@@ -979,13 +1111,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
       - ElementName: Stereo_User_Pan
         ObjectType: 13
         guid: 6c1831d9cb57574aa34e3a998bed907a
-      Path: Game Parameters\Default Work Unit\Stereo_User_Pan
-    - name: Stereo_User_Right_Channel_Bus_Volume
-      guid: d03d08d9e1731d44b11398deec5e8681
-      id: 583735402
+      Path: Game Parameters\Default Work Unit\Stereo\Stereo_User_Pan
+    - name: Stereo_User_Reverb_Length
+      guid: b799b1b861c357418e4b752701bfac46
+      id: 694743187
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -993,10 +1128,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo_User_Right_Channel_Bus_Volume
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: Stereo_User_Reverb_Length
         ObjectType: 13
-        guid: d03d08d9e1731d44b11398deec5e8681
-      Path: Game Parameters\Default Work Unit\Stereo_User_Right_Channel_Bus_Volume
+        guid: b799b1b861c357418e4b752701bfac46
+      Path: Game Parameters\Default Work Unit\Stereo\Stereo_User_Reverb_Length
+    - name: Stereo_User_Wet_Level
+      guid: 9c24bfb5e4baab4a8d6b66b8aeed651c
+      id: 752449211
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: Stereo_User_Wet_Level
+        ObjectType: 13
+        guid: 9c24bfb5e4baab4a8d6b66b8aeed651c
+      Path: Game Parameters\Default Work Unit\Stereo\Stereo_User_Wet_Level
     - name: Test
       guid: bea99c0b32c74c48918b098329e14f21
       id: 3157003241
@@ -1054,7 +1209,7 @@ MonoBehaviour:
     m_lastTime: -8585242350812978746
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000050000000600000007000000080000000a0000000b0000000f000000100000004a0000004b0000004c0000006000000061000000ba000000bb000000
+  ExpandedWaapiItemIds: 010000000600000007000000080000000900000017000000180000001b00000021000000290000002a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

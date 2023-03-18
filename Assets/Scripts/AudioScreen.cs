@@ -20,7 +20,10 @@ public class AudioScreen : Screen
     public override void Close()
     {
         base.Close();
-        WwiseManager.wwiseManagerSingleton.postWwiseEvent("Stop_All");
+        WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Stop_All");
+        WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent("Stop_All");
+
+        
     }
 
     public override void Open(int stereoSpatialFlag, string testType)
@@ -33,27 +36,34 @@ public class AudioScreen : Screen
         {
             if (testType == "Pan")
             {
-
+                WwiseManager.wwiseManagerSingleton.setTestType("Pan");
+                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "Reverb")
             {
-
+                WwiseManager.wwiseManagerSingleton.setTestType("Reverb");
+                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "Gain")
             {
-
+                WwiseManager.wwiseManagerSingleton.setTestType("Gain");
+                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "VolumeSetup")
             {
-                WwiseManager.wwiseManagerSingleton.postWwiseEvent(new string[] { "stereoEmitter" });
+                Debug.Log("VolumeSetup testType set");
+                WwiseManager.wwiseManagerSingleton.setTestType("VolumeSetup");
+                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Pink_Noise");
             }
             else
             {
-                Debug.LogWarning("AudioScreen Open: Invalid value for testType");
+                Debug.LogWarning("AudioScreen Open: Invalid value for testType for stereo: " + testType);
             }
         } 
         else if (stereoSpatialFlag == 1)
         {
+            WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent("Jethro_Tull");
+
             if (testType == "Pan")
             {
 
@@ -68,10 +78,14 @@ public class AudioScreen : Screen
             }
             else
             {
-                Debug.LogWarning("AudioScreen Open: Invalid value for testType");
+                Debug.LogWarning("AudioScreen Open: Invalid value for testType for spatial: " + testType);
             }
             //WwiseManager.wwiseManagerSingleton.postWwiseEvent(new string[] {"leftEmitter", "rightEmitter", "subEmitter"});
 
+        }
+        else
+        {
+            Debug.LogWarning("AudioScreen Open: Invalid value for stereoSpatialFlag: " + stereoSpatialFlag);
         }
     }
 }

@@ -11,26 +11,41 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3527000626">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1106889224">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="2544506526" Name="Left_Channel_Spatial_Reference_Aux" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Left_Channel_Spatial_Reference_Aux"/>
+				<AuxBus Id="3260635663" Name="Late_Reverberation_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus"/>
 				<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
 			</IncludedAuxBusses>
+			<ExcludedMemoryFiles>
+				<File Id="1013251151" Language="SFX">
+					<ShortName>CReaTe_Lab_IR_Multichannel.wav</ShortName>
+					<Path>Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_DED178AB.wem</Path>
+				</File>
+			</ExcludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="583735402" Name="Stereo_User_Right_Channel_Bus_Volume" ObjectPath="\Game Parameters\Default Work Unit\Stereo_User_Right_Channel_Bus_Volume"/>
-				<GameParameter Id="2828194053" Name="Stereo_User_Left_Channel_Bus_Volume" ObjectPath="\Game Parameters\Default Work Unit\Stereo_User_Left_Channel_Bus_Volume"/>
-				<GameParameter Id="3157003241" Name="Test" ObjectPath="\Game Parameters\Default Work Unit\Test"/>
+				<GameParameter Id="694743187" Name="Stereo_User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Reverb_Length"/>
+				<GameParameter Id="752449211" Name="Stereo_User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Wet_Level"/>
+				<GameParameter Id="1409897668" Name="Bus_Switch" ObjectPath="\Game Parameters\Default Work Unit\Bus_Switch"/>
+				<GameParameter Id="3227346317" Name="Stereo_User_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Pan"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1459587747">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3192689400">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2087463315" Name="Play_Jethro_Tull_L" ObjectPath="\Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_L" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+				<Event Id="3286096225" Name="Play_Pink_Noise" ObjectPath="\Events\Default Work Unit\Play_Pink_Noise" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="523312821" Language="SFX">
+							<ShortName>Pink Noise.wav</ShortName>
+							<Path>SFX\Pink Noise_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2202538504" Name="Play_Reference_Jethro_Tull_L_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_L_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
 						<File Id="1021326720" Language="SFX">
 							<ShortName>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
@@ -38,8 +53,15 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1979987118" Name="Play_Jethro_Tull_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_L_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
-				<Event Id="2087463309" Name="Play_Jethro_Tull_R" ObjectPath="\Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_R" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+				<Event Id="1634674446" Name="Play_Reference_Jethro_Tull_Mother_Goose" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Play_Reference_Jethro_Tull_Mother_Goose" DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="345248522" Language="SFX">
+							<ShortName>Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="750340830" Name="Play_Reference_Jethro_Tull_R_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_R_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
 						<File Id="137534949" Language="SFX">
 							<ShortName>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
@@ -47,37 +69,66 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3705538616" Name="Play_Jethro_Tull_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_R_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
-				<Event Id="1547780001" Name="Play_Jethro_Tull_Sub" ObjectPath="\Events\Default Work Unit\Jethro_Tull_Separate\Play_Jethro_Tull_Sub" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="2451900932" Name="Play_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003"/>
-				<Event Id="3286096225" Name="Play_Pink_Noise" ObjectPath="\Events\Default Work Unit\Play_Pink_Noise" DurationType="OneShot" DurationMin="10." DurationMax="10.">
+				<Event Id="1402898358" Name="Play_Reference_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
-						<File Id="523312821" Language="SFX">
-							<ShortName>Pink Noise.wav</ShortName>
-							<Path>SFX\Pink Noise_10C4C929.wem</Path>
+						<File Id="275939375" Language="SFX">
+							<ShortName>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2119947682" Name="Play_User_Jethro_Tull_L_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_L_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="1021326720" Language="SFX">
+							<ShortName>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="824084648" Name="Play_User_Jethro_Tull_Mother_Goose" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Play_User_Jethro_Tull_Mother_Goose" DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="345248522" Language="SFX">
+							<ShortName>Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="243939828" Name="Play_User_Jethro_Tull_R_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_R_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="137534949" Language="SFX">
+							<ShortName>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4044639464" Name="Play_User_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
+					<IncludedMemoryFiles>
+						<File Id="275939375" Language="SFX">
+							<ShortName>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
+							<Path>SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
+			<IncludedAuxBusses>
+				<AuxBus Id="3260635663" Name="Late_Reverberation_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus"/>
+			</IncludedAuxBusses>
 			<IncludedMemoryFiles>
-				<File Id="137534949" Language="SFX">
-					<ShortName>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
-					<Path>SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
-				</File>
-				<File Id="275939375" Language="SFX">
-					<ShortName>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
-					<Path>SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
-				</File>
-				<File Id="523312821" Language="SFX">
-					<ShortName>Pink Noise.wav</ShortName>
-					<Path>SFX\Pink Noise_10C4C929.wem</Path>
-				</File>
-				<File Id="1021326720" Language="SFX">
-					<ShortName>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
-					<Path>SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+				<File Id="1013251151" Language="SFX">
+					<ShortName>CReaTe_Lab_IR_Multichannel.wav</ShortName>
+					<Path>Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_DED178AB.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="2573722612" Name="Master_Bus_Mute" ObjectPath="\Game Parameters\Default Work Unit\Master_Bus_Mute"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

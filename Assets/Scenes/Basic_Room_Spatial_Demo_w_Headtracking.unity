@@ -982,7 +982,7 @@ GameObject:
   m_Component:
   - component: {fileID: 741721694}
   m_Layer: 0
-  m_Name: Stereo_Emitter
+  m_Name: Stereo_User_Emitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,13 +995,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741721693}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 1768357367}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &772334825
 GameObject:
@@ -1194,7 +1194,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894650028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 2.5, z: 16.5}
+  m_LocalPosition: {x: -3, y: 2.5, z: 12.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1847,43 +1847,92 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7148da3be385cff4e88fdef0edc994e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TunableParameter: 10
-  Play_Jethro_Tull_L:
+  testType: 
+  Play_Reference_Jethro_Tull_Mother_Goose_L:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 6511d68793946b842970ff47b3938d6b, type: 2}
-  Play_Jethro_Tull_R:
+    WwiseObjectReference: {fileID: 11400000, guid: 45f9954609136b84b9daabac7972b3c9, type: 2}
+  Play_Reference_Jethro_Tull_Mother_Goose_R:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 8859696635750144391720f65af7f637, type: 2}
-  Play_Jethro_Tull_Sub:
+    WwiseObjectReference: {fileID: 11400000, guid: 973cddde30bd0f04e8fe6efd68a91cb9, type: 2}
+  Play_Reference_Jethro_Tull_Mother_Goose_Sub:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: dc1ded2db1e9ce8408b2b58177deb34f, type: 2}
-  Play_Jethro_Tull_L_Spatial:
+    WwiseObjectReference: {fileID: 11400000, guid: 090eaf45a1401da459fb60f05e796d16, type: 2}
+  Play_User_Jethro_Tull_Mother_Goose_L:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4c4513b998b87614680e995c863d3466, type: 2}
-  Play_Jethro_Tull_R_Spatial:
+    WwiseObjectReference: {fileID: 11400000, guid: b3ee500bf9dd6114eba5bfb9f72b439f, type: 2}
+  Play_User_Jethro_Tull_Mother_Goose_R:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e6462f286c3659949a24e07199255191, type: 2}
-  Play_Jethro_Tull_Sub_Spatial:
+    WwiseObjectReference: {fileID: 11400000, guid: e2ebfd190a3782b47acdfbe2b5490612, type: 2}
+  Play_User_Jethro_Tull_Mother_Goose_Sub:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 02bcf40e103c0a043852cf354cebd8c9, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: e2f532009e738a74490d547ce91fae30, type: 2}
   leftEmitter: {fileID: 894650028}
   rightEmitter: {fileID: 1225720507}
   subEmitter: {fileID: 724217201}
-  Pink_Noise:
+  stereoReferenceWwiseEvents: []
+  stereoUserWwiseEvents: []
+  stereoEventIndex: 0
+  Play_Reference_Jethro_Tull_Mother_Goose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6dfe6ba2b7a46934d951bd2af59afec0, type: 2}
+  Play_User_Jethro_Tull_Mother_Goose:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fd0e4d17876dacb40b57ea14378c2b62, type: 2}
+  stereoUserEmitter: {fileID: 741721693}
+  Play_Pink_Noise:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 0bfee5ba81b189c479863dbe17a8dea9, type: 2}
-  stereoEmitter: {fileID: 741721693}
   Stop_All:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 930a640ad31e89845b11255611aed1a0, type: 2}
+  Bus_Switch:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6fc1287bb273db54093fa42e6e0e6dc5, type: 2}
+  Stereo_User_Pan:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 98657a153f32ebc41ab3900691c7d31a, type: 2}
+  Stereo_User_Wet_Level:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 551cfdf6242a25147b32190786d74906, type: 2}
+  Stereo_User_Reverb_Length:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6704fb4b3b4867b4b8fa791d4c1b6070, type: 2}
+  Output_Bus_Volume:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 41f93fa47b68b1b498d9c1e4835c7d11, type: 2}
+  outputBusVolumeValue: 0
+  screenLoadDelay: 0.1
+  mk3MidiPad1: 40
+  mk3MidiPad2: 41
+  mk3MidiPad3: 42
+  mk3MidiPad4: 43
+  mk3MidiPad5: 36
+  mk3MidiPad6: 37
+  mk3MidiPad7: 38
+  mk3MidiPad8: 39
+  mk3MidiKnob1: 70
+  mk3MidiKnob2: 71
+  mk3MidiKnob3: 72
+  mk3MidiKnob4: 73
+  mk3MidiKnob5: 74
+  mk3MidiKnob6: 75
+  mk3MidiKnob7: 76
+  mk3MidiKnob8: 77
 --- !u!4 &1228200182
 Transform:
   m_ObjectHideFlags: 0
@@ -2196,6 +2245,70 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1575076053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1575076054}
+  m_Layer: 0
+  m_Name: Stereo_Reference_Emitter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1575076054
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575076053}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1768357367}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1768357366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768357367}
+  m_Layer: 0
+  m_Name: Stereo_Emitters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1768357367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768357366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 741721694}
+  - {fileID: 1575076054}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1932718818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +2401,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932718818}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 11}
+  m_LocalPosition: {x: 0, y: 1, z: 13.139}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

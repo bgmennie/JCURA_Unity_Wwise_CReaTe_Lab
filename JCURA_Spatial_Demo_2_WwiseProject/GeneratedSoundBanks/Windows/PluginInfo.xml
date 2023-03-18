@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="JCURA_Spatial_Demo_2_WwiseProject" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
+		<Plugin Name="Resonance Audio Renderer" ID="6557955" DLL="ResonanceAudio" StaticLib="ResonanceAudioFX"/>
 		<Plugin Name="Wwise Parametric EQ" ID="6881283" DLL="AkParametricEQ" StaticLib="AkParametricEQFX"/>
 		<Plugin Name="Wwise Matrix Reverb" ID="7536643" DLL="AkMatrixReverb" StaticLib="AkMatrixReverbFX"/>
+		<Plugin Name="Wwise Convolution Reverb" ID="8323075" DLL="AkConvolutionReverb" StaticLib="AkConvolutionReverbFX"/>
 		<Plugin Name="Wwise Reflect" ID="11206659" DLL="AkReflect" StaticLib="AkReflectFX"/>
 		<Plugin Name="System" ID="11403271"/>
 		<Plugin Name="No Output" ID="11862023"/>
