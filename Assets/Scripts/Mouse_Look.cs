@@ -8,7 +8,7 @@ public class Mouse_Look : MonoBehaviour
 
     public float mouseSensitivity = 100f;
     public Transform playerBody;
-    float xRotation = 90f;
+    float xRotation = 0f;
 
     //public OscIn oscIn; // 
 

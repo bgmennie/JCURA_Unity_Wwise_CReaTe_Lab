@@ -284,8 +284,8 @@ public class WwiseManager : MonoBehaviour
         {
             // Reference
             Play_Reference_Jethro_Tull_Mother_Goose_L.Post(leftEmitter);
-            //Play_Reference_Jethro_Tull_Mother_Goose_R.Post(rightEmitter);
-            //Play_Reference_Jethro_Tull_Mother_Goose_Sub.Post(subEmitter);
+            Play_Reference_Jethro_Tull_Mother_Goose_R.Post(rightEmitter);
+            Play_Reference_Jethro_Tull_Mother_Goose_Sub.Post(subEmitter);
 
             //// User
             //Play_User_Jethro_Tull_Mother_Goose_L.Post(leftEmitter);

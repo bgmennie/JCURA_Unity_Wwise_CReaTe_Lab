@@ -6,7 +6,7 @@
 				<Effect Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 					<PropertyList>
 						<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-						<Property Name="FrequencyBand1" Type="Real32" Value="150"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="85"/>
 						<Property Name="OnOffBand2" Type="bool" Value="False"/>
 						<Property Name="OnOffBand3" Type="bool" Value="False"/>
 						<Property Name="ProcessLFE" Type="bool" Value="False"/>
@@ -15,7 +15,8 @@
 				<Effect Name="Sub_Emitter_Parametric_EQ" ID="{9C81F0A8-D033-418B-8E4B-149AAD37EA5D}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 					<PropertyList>
 						<Property Name="FilterTypeBand1" Type="int32" Value="0"/>
-						<Property Name="FrequencyBand1" Type="Real32" Value="150"/>
+						<Property Name="FilterTypeBand2" Type="int32" Value="0"/>
+						<Property Name="FrequencyBand1" Type="Real32" Value="85"/>
 						<Property Name="OnOffBand2" Type="bool" Value="False"/>
 						<Property Name="OnOffBand3" Type="bool" Value="False"/>
 					</PropertyList>

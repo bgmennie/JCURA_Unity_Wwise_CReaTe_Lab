@@ -25,6 +25,11 @@
 										<Bus Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>528</Value>
+													</ValueList>
+												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
@@ -36,12 +41,22 @@
 												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
+												<Reference Name="Effect1">
+													<Custom>
+														<Effect Name="Resonance Audio Renderer (Custom)" ID="{D1512E16-42DC-4557-900A-B326703AA387}" ShortID="124259413" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+													</Custom>
+												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>528</Value>
+													</ValueList>
+												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
@@ -55,6 +70,11 @@
 												</Reference>
 												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
+												</Reference>
+												<Reference Name="Effect1">
+													<Custom>
+														<Effect Name="Resonance Audio Renderer (Custom)" ID="{AA83D5D6-30DE-4210-858F-2982821B4D33}" ShortID="908979033" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+													</Custom>
 												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
@@ -75,6 +95,11 @@
 										<Bus Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>528</Value>
+													</ValueList>
+												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
@@ -86,17 +111,25 @@
 												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
+												<Reference Name="Effect1">
+													<Custom>
+														<Effect Name="Resonance Audio Renderer (Custom)" ID="{FABDF055-B2F7-45E2-85D0-1F331A0E58D5}" ShortID="735023202" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+													</Custom>
+												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>528</Value>
+													</ValueList>
+												</Property>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
-														<RTPC Name="" ID="{0B5673A6-EA01-4063-9362-89EB28618102}" ShortID="917219768">
-															<ReferenceList/>
-														</RTPC>
+														<RTPC Name="" ID="{0B5673A6-EA01-4063-9362-89EB28618102}" ShortID="917219768"/>
 													</RTPCList>
 												</Property>
 												<Property Name="CenterPercentage" Type="int32">
@@ -112,6 +145,11 @@
 												</Reference>
 												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
+												</Reference>
+												<Reference Name="Effect1">
+													<Custom>
+														<Effect Name="Resonance Audio Renderer (Custom)" ID="{8EF39EEA-9AC3-476F-A1FB-E817B8DE9EC9}" ShortID="273603602" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+													</Custom>
 												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
