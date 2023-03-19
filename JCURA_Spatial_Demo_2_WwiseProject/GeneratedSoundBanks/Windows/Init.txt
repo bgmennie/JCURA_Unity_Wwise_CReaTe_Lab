@@ -40,6 +40,8 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	124259413	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	273603602	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	735023202	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	794142418	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	908979033	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	927685878	LR_Emitter_Parametric_EQ	Wwise Parametric EQ			

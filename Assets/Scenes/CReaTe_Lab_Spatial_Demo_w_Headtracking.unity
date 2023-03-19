@@ -930,7 +930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &644022947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2127,27 +2127,27 @@ MonoBehaviour:
   Play_Reference_Jethro_Tull_Mother_Goose_L:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 45f9954609136b84b9daabac7972b3c9, type: 2}
   Play_Reference_Jethro_Tull_Mother_Goose_R:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 973cddde30bd0f04e8fe6efd68a91cb9, type: 2}
   Play_Reference_Jethro_Tull_Mother_Goose_Sub:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 090eaf45a1401da459fb60f05e796d16, type: 2}
   Play_User_Jethro_Tull_Mother_Goose_L:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: b3ee500bf9dd6114eba5bfb9f72b439f, type: 2}
   Play_User_Jethro_Tull_Mother_Goose_R:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e2ebfd190a3782b47acdfbe2b5490612, type: 2}
   Play_User_Jethro_Tull_Mother_Goose_Sub:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: e2f532009e738a74490d547ce91fae30, type: 2}
   leftEmitter: {fileID: 894650028}
   rightEmitter: {fileID: 1225720507}
   subEmitter: {fileID: 724217201}

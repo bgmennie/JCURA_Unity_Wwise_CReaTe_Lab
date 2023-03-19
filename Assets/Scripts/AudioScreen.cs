@@ -80,8 +80,6 @@ public class AudioScreen : Screen
             {
                 Debug.LogWarning("AudioScreen Open: Invalid value for testType for spatial: " + testType);
             }
-            //WwiseManager.wwiseManagerSingleton.postWwiseEvent(new string[] {"leftEmitter", "rightEmitter", "subEmitter"});
-
         }
         else
         {

@@ -70,6 +70,8 @@ public class ScreenManager : MonoBehaviour
     public int hpSystem2TestDescriptionScreenIndex = 9;
     public int exitScreenIndex = 11;
 
+    private int testScreenTypeOrderIndex;
+
     [SerializeField]
     private Screen[] openExitDescScreens;
     [SerializeField]
@@ -120,40 +122,6 @@ public class ScreenManager : MonoBehaviour
     void midiMapManager()
     {
         mk3ContinuePressed = MidiMaster.GetKey(mk3MidiPad8);
-        //Debug.Log("mk3ContinuePressed: " + mk3ContinuePressed);
-
-        //int[] knobNumbers = MidiMaster.GetKnobNumbers(midiChannel);
-        //int i = 0;
-
-        //foreach (int knobNumber in knobNumbers)
-        //{
-        //    Debug.Log("Knob Number " + i + ": " + knobNumber);
-        //}
-
-
-        //mk3MidiKnob1Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob1, 0.5f);
-        //Debug.Log("mk3MidiKnob1Value: " + mk3MidiKnob1Value);
-
-        //mk3MidiKnob2Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob2, 0.5f);
-        //Debug.Log("mk3MidiKnob2Value: " + mk3MidiKnob2Value);
-
-        //mk3MidiKnob3Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob3, 0.5f);
-        //Debug.Log("mk3MidiKnob3Value: " + mk3MidiKnob3Value);
-
-        //mk3MidiKnob4Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob4, 0.5f);
-        //Debug.Log("mk3MidiKnob4Value: " + mk3MidiKnob4Value);
-
-        //mk3MidiKnob5Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob5, 0.5f);
-        //Debug.Log("mk3MidiKnob5Value: " + mk3MidiKnob5Value);
-
-        //mk3MidiKnob6Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob6, 0.5f);
-        //Debug.Log("mk3MidiKnob6Value: " + mk3MidiKnob6Value);
-
-        //mk3MidiKnob7Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob7, 0.5f);
-        //Debug.Log("mk3MidiKnob7Value: " + mk3MidiKnob7Value);
-
-        //mk3MidiKnob8Value = MidiMaster.GetKnob(midiChannel, mk3MidiKnob8, 0.5f);
-        //Debug.Log("mk3MidiKnob8Value: " + mk3MidiKnob8Value);
 
         // Continue to the next screen if the bottom-right MIDI pad has been selected
         if (screenLoadDelayTimer >= screenLoadDelay)
@@ -180,7 +148,7 @@ public class ScreenManager : MonoBehaviour
         int gainMatchScreenIndex = 0;
         int openExitDescScreenIndex = 0;
 
-        int testScreenTypeOrderIndex = 0;
+        testScreenTypeOrderIndex = 0;
 
         hpSystem1TestDescriptionScreenIndex += numOfTestScreens;
         hpSystem2TestDescriptionScreenIndex += numOfTestScreens * 2;
@@ -323,11 +291,11 @@ public class ScreenManager : MonoBehaviour
                 allScreens[screenIndex] = openExitDescScreens[openExitDescScreenIndex];
             }
         }
+        testScreenTypeOrderIndex = 0;
     }
 
     void loadNextScreen()
     {
-        int testScreenTypeOrderIndex = 0;
 
         if (nextScreen <= loudspeakerTestDescriptionScreenIndex && nextScreen != volumeSetupIndex)
         {

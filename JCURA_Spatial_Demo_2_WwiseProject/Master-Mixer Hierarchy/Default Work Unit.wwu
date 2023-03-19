@@ -127,11 +127,6 @@
 														<Value>528</Value>
 													</ValueList>
 												</Property>
-												<Property Name="BusVolume" Type="Real64">
-													<RTPCList>
-														<RTPC Name="" ID="{0B5673A6-EA01-4063-9362-89EB28618102}" ShortID="917219768"/>
-													</RTPCList>
-												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
@@ -399,7 +394,7 @@
 																</RTPC>
 															</RTPCList>
 														</Property>
-														<Property Name="WetLevel" Type="Real32">
+														<Property Name="WetLevel" Type="Real32" Value="-20">
 															<RTPCList>
 																<RTPC Name="" ID="{6AE3EF68-26B0-47FE-9CC9-66D0C11ECADD}" ShortID="1026891571">
 																	<ReferenceList>
@@ -416,7 +411,7 @@
 																				<XPos>0</XPos>
 																				<YPos>-40</YPos>
 																				<Flags>5</Flags>
-																				<SegmentShape>Exp3</SegmentShape>
+																				<SegmentShape>Exp1</SegmentShape>
 																			</Point>
 																			<Point>
 																				<XPos>1</XPos>

@@ -142,23 +142,44 @@ public class WwiseManager : MonoBehaviour
         { 
             testType = inputTestType;
 
-            // Reverb settings
+            //// RTPC setting
+            // Pan RTPC setting (center)
+            Stereo_User_Pan.SetGlobalValue(0.5f);
+
+            // Reverb (wet level at min)
             Stereo_User_Wet_Level.SetGlobalValue(0);
 
+            // Bus Switch (Reference)
+            Bus_Switch.SetGlobalValue(0.0f);
+
+            // Master Bus Volume (volume level at max)
             Output_Bus_Volume.SetGlobalValue(1.0f);
         }
         else if (inputTestType == "Reverb")
         {
             testType = inputTestType;
             
-            // Pan settings
+            //// RTPC setting
+            // Pan RTPC setting (center)
             Stereo_User_Pan.SetGlobalValue(0.5f);
 
+            // Reverb (wet level at 0%)
+            Stereo_User_Wet_Level.SetGlobalValue(0.0f);
+
+            // Bus Switch (Reference)
+            Bus_Switch.SetGlobalValue(0.0f);
+
+            // Master Bus Volume (volume level at max)
             Output_Bus_Volume.SetGlobalValue(1.0f);
         }
         else if (inputTestType == "Gain")
         {
             testType = inputTestType;
+
+            // Bus Switch (Reference)
+            Bus_Switch.SetGlobalValue(0.0f);
+
+            // Master Bus Volume (volume level at max)
             Output_Bus_Volume.SetGlobalValue(1.0f);
         }
         else if (inputTestType == "VolumeSetup") 
@@ -178,34 +199,39 @@ public class WwiseManager : MonoBehaviour
         mk3MidiPad1Value = MidiMaster.GetKey(mk3MidiPad1);
         mk3MidiPad2Value = MidiMaster.GetKey(mk3MidiPad2);
 
+        // Delay when loading new screen such that MIDI messages don't
+        // start the events multiple times
         if (screenLoadDelayTimer >= screenLoadDelay)
         {
             if (mk3MidiPad1Value > 0.0 && mk3MidiPad2Value > 0.0)
             {
                 // Do nothing if both pads have been pressed
             }
-            else if (mk3MidiPad1Value > 0.0 && mk3MidiPad2Value == 0.0) // Reference
+            else if (mk3MidiPad1Value > 0.0 && mk3MidiPad2Value == 0.0) 
             {
+                // Reference
                 Bus_Switch.SetGlobalValue(0.0f);
                 screenLoadDelayTimer = 0.0f;
-                if (testType == "VolumeSetup")
+                if (testType == "VolumeSetup") // Volume Setup mute button
                 {
                     outputBusVolumeValue = (outputBusVolumeValue + 1.0f) % 2.0f;
                     Output_Bus_Volume.SetGlobalValue(outputBusVolumeValue);
                 }
             }
-            else if (mk3MidiPad1Value == 0.0 && mk3MidiPad2Value > 0.0) // User
+            else if (mk3MidiPad1Value == 0.0 && mk3MidiPad2Value > 0.0) 
             {
+                // User
                 Bus_Switch.SetGlobalValue(1.0f);
                 screenLoadDelayTimer = 0.0f;
             }
-            else if (mk3MidiPad1Value == 0.0 && mk3MidiPad2Value == 0.0) // For testing purposes
+            else if (mk3MidiPad1Value == 0.0 && mk3MidiPad2Value == 0.0)
             {
+                // For testing purposes
             }
         }
 
-        mk3MidiKnob1Value = MidiMaster.GetKnob(mk3MidiKnob1, 0.5f);
-        mk3MidiKnob2Value = MidiMaster.GetKnob(mk3MidiKnob2, 0.5f);
+        mk3MidiKnob1Value = MidiMaster.GetKnob(mk3MidiKnob1);
+        mk3MidiKnob2Value = MidiMaster.GetKnob(mk3MidiKnob2);
 
         Debug.Log("WwiseManager - TESTTYPE: " + testType);
 
@@ -215,21 +241,21 @@ public class WwiseManager : MonoBehaviour
             Stereo_User_Pan.SetGlobalValue(mk3MidiKnob1Value);
 
             // Reverb + volume settings
-            Stereo_User_Wet_Level.SetGlobalValue(0);
-            Output_Bus_Volume.SetGlobalValue(1.0f);
+            //Stereo_User_Wet_Level.SetGlobalValue(0);
+            //Output_Bus_Volume.SetGlobalValue(1.0f);
             
             Debug.Log("WwiseManager - PAN mk3MidiKnob1Value: " + mk3MidiKnob1Value);
         }
         else if (testType == "Reverb")
         {
-            // Pan + volume settings
-            Stereo_User_Pan.SetGlobalValue(0.5f);
-            Output_Bus_Volume.SetGlobalValue(1.0f);
-
             // Reverb settings
             Stereo_User_Wet_Level.SetGlobalValue(mk3MidiKnob1Value);
             Stereo_User_Reverb_Length.SetGlobalValue(mk3MidiKnob2Value);
-            
+
+            // Pan + volume settings
+            //Stereo_User_Pan.SetGlobalValue(0.5f);
+            //Output_Bus_Volume.SetGlobalValue(1.0f);
+
             Debug.Log("WwiseManager - REVERB mk3MidiKnob1Value: " + mk3MidiKnob1Value);
             Debug.Log("WwiseManager - REVERB mk3MidiKnob2Value: " + mk3MidiKnob2Value);
         }
