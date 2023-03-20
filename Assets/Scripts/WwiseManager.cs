@@ -5,7 +5,7 @@ using MidiJack;
 
 public class WwiseManager : MonoBehaviour
 {
-    public static WwiseManager wwiseManagerSingleton;
+    public static WwiseManager wwiseManagerSingleton { get; private set; }
     public string testType;
 
     [Header("Spatial WwiseEvents")]
@@ -39,11 +39,27 @@ public class WwiseManager : MonoBehaviour
     [Header("Utility Events")]
     public AK.Wwise.Event Stop_All;
 
-    // RTPCs
+    //// RTPCs
+
+    // Stereo
     public AK.Wwise.RTPC Bus_Switch;
+    
+    // Reference
+    public AK.Wwise.RTPC Stereo_Reference_Pan;
+    [SerializeField]
+    private float referencePan;
+
+    public AK.Wwise.RTPC Stereo_Reference_Gain;
+    [SerializeField]
+    private float referenceGain;
+
+    // User
     public AK.Wwise.RTPC Stereo_User_Pan;
     public AK.Wwise.RTPC Stereo_User_Wet_Level;
     public AK.Wwise.RTPC Stereo_User_Reverb_Length;
+    public AK.Wwise.RTPC Stereo_User_Gain;
+    
+    // Master volume
     public AK.Wwise.RTPC Output_Bus_Volume;
 
     // Output Bus Volume tracker
@@ -102,13 +118,21 @@ public class WwiseManager : MonoBehaviour
 
     #endregion
 
+
     private void Awake()
     {
-        if(wwiseManagerSingleton != null)
+        GameObject temp = gameObject;
+        //if (wwiseManagerSingleton != null && wwiseManagerSingleton != this)
+        if (wwiseManagerSingleton != null)
         {
             Debug.Log("There's a problem, more than one singleton");
+            //Destroy(this);
         }
+        //else
+        //{
         wwiseManagerSingleton = this;
+
+        //}
     }
 
     // Start is called before the first frame update
@@ -120,9 +144,6 @@ public class WwiseManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        mk3MidiPad1Value = MidiMaster.GetKey(mk3MidiPad1);
-        Debug.Log("WwiseManager - mk3MidiPad1Value: " + mk3MidiPad1Value);
-
         screenLoadDelayTimer += Time.deltaTime;
         updateWwiseRTPCs();
     }
@@ -143,11 +164,21 @@ public class WwiseManager : MonoBehaviour
             testType = inputTestType;
 
             //// RTPC setting
-            // Pan RTPC setting (center)
+
+            // Reference Pan RTPC setting (random)
+            referencePan = Random.Range(0.0f, 1.0f);
+            Debug.Log("WwiseManager - referencePan value: " + referencePan);
+            Stereo_Reference_Pan.SetGlobalValue(referencePan);
+
+            // User Pan RTPC setting (center)
             Stereo_User_Pan.SetGlobalValue(0.5f);
 
             // Reverb (wet level at min)
             Stereo_User_Wet_Level.SetGlobalValue(0);
+
+            // Gain (max)
+            Stereo_Reference_Gain.SetGlobalValue(1.0f);
+            Stereo_User_Gain.SetGlobalValue(1.0f);
 
             // Bus Switch (Reference)
             Bus_Switch.SetGlobalValue(0.0f);
@@ -158,13 +189,20 @@ public class WwiseManager : MonoBehaviour
         else if (inputTestType == "Reverb")
         {
             testType = inputTestType;
-            
+
             //// RTPC setting
-            // Pan RTPC setting (center)
+            // Reference Pan RTPC setting (center)
+            Stereo_Reference_Pan.SetGlobalValue(0.5f);
+
+            // User Pan RTPC setting (center)
             Stereo_User_Pan.SetGlobalValue(0.5f);
 
             // Reverb (wet level at 0%)
             Stereo_User_Wet_Level.SetGlobalValue(0.0f);
+
+            // Gain (max)
+            Stereo_Reference_Gain.SetGlobalValue(1.0f);
+            Stereo_User_Gain.SetGlobalValue(1.0f);
 
             // Bus Switch (Reference)
             Bus_Switch.SetGlobalValue(0.0f);
@@ -175,6 +213,14 @@ public class WwiseManager : MonoBehaviour
         else if (inputTestType == "Gain")
         {
             testType = inputTestType;
+
+            // Reference Gain (random)
+            referenceGain = Random.Range(0.0f, 1.0f);
+            Debug.Log("WwiseManager - referenceGain value: " + referenceGain);
+            Stereo_Reference_Gain.SetGlobalValue(referenceGain);
+
+            // User Gain 50%
+            Stereo_User_Gain.SetGlobalValue(0.5f);
 
             // Bus Switch (Reference)
             Bus_Switch.SetGlobalValue(0.0f);
@@ -238,12 +284,17 @@ public class WwiseManager : MonoBehaviour
         if (testType == "Pan")
         {
             // Pan settings
+            Stereo_Reference_Pan.SetGlobalValue(referencePan);
             Stereo_User_Pan.SetGlobalValue(mk3MidiKnob1Value);
 
-            // Reverb + volume settings
-            //Stereo_User_Wet_Level.SetGlobalValue(0);
-            //Output_Bus_Volume.SetGlobalValue(1.0f);
-            
+            // Other RTPC settings
+            Stereo_User_Wet_Level.SetGlobalValue(0.0f);
+
+            Stereo_Reference_Gain.SetGlobalValue(1.0f);
+            Stereo_User_Gain.SetGlobalValue(1.0f);
+
+            Output_Bus_Volume.SetGlobalValue(1.0f);
+
             Debug.Log("WwiseManager - PAN mk3MidiKnob1Value: " + mk3MidiKnob1Value);
         }
         else if (testType == "Reverb")
@@ -252,16 +303,33 @@ public class WwiseManager : MonoBehaviour
             Stereo_User_Wet_Level.SetGlobalValue(mk3MidiKnob1Value);
             Stereo_User_Reverb_Length.SetGlobalValue(mk3MidiKnob2Value);
 
-            // Pan + volume settings
-            //Stereo_User_Pan.SetGlobalValue(0.5f);
-            //Output_Bus_Volume.SetGlobalValue(1.0f);
+            // Other RTPC settings
+            Stereo_Reference_Pan.SetGlobalValue(0.5f);
+            Stereo_User_Pan.SetGlobalValue(0.5f);
+
+            Stereo_Reference_Gain.SetGlobalValue(1.0f);
+            Stereo_User_Gain.SetGlobalValue(1.0f);
+
+            Output_Bus_Volume.SetGlobalValue(1.0f);
 
             Debug.Log("WwiseManager - REVERB mk3MidiKnob1Value: " + mk3MidiKnob1Value);
             Debug.Log("WwiseManager - REVERB mk3MidiKnob2Value: " + mk3MidiKnob2Value);
         }
         else if (testType == "Gain")
         {
+            // Gain settings
+            Stereo_Reference_Gain.SetGlobalValue(referenceGain);
+            Stereo_User_Gain.SetGlobalValue(mk3MidiKnob1Value);
 
+            // Other RTPC settings
+            Stereo_Reference_Pan.SetGlobalValue(0.5f);
+            Stereo_User_Pan.SetGlobalValue(0.5f);
+
+            Stereo_User_Wet_Level.SetGlobalValue(0.0f);
+            
+            Output_Bus_Volume.SetGlobalValue(1.0f);
+
+            Debug.Log("WwiseManager - GAIN mk3MidiKnob1Value: " + mk3MidiKnob1Value);
         }
     }
 

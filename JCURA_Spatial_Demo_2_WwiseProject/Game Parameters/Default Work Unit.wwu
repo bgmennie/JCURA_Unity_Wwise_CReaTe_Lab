@@ -12,29 +12,50 @@
 				</GameParameter>
 				<Folder Name="Stereo" ID="{6754BE81-9337-487C-A55B-AC40554E7AAF}" ShortID="1000475177">
 					<ChildrenList>
-						<GameParameter Name="Stereo_User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}">
-							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
-								<Property Name="Max" Type="Real64" Value="1"/>
-							</PropertyList>
-						</GameParameter>
-						<GameParameter Name="Stereo_User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}">
-							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
-								<Property Name="Max" Type="Real64" Value="1"/>
-							</PropertyList>
-						</GameParameter>
-						<GameParameter Name="Stereo_User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}">
-							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="0.5"/>
-								<Property Name="Max" Type="Real64" Value="1"/>
-							</PropertyList>
-						</GameParameter>
-						<GameParameter Name="Stereo_User_Dry_Level" ID="{DE54D404-C5E8-4A0B-8EF7-AFDDB9FBAB37}">
-							<PropertyList>
-								<Property Name="InitialValue" Type="Real64" Value="0"/>
-							</PropertyList>
-						</GameParameter>
+						<Folder Name="User" ID="{D4FFD781-C2A3-43F5-A7B8-3C80C005F623}" ShortID="978498631">
+							<ChildrenList>
+								<GameParameter Name="Stereo_User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Stereo_User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Stereo_User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Stereo_User_Gain" ID="{AD0BEB20-397C-4CCA-9088-F1AF2F2031DD}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Reference" ID="{143C1F90-FCA7-4876-A5D8-6BE637DD89F6}" ShortID="274533970">
+							<ChildrenList>
+								<GameParameter Name="Stereo_Reference_Pan" ID="{DCBC2923-97BE-4B76-BA83-76EE5E5B42CF}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+								<GameParameter Name="Stereo_Reference_Gain" ID="{0B8C7122-4E50-4985-8715-76F8EB64F047}">
+									<PropertyList>
+										<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+										<Property Name="Max" Type="Real64" Value="1"/>
+									</PropertyList>
+								</GameParameter>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<GameParameter Name="Master_Bus_Mute" ID="{7542A346-BB51-4584-A6AA-056A864D4217}">

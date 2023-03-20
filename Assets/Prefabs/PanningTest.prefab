@@ -165,6 +165,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 950612189791189944, guid: 84df5e62b51edff4eb96d7a838da317e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2134790575650192646, guid: 84df5e62b51edff4eb96d7a838da317e, type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866570910848230439, guid: 84df5e62b51edff4eb96d7a838da317e, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
     - target: {fileID: 3173964245986127106, guid: 84df5e62b51edff4eb96d7a838da317e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -187,6 +199,10 @@ PrefabInstance:
     - target: {fileID: 5319689900585113031, guid: 84df5e62b51edff4eb96d7a838da317e, type: 3}
       propertyPath: m_Text
       value: Wet Level
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659068462691706183, guid: 84df5e62b51edff4eb96d7a838da317e, type: 3}
+      propertyPath: m_RootOrder
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 7062444718446827171, guid: 84df5e62b51edff4eb96d7a838da317e, type: 3}
       propertyPath: m_Pivot.x

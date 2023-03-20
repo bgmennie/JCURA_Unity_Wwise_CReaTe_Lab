@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7da56598dbf1594cb6bbc350b43efc88
     GuidInternal: 
-    m_lastTime: -8585223498407994912
+    m_lastTime: -8585223314345520639
     List:
     - name: Early_Reflection_Bus
       guid: b487c8644d907b44983818d8febf41bb
@@ -637,7 +637,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d888197aaf70b34ea4713c1eb773d01b
     GuidInternal: 
-    m_lastTime: -8585224438620661106
+    m_lastTime: -8585223292166599978
     List:
     - name: Main
       guid: ea7bf672993b584cb081a1c3e3d3fc5f
@@ -992,7 +992,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 67123ff321e29840beb185de33e568a0
     GuidInternal: 
-    m_lastTime: -8585224438624851122
+    m_lastTime: -8585223314963195473
     List:
     - name: Bus_Switch
       guid: f9f67a5a146eb2449f8e033a3749a15b
@@ -1022,6 +1022,23 @@ MonoBehaviour:
         ObjectType: 13
         guid: 46a3427551bb8445a6aa056a864d4217
       Path: Game Parameters\Default Work Unit\Master_Bus_Mute
+    - name: Reference
+      guid: 901f3c14a7fc7648a5d86be637dd89f6
+      id: 1785692004
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: Reference
+        ObjectType: 4
+        guid: 901f3c14a7fc7648a5d86be637dd89f6
+      Path: Game Parameters\Default Work Unit\Stereo\Reference
     - name: Spatial
       guid: 3dedea129cd74749aaad49150b869309
       id: 378350335
@@ -1084,9 +1101,9 @@ MonoBehaviour:
         ObjectType: 4
         guid: 81be546737937c48a55bac40554e7aaf
       Path: Game Parameters\Default Work Unit\Stereo
-    - name: Stereo_User_Dry_Level
-      guid: 04d454dee8c50b4a8ef7afddb9fbab37
-      id: 2340516672
+    - name: Stereo_Reference_Gain
+      guid: 22718c0b504e8549871576f8eb64f047
+      id: 4117303583
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -1097,10 +1114,53 @@ MonoBehaviour:
       - ElementName: Stereo
         ObjectType: 4
         guid: 81be546737937c48a55bac40554e7aaf
-      - ElementName: Stereo_User_Dry_Level
+      - ElementName: Reference
+        ObjectType: 4
+        guid: 901f3c14a7fc7648a5d86be637dd89f6
+      - ElementName: Stereo_Reference_Gain
         ObjectType: 13
-        guid: 04d454dee8c50b4a8ef7afddb9fbab37
-      Path: Game Parameters\Default Work Unit\Stereo\Stereo_User_Dry_Level
+        guid: 22718c0b504e8549871576f8eb64f047
+      Path: Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain
+    - name: Stereo_Reference_Pan
+      guid: 2329bcdcbe97764bba8376ee5e5b42cf
+      id: 1966853395
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: Reference
+        ObjectType: 4
+        guid: 901f3c14a7fc7648a5d86be637dd89f6
+      - ElementName: Stereo_Reference_Pan
+        ObjectType: 13
+        guid: 2329bcdcbe97764bba8376ee5e5b42cf
+      Path: Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan
+    - name: Stereo_User_Gain
+      guid: 20eb0bad7c39ca4c9088f1af2f2031dd
+      id: 2332693969
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
+      - ElementName: Stereo_User_Gain
+        ObjectType: 13
+        guid: 20eb0bad7c39ca4c9088f1af2f2031dd
+      Path: Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Gain
     - name: Stereo_User_Pan
       guid: 6c1831d9cb57574aa34e3a998bed907a
       id: 3227346317
@@ -1114,10 +1174,13 @@ MonoBehaviour:
       - ElementName: Stereo
         ObjectType: 4
         guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
       - ElementName: Stereo_User_Pan
         ObjectType: 13
         guid: 6c1831d9cb57574aa34e3a998bed907a
-      Path: Game Parameters\Default Work Unit\Stereo\Stereo_User_Pan
+      Path: Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Pan
     - name: Stereo_User_Reverb_Length
       guid: b799b1b861c357418e4b752701bfac46
       id: 694743187
@@ -1131,10 +1194,13 @@ MonoBehaviour:
       - ElementName: Stereo
         ObjectType: 4
         guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
       - ElementName: Stereo_User_Reverb_Length
         ObjectType: 13
         guid: b799b1b861c357418e4b752701bfac46
-      Path: Game Parameters\Default Work Unit\Stereo\Stereo_User_Reverb_Length
+      Path: Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length
     - name: Stereo_User_Wet_Level
       guid: 9c24bfb5e4baab4a8d6b66b8aeed651c
       id: 752449211
@@ -1148,10 +1214,13 @@ MonoBehaviour:
       - ElementName: Stereo
         ObjectType: 4
         guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
       - ElementName: Stereo_User_Wet_Level
         ObjectType: 13
         guid: 9c24bfb5e4baab4a8d6b66b8aeed651c
-      Path: Game Parameters\Default Work Unit\Stereo\Stereo_User_Wet_Level
+      Path: Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Wet_Level
     - name: Test
       guid: bea99c0b32c74c48918b098329e14f21
       id: 3157003241
@@ -1166,6 +1235,23 @@ MonoBehaviour:
         ObjectType: 13
         guid: bea99c0b32c74c48918b098329e14f21
       Path: Game Parameters\Default Work Unit\Test
+    - name: User
+      guid: 81d7ffd4a3c2f543a7b83c80c005f623
+      id: 1303565252
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: Stereo
+        ObjectType: 4
+        guid: 81be546737937c48a55bac40554e7aaf
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
+      Path: Game Parameters\Default Work Unit\Stereo\User
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -1209,7 +1295,7 @@ MonoBehaviour:
     m_lastTime: -8585242350812978746
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 2a0000002b0000002c0000005f8c00005c8d00005d8d0000
+  ExpandedWaapiItemIds: 1600000017000000180000001b0000001c0000002000000021000000220000002a0000002b0000002c0000005f8c00005c8d00005d8d0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

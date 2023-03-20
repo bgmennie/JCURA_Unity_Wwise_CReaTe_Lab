@@ -2175,6 +2175,14 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 6fc1287bb273db54093fa42e6e0e6dc5, type: 2}
+  Stereo_Reference_Pan:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2b26f71312d3929458a0a6a8c151ee95, type: 2}
+  Stereo_Reference_Gain:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b45580411e374ef48bfd979b8710601f, type: 2}
   Stereo_User_Pan:
     idInternal: 0
     valueGuidInternal: 
@@ -2187,6 +2195,10 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 6704fb4b3b4867b4b8fa791d4c1b6070, type: 2}
+  Stereo_User_Gain:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6f36b636856a0af4ea1bee4cb359f3fb, type: 2}
   Output_Bus_Volume:
     idInternal: 0
     valueGuidInternal: 

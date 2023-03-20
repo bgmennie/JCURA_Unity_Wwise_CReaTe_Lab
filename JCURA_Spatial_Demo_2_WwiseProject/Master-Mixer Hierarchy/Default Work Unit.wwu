@@ -315,7 +315,72 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{D3EDA1B9-CC78-421F-935D-63EDD99E53C3}" ShortID="887499030">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Stereo_Reference_Gain" ID="{0B8C7122-4E50-4985-8715-76F8EB64F047}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{2CD1CC7F-2211-4234-8D9C-53FC11E22C10}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 									</PropertyList>
+									<PositioningInfo>
+										<Panner Name="" ID="{9A19454B-A101-4C8A-939B-FF2B6CDB7B15}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{09A1A381-0CCB-4DE8-B837-89B89C21C381}" ShortID="625340437">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Stereo_Reference_Pan" ID="{DCBC2923-97BE-4B76-BA83-76EE5E5B42CF}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{7A469FB7-AD90-4A0A-8B7A-39E200FCA092}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>SCurve</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}">
@@ -347,6 +412,35 @@
 																<XPos>0.55291</XPos>
 																<YPos>0</YPos>
 																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{5592F777-FB7D-4678-84D2-4425F066D7E1}" ShortID="945851968">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Stereo_User_Gain" ID="{AD0BEB20-397C-4CCA-9088-F1AF2F2031DD}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E2824404-B0C9-4452-8EE9-AEFE2988BFAE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96.00001</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>

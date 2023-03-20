@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2a5499941acd5c4faaaa42bbb8c98b4, type: 3}
+  m_Name: 0B8C7122-4E50-4985-8715-76F8EB64F047
+  m_EditorClassIdentifier: 
+  objectName: Stereo_Reference_Gain
+  id: 4117303583
+  guid: 0B8C7122-4E50-4985-8715-76F8EB64F047

@@ -95,7 +95,7 @@ public class ScreenManager : MonoBehaviour
     void Start()
     {
         screenLoadDelayTimer = 0.0f;
-        SceneManager.LoadScene("Basic_Room_Spatial_Demo_w_Headtracking", LoadSceneMode.Additive);
+        SceneManager.LoadScene("CReaTe_Lab_Spatial_Demo_w_Headtracking", LoadSceneMode.Additive);
         initializeAllScreens();
         if (firstScreenVisible)
         {

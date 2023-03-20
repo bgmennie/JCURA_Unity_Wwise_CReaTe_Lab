@@ -1,5 +1,54 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	694743187	Stereo_User_Reverb_Length			\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length	
+	752449211	Stereo_User_Wet_Level			\Default Work Unit\Stereo\User\Stereo_User_Wet_Level	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1409897668	Bus_Switch			\Default Work Unit\Bus_Switch	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1966853395	Stereo_Reference_Pan			\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3227346317	Stereo_User_Pan			\Default Work Unit\Stereo\User\Stereo_User_Pan	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	378350335	Spatial			\Default Work Unit\Master Audio Bus\Spatial	
+	484837253	Recording_Bus			\Default Work Unit\Recording_Bus	
+	685045684	Spatial_User_Right_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Right_Channel	
+	1950295347	Spatial_User			\Default Work Unit\Master Audio Bus\Spatial\Spatial_User	
+	1960054678	Spatial_Reference_Sub_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Sub_Channel	
+	2078929843	Spatial_Reference_Left_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Left_Channel	
+	2083607115	Stereo_Reference			\Default Work Unit\Master Audio Bus\Stereo\Stereo_Reference	
+	2125435124	Spatial_User_Sub_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Sub_Channel	
+	2333863985	Spatial_Reference			\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference	
+	2895984142	Spatial_Reference_Right_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Right_Channel	
+	3155929625	Spatial_User_Left_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Left_Channel	
+	3223052229	Stereo_User			\Default Work Unit\Master Audio Bus\Stereo\Stereo_User	
+	3729966089	Stereo			\Default Work Unit\Master Audio Bus\Stereo	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3260635663	Late_Reverberation_Bus			\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus	
+	3567840041	Early_Reflection_Bus			\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	124259413	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	273603602	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	735023202	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	794142418	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	908979033	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	927685878	LR_Emitter_Parametric_EQ	Wwise Parametric EQ			
+	966971050	Wwise Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	2545004126	Wwise_Reflect	Wwise Reflect			
+	3459526528	Sub_Emitter_Parametric_EQ	Wwise Parametric EQ			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

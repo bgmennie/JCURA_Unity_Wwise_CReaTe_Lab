@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3156240016">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3761355549">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -26,13 +26,16 @@
 				</File>
 			</ExcludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="694743187" Name="Stereo_User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Reverb_Length"/>
-				<GameParameter Id="752449211" Name="Stereo_User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Wet_Level"/>
+				<GameParameter Id="694743187" Name="Stereo_User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length"/>
+				<GameParameter Id="752449211" Name="Stereo_User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Wet_Level"/>
 				<GameParameter Id="1409897668" Name="Bus_Switch" ObjectPath="\Game Parameters\Default Work Unit\Bus_Switch"/>
-				<GameParameter Id="3227346317" Name="Stereo_User_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Stereo_User_Pan"/>
+				<GameParameter Id="1966853395" Name="Stereo_Reference_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan"/>
+				<GameParameter Id="2332693969" Name="Stereo_User_Gain" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Gain"/>
+				<GameParameter Id="3227346317" Name="Stereo_User_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Pan"/>
+				<GameParameter Id="4117303583" Name="Stereo_Reference_Gain" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1357126680">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2437386861">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -119,6 +122,7 @@
 			</IncludedEvents>
 			<IncludedAuxBusses>
 				<AuxBus Id="3260635663" Name="Late_Reverberation_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus"/>
+				<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
 			</IncludedAuxBusses>
 			<IncludedMemoryFiles>
 				<File Id="1013251151" Language="SFX">
@@ -127,7 +131,14 @@
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
+				<GameParameter Id="694743187" Name="Stereo_User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length"/>
+				<GameParameter Id="752449211" Name="Stereo_User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Wet_Level"/>
+				<GameParameter Id="1409897668" Name="Bus_Switch" ObjectPath="\Game Parameters\Default Work Unit\Bus_Switch"/>
+				<GameParameter Id="1966853395" Name="Stereo_Reference_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan"/>
+				<GameParameter Id="2332693969" Name="Stereo_User_Gain" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Gain"/>
 				<GameParameter Id="2573722612" Name="Master_Bus_Mute" ObjectPath="\Game Parameters\Default Work Unit\Master_Bus_Mute"/>
+				<GameParameter Id="3227346317" Name="Stereo_User_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Pan"/>
+				<GameParameter Id="4117303583" Name="Stereo_Reference_Gain" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>

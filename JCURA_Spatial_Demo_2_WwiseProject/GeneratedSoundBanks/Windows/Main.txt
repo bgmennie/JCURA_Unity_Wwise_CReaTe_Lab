@@ -11,24 +11,51 @@ Event	ID	Name			Wwise Object Path	Notes
 	4044639464	Play_User_Jethro_Tull_Sub_Spatial			\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_Sub_Spatial	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	694743187	Stereo_User_Reverb_Length			\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length	
+	752449211	Stereo_User_Wet_Level			\Default Work Unit\Stereo\User\Stereo_User_Wet_Level	
+	1409897668	Bus_Switch			\Default Work Unit\Bus_Switch	
+	1966853395	Stereo_Reference_Pan			\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan	
+	2332693969	Stereo_User_Gain			\Default Work Unit\Stereo\User\Stereo_User_Gain	
 	2573722612	Master_Bus_Mute			\Default Work Unit\Master_Bus_Mute	
+	3227346317	Stereo_User_Pan			\Default Work Unit\Stereo\User\Stereo_User_Pan	
+	4117303583	Stereo_Reference_Gain			\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	378350335	Spatial			\Default Work Unit\Master Audio Bus\Spatial	
+	685045684	Spatial_User_Right_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Right_Channel	
+	1950295347	Spatial_User			\Default Work Unit\Master Audio Bus\Spatial\Spatial_User	
+	1960054678	Spatial_Reference_Sub_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Sub_Channel	
+	2078929843	Spatial_Reference_Left_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Left_Channel	
+	2083607115	Stereo_Reference			\Default Work Unit\Master Audio Bus\Stereo\Stereo_Reference	
+	2125435124	Spatial_User_Sub_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Sub_Channel	
+	2333863985	Spatial_Reference			\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference	
+	2895984142	Spatial_Reference_Right_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_Reference\Spatial_Reference_Right_Channel	
+	3155929625	Spatial_User_Left_Channel			\Default Work Unit\Master Audio Bus\Spatial\Spatial_User\Spatial_User_Left_Channel	
+	3223052229	Stereo_User			\Default Work Unit\Master Audio Bus\Stereo\Stereo_User	
+	3729966089	Stereo			\Default Work Unit\Master Audio Bus\Stereo	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3260635663	Late_Reverberation_Bus			\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus	
+	3567840041	Early_Reflection_Bus			\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
+	124259413	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	273603602	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	735023202	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	794142418	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	908979033	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	927685878	LR_Emitter_Parametric_EQ	Wwise Parametric EQ			
 	966971050	Wwise Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	2545004126	Wwise_Reflect	Wwise Reflect			
+	3459526528	Sub_Emitter_Parametric_EQ	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	137534949	Reference_Jethro_Tull_R_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\Reference\Reference_Jethro_Tull_R_Spatial		22348864
-	275939375	Reference_Jethro_Tull_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\Reference\Reference_Jethro_Tull_Sub_Spatial		22348864
+	275939375	User_Jethro_Tull_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\User\User_Jethro_Tull_Sub_Spatial		22348864
 	345248522	User_Jethro_Tull_Mother_Goose	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Stereo\User_Jethro_Tull_Mother_Goose		44697664
 	523312821	Pink Noise	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Pink Noise_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test Signals\Pink Noise		960064
-	1021326720	User_Jethro_Tull_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\User\User_Jethro_Tull_L_Spatial		22348864
+	1021326720	Reference_Jethro_Tull_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\Reference\Reference_Jethro_Tull_L_Spatial		22348864
 
 Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
 	1013251151	Wwise Convolution Reverb (Custom)	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_DED178AB.wem	Wwise Convolution Reverb (Custom)	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus\Wwise Convolution Reverb (Custom)		268640
