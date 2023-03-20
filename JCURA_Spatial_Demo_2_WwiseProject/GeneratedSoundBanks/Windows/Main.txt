@@ -119,5 +119,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1049595979	Reference_Kick_and_Snare_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Kick_and_Snare_L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kick and Snare\Spatial\Reference\Reference_Kick_and_Snare_L_Spatial		1234864
 
 Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
-	1013251151	Wwise Convolution Reverb (Custom)	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_DED178AB.wem	Wwise Convolution Reverb (Custom)	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus\Wwise Convolution Reverb (Custom)		268640
+	1013251154	Wwise Convolution Reverb (Custom)	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_Ambix_D029564C.wem	Wwise Convolution Reverb (Custom)	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus\Wwise Convolution Reverb (Custom)		2672608
 

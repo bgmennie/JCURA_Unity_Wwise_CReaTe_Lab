@@ -123,6 +123,213 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &9987781 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 52037118717902212, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9987785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9987781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &9987786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9987781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &9987787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9987781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &15958180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1834229957204985445, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &15958184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15958180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &15958185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15958180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &15958186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15958180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 1351109934835625178, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &38945775 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2787385185402406506, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &38945779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38945775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &38945780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38945775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &38945781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38945775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -4582937550935742205, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &70466366
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,6 +367,213 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &129911087 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -560010788892759037, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &129911091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129911087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 0}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 1
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &129911092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129911087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &129911093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129911087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!1 &236130664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3287803981006095851, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &236130668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236130664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &236130669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236130664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &236130670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236130664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -8961835889389057849, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &236474041 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6236238031123229955, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &236474045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236474041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -6125233053384404568, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &236474046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236474041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &236474047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236474041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &265129995
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,6 +641,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265129995}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &288391393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7266742456917395982, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &288391397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288391393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -4549571278306226580, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &288391398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288391393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &288391399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288391393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &341567371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -450,6 +933,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 43
       objectReference: {fileID: 0}
+    - target: {fileID: -3685937157237941342, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -3456832794225921887, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -457,6 +944,14 @@ PrefabInstance:
     - target: {fileID: -3287803981006095851, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_Name
       value: Front Upper Left Corner Acoustic Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: -3183569515251679468, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2934266735300913923, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2824755451916084775, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_Name
@@ -550,6 +1045,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: -430254575771379535, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -135752064401254368, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -606,6 +1105,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 1151904625109717805, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1240062315920948866, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -614,9 +1117,17 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1431726262142467134, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1571469497410920073, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_RootOrder
       value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1799095135735792186, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1834229957204985445, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_Name
@@ -641,6 +1152,10 @@ PrefabInstance:
     - target: {fileID: 2044662016102069526, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_RootOrder
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069612987137702142, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2178135329583285354, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -702,7 +1217,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Buchla
       objectReference: {fileID: 0}
+    - target: {fileID: 4144426619477767067, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4182749589625702068, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4263092991878814132, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4417149538980540762, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -749,6 +1276,14 @@ PrefabInstance:
     - target: {fileID: 5804003362572861185, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_RootOrder
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6229401366537754500, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287063916546461726, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6358165253587618270, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_RootOrder
@@ -814,6 +1349,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8939759593079120044, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8974395183181530298, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -832,6 +1371,903 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+--- !u!1 &370716525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6001921971409283926, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &370716529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370716525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &370716530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370716525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &370716531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370716525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 1009285785789968833, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &403976603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5409460656963099641, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &403976607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403976603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &403976608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403976603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &403976609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403976603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &423554895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5509526327960222273, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &423554899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423554895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &423554900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423554895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &423554901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423554895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 2960783402390875867, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &430738994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1400506969675674011, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &430738998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430738994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &430738999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430738994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &430739000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430738994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &447622556 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7869174789130500736, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &447622560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447622556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &447622561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447622556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &447622562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447622556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &452990298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8537027213840941039, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &452990302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452990298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &452990303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452990298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &452990304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452990298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -4637464211612210949, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4737658f995dcac4bb6157c4b16e2ed1, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &468599345 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1199728129015106191, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &468599349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468599345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &468599350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468599345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &468599351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468599345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -6325032637002795555, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4737658f995dcac4bb6157c4b16e2ed1, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &469520223 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1431726262142467134, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &469520227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469520223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &469520228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469520223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &469520229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469520223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -5249406646077929477, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &516242357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8029279611827927281, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &516242361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516242357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -8700011790713390506, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &516242362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516242357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &516242363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516242357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!1 &556803677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7577576414830764809, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &556803681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556803677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 150980831756752893, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 12a380781aa86ef4885d2bf0513f2996, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &556803682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556803677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &556803683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556803677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!1 &557893151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7570982233606661042, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &557893155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557893151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &557893156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557893151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &557893157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557893151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 1905040890798849640, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &573662668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7175429751828589521, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &573662672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573662668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &573662673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573662668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &573662674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573662668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -4761288385817617071, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &581340123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3221507222052541086, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &581340127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581340123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &581340128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581340123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &581340129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581340123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 8506526951100869204, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &636687548
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,7 +2366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &644022947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,6 +2409,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &653091189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1664052554300638115, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &653091193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653091189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &653091194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653091189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &653091195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653091189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &667421687
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,6 +2881,144 @@ Transform:
   m_Father: {fileID: 1768357367}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &772377299 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8348821257139518566, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &772377303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772377299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &772377304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772377299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &772377305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772377299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &855791228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4088993305942050542, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &855791232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855791228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &855791233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855791228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &855791234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 855791228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -8728192435592748648, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f13347fa51416744687b76ca4f1dcfb5, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &894650028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,6 +3035,7 @@ GameObject:
   - component: {fileID: 894650035}
   - component: {fileID: 894650034}
   - component: {fileID: 894650036}
+  - component: {fileID: 894650037}
   m_Layer: 0
   m_Name: Left_Emitter
   m_TagString: Untagged
@@ -1573,6 +3217,22 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &894650037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894650028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,6 +3476,282 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977222981}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1008412021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 445056032878252446, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1008412025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1008412026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1008412027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008412021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -7177316138816622666, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f13347fa51416744687b76ca4f1dcfb5, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1037723618 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1740020678263681892, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1037723622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037723618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1037723623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037723618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1037723624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037723618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 3357646610979534803, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1042351347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8818504059938091075, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1042351351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042351347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1042351352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042351347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1042351353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042351347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1097487988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -3183569515251679468, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1097487992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097487988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1097487993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097487988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1097487994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097487988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 4683781641258138443, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1216092711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,6 +3849,7 @@ GameObject:
   - component: {fileID: 1225720513}
   - component: {fileID: 1225720512}
   - component: {fileID: 1225720515}
+  - component: {fileID: 1225720516}
   m_Layer: 0
   m_Name: Right_Emitter
   m_TagString: Untagged
@@ -2094,6 +4031,22 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &1225720516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225720507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
 --- !u!1 &1228200180
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,7 +4078,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   testType: 
   testNumber: 0
+  testEvent: 
   stereoSpatialFlag: 0
+  resultsPath: 
   Play_Reference_Jethro_Tull_Mother_Goose_L:
     idInternal: 0
     valueGuidInternal: 
@@ -2393,7 +4348,6 @@ MonoBehaviour:
   mk3MidiKnob6: 75
   mk3MidiKnob7: 76
   mk3MidiKnob8: 77
-  resultsPath: 
 --- !u!4 &1228200182
 Transform:
   m_ObjectHideFlags: 0
@@ -2409,6 +4363,144 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1259674387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4864704365583774682, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1259674391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259674387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1259674392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259674387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1259674393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1259674387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1282226167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5508426959530084296, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1282226171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282226167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1282226172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282226167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1282226173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282226167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 7297562821208680786, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1293074642
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +4582,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293074642}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1398625585 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -4082799426245846048, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1398625589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398625585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1398625590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398625585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1398625591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398625585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 1995840950126544624, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1417860464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2572,6 +4733,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1417860464}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1450782070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9221219757446029499, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1450782074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450782070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1450782075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450782070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1450782076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450782070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -3687172392210089188, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1531708235
 GameObject:
   m_ObjectHideFlags: 0
@@ -2635,6 +4865,213 @@ Transform:
   m_Father: {fileID: 1768357367}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1623537385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2028048657487899623, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1623537389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623537385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1623537390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623537385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1623537391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623537385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -8566325704202041022, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1705389378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2522240096656896656, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1705389382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705389378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1705389383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705389378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1705389384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705389378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 1806093133746046705, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 558f9523519f31d40bbd74b91c43fa56, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1763135605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2069612987137702142, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1763135609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763135605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1763135610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763135605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1763135611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763135605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1768357366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2668,6 +5105,213 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1789348488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2335766080986212837, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1789348492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789348488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1789348493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789348488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1789348494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789348488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -4637464211612210949, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4737658f995dcac4bb6157c4b16e2ed1, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1869229894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2739722253601096470, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1869229898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869229894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1869229899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869229894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1869229900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869229894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -3386023692006445989, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1925182793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 420066061135758510, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1925182797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925182793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 0
+  drawHigherOrderReflections: 0
+  drawDiffractionPaths: 0
+--- !u!114 &1925182798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925182793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1925182799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925182793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 2969807697088101864, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45f51133aff93fa4a9e876f20cbb278d, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1932718818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2786,6 +5430,282 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1956451190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2824755451916084775, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1956451194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956451190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1956451195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956451190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1956451196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956451190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -8560118570597321894, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1965045574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1447998090216223790, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1965045578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965045574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1965045579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965045574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1965045580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965045574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: -6779753374047544655, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f13347fa51416744687b76ca4f1dcfb5, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &1974088136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5700333385880349953, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1974088140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974088136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &1974088141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974088136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &1974088142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974088136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &2002440944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 548325839315035282, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2002440948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002440944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &2002440949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002440944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &2002440950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002440944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &2036291126
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,3 +5804,210 @@ Transform:
   m_Father: {fileID: 1531708236}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2062077030 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1113460417492107000, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2062077034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062077030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &2062077035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062077030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &2062077036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062077030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 512154968604278475, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &2066574690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 546536775552656313, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2066574694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066574690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &2066574695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066574690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &2066574696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066574690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 854101972279016268, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 0.059
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!1 &2069015577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3358606104811804181, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  m_PrefabInstance: {fileID: 341567371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2069015581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069015577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b9382fe3b3a93d4b891dd31b029ebb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  drawFirstOrderReflections: 1
+  drawSecondOrderReflections: 1
+  drawHigherOrderReflections: 1
+  drawDiffractionPaths: 0
+--- !u!114 &2069015582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069015577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a77b634fd805cd45b292bbc6de534ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
+--- !u!114 &2069015583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069015577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8b18aadf6c5f146a9eec36de6cbc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mesh: {fileID: 3316099299354614378, guid: fd96189143dc2b44fbffd33ab35e70e0, type: 3}
+  AcousticTextures:
+  - idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90005562224a04c4ca5ce32ba6a51c18, type: 2}
+  TransmissionLossValues:
+  - 1
+  EnableDiffraction: 1
+  EnableDiffractionOnBoundaryEdges: 0
+  AssociatedRoom: {fileID: 0}
+  AcousticTextureInternal:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

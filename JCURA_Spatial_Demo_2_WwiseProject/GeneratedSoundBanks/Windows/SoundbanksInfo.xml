@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1773142741">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3959196055">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -20,9 +20,9 @@
 				<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
 			</IncludedAuxBusses>
 			<ExcludedMemoryFiles>
-				<File Id="1013251151" Language="SFX">
-					<ShortName>CReaTe_Lab_IR_Multichannel.wav</ShortName>
-					<Path>Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_DED178AB.wem</Path>
+				<File Id="1013251154" Language="SFX">
+					<ShortName>CReaTe_Lab_IR_Multichannel_Ambix.wav</ShortName>
+					<Path>Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_Ambix_D029564C.wem</Path>
 				</File>
 			</ExcludedMemoryFiles>
 			<GameParameters>
@@ -37,7 +37,7 @@
 				<GameParameter Id="3910040902" Name="Reference_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Wet_Level"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2520080396">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2168075380">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -65,6 +65,9 @@
 							<Path>SFX\AG_L_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3840212506" Name="Play_Reference_AG_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_AG_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -73,6 +76,9 @@
 							<Path>SFX\AG_R_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3833327386" Name="Play_Reference_AG_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_AG_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -97,6 +103,9 @@
 							<Path>SFX\BASS_L_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3514419779" Name="Play_Reference_Bass_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bass_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -105,6 +114,9 @@
 							<Path>SFX\BASS_R_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3243513167" Name="Play_Reference_Bass_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bass_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -129,6 +141,9 @@
 							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2980121537" Name="Play_Reference_Bassoon_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bassoon_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -137,6 +152,9 @@
 							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3927108209" Name="Play_Reference_Bassoon_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bassoon_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -153,6 +171,9 @@
 							<Path>SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1634674446" Name="Play_Reference_Jethro_Tull_Mother_Goose" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Play_Reference_Jethro_Tull_Mother_Goose" DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
@@ -169,6 +190,9 @@
 							<Path>SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1402898358" Name="Play_Reference_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
@@ -193,6 +217,9 @@
 							<Path>SFX\Kick_and_Snare_L_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2212394356" Name="Play_Reference_Kick_and_Snare_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Kick_and_Snare_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -201,6 +228,9 @@
 							<Path>SFX\Kick_and_Snare_R_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2885399656" Name="Play_Reference_Kick_and_Snare_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Kick_and_Snare_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -225,6 +255,9 @@
 							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2044896852" Name="Play_Reference_Voice_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Voice_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -233,6 +266,9 @@
 							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="509070408" Name="Play_Reference_Voice_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Voice_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -257,6 +293,9 @@
 							<Path>SFX\AG_L_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1483207928" Name="Play_User_AG_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_AG_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -265,6 +304,9 @@
 							<Path>SFX\AG_R_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="1459694020" Name="Play_User_AG_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_AG_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -289,6 +331,9 @@
 							<Path>SFX\BASS_L_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2864457769" Name="Play_User_Bass_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bass_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -297,6 +342,9 @@
 							<Path>SFX\BASS_R_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3637355001" Name="Play_User_Bass_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bass_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -321,6 +369,9 @@
 							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4215215311" Name="Play_User_Bassoon_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bassoon_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -329,6 +380,9 @@
 							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="210445075" Name="Play_User_Bassoon_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bassoon_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -345,6 +399,9 @@
 							<Path>SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="824084648" Name="Play_User_Jethro_Tull_Mother_Goose" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Play_User_Jethro_Tull_Mother_Goose" DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
@@ -361,6 +418,9 @@
 							<Path>SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="4044639464" Name="Play_User_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
@@ -385,6 +445,9 @@
 							<Path>SFX\Kick_and_Snare_L_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="684886802" Name="Play_User_Kick_and_Snare_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Kick_and_Snare_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -393,6 +456,9 @@
 							<Path>SFX\Kick_and_Snare_R_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="2574811890" Name="Play_User_Kick_and_Snare_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Kick_and_Snare_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -417,6 +483,9 @@
 							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="3124993438" Name="Play_User_Voice_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Voice_R_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -425,6 +494,9 @@
 							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
+					</AuxBusSends>
 				</Event>
 				<Event Id="91596406" Name="Play_User_Voice_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Voice_Sub_Spatial" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -441,9 +513,9 @@
 				<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
 			</IncludedAuxBusses>
 			<IncludedMemoryFiles>
-				<File Id="1013251151" Language="SFX">
-					<ShortName>CReaTe_Lab_IR_Multichannel.wav</ShortName>
-					<Path>Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_DED178AB.wem</Path>
+				<File Id="1013251154" Language="SFX">
+					<ShortName>CReaTe_Lab_IR_Multichannel_Ambix.wav</ShortName>
+					<Path>Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_Ambix_D029564C.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>

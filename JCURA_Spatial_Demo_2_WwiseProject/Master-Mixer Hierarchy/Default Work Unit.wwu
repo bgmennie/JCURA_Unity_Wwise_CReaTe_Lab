@@ -40,11 +40,6 @@
 										<Bus Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="BusChannelConfig" Type="int32">
-													<ValueList>
-														<Value>528</Value>
-													</ValueList>
-												</Property>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{80CF17D1-92D5-4E5C-B747-F7E988A9111A}" ShortID="339155127">
@@ -108,6 +103,11 @@
 															</Curve>
 														</RTPC>
 													</RTPCList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -179,17 +179,15 @@
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Late_Reverberation_Bus" ID="{43C9D32E-6EE6-47D5-86E9-D127DB9D3718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="BusChannelConfig" Type="int32">
-													<ValueList>
-														<Value>528</Value>
-													</ValueList>
-												</Property>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{BABF98B4-A0E3-40A4-85BE-F1E9B82E34ED}" ShortID="716843815">
@@ -253,6 +251,11 @@
 															</Curve>
 														</RTPC>
 													</RTPCList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -327,6 +330,9 @@
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Late_Reverberation_Bus" ID="{43C9D32E-6EE6-47D5-86E9-D127DB9D3718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
@@ -360,6 +366,11 @@
 															</Curve>
 														</RTPC>
 													</RTPCList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -431,6 +442,9 @@
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="Sub_Emitter_Parametric_EQ" ID="{9C81F0A8-D033-418B-8E4B-149AAD37EA5D}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Late_Reverberation_Bus" ID="{43C9D32E-6EE6-47D5-86E9-D127DB9D3718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
@@ -456,11 +470,6 @@
 										<Bus Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="BusChannelConfig" Type="int32">
-													<ValueList>
-														<Value>528</Value>
-													</ValueList>
-												</Property>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{F1F11FB1-FA75-4F90-BC31-54F41268DC6C}" ShortID="1069666538">
@@ -524,6 +533,11 @@
 															</Curve>
 														</RTPC>
 													</RTPCList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -595,17 +609,15 @@
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Late_Reverberation_Bus" ID="{43C9D32E-6EE6-47D5-86E9-D127DB9D3718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
-												<Property Name="BusChannelConfig" Type="int32">
-													<ValueList>
-														<Value>528</Value>
-													</ValueList>
-												</Property>
 												<Property Name="BusVolume" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{44618550-7102-4FDA-AD18-F484D7FEF50D}" ShortID="517711767">
@@ -669,6 +681,11 @@
 															</Curve>
 														</RTPC>
 													</RTPCList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -743,6 +760,9 @@
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Late_Reverberation_Bus" ID="{43C9D32E-6EE6-47D5-86E9-D127DB9D3718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
@@ -776,6 +796,11 @@
 															</Curve>
 														</RTPC>
 													</RTPCList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -847,6 +872,9 @@
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="Sub_Emitter_Parametric_EQ" ID="{9C81F0A8-D033-418B-8E4B-149AAD37EA5D}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Late_Reverberation_Bus" ID="{43C9D32E-6EE6-47D5-86E9-D127DB9D3718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
 										</Bus>
@@ -877,17 +905,17 @@
 											<Custom>
 												<Effect Name="Wwise Convolution Reverb (Custom)" ID="{D69FCDEE-FCF1-4865-8C7C-1A3E034E65CB}" ShortID="966971050" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
 													<PropertyList>
-														<Property Name="ChannelConfigOverride" Type="int64" Value="8589935105"/>
+														<Property Name="ChannelConfigOverride" Type="int64" Value="516"/>
 														<Property Name="IRConvolutionStop" Type="Real64" Value="4.5"/>
 													</PropertyList>
 													<ChildrenList>
-														<PluginMediaSource Name="CReaTe_Lab_IR_Multichannel" ID="{126F71E6-0EAC-40C6-AF10-9C27650F5B99}">
+														<PluginMediaSource Name="CReaTe_Lab_IR_Multichannel_Ambix" ID="{126F71E6-0EAC-40C6-AF10-9C27650F5B99}">
 															<ParentPluginID>8323075</ParentPluginID>
 															<PropertyList>
-																<Property Name="DataFileName" Type="string" Value="CReaTe_Lab_IR_Multichannel.wav"/>
+																<Property Name="DataFileName" Type="string" Value="CReaTe_Lab_IR_Multichannel_Ambix.wav"/>
 															</PropertyList>
 															<MediaIDList>
-																<MediaID ID="1013251151"/>
+																<MediaID ID="1013251154"/>
 															</MediaIDList>
 														</PluginMediaSource>
 													</ChildrenList>

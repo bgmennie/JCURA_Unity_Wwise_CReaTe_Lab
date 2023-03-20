@@ -37,61 +37,10 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Factory Acoustic Textures
     guid: 6b663d46a83ca54f8b4a5fef12b883f6
     GuidInternal: 
-    m_lastTime: -8585242369625275014
+    m_lastTime: -8585222889142979726
     List:
-    - name: Acoustic_Banner
-      guid: f2532d2fccda8e408b8898b1b52a26d6
-      id: 4168643977
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Acoustic_Banner
-        ObjectType: 15
-        guid: f2532d2fccda8e408b8898b1b52a26d6
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner
-    - name: Anechoic
-      guid: 32c20a8be202de4ebeacfdd1a900e3ed
-      id: 1873957695
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Anechoic
-        ObjectType: 15
-        guid: 32c20a8be202de4ebeacfdd1a900e3ed
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic
-    - name: Brick
-      guid: a9a586b004f2534ca838bdb18b18f6d6
-      id: 504532776
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Brick
-        ObjectType: 15
-        guid: a9a586b004f2534ca838bdb18b18f6d6
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Brick
     - name: Carpet
-      guid: 8975223456dc604296c4b9f4b669092b
+      guid: b65c2f37a41bc0448b5484761af0a098
       id: 2412606308
       PathAndIcons:
       - ElementName: Virtual Acoustics
@@ -105,61 +54,10 @@ MonoBehaviour:
         guid: a3121e7828e3df4a8bba5fb89c74031d
       - ElementName: Carpet
         ObjectType: 15
-        guid: 8975223456dc604296c4b9f4b669092b
+        guid: b65c2f37a41bc0448b5484761af0a098
       Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet
-    - name: Concrete
-      guid: 001cf85c9628e04aaf7c3080bdaba682
-      id: 841620460
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Concrete
-        ObjectType: 15
-        guid: 001cf85c9628e04aaf7c3080bdaba682
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete
-    - name: Cork_Tiles
-      guid: 19c9d2305f92434189063dbb3c4ae5e2
-      id: 3195498748
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Cork_Tiles
-        ObjectType: 15
-        guid: 19c9d2305f92434189063dbb3c4ae5e2
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles
-    - name: Curtains
-      guid: 339ee6f8975c6849b508a1535f2d66e8
-      id: 2928161104
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Curtains
-        ObjectType: 15
-        guid: 339ee6f8975c6849b508a1535f2d66e8
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains
     - name: Drywall
-      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      guid: ff2015b7e771fc4ebc440b56d95d3c25
       id: 3670307564
       PathAndIcons:
       - ElementName: Virtual Acoustics
@@ -173,11 +71,11 @@ MonoBehaviour:
         guid: a3121e7828e3df4a8bba5fb89c74031d
       - ElementName: Drywall
         ObjectType: 15
-        guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+        guid: ff2015b7e771fc4ebc440b56d95d3c25
       Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall
-    - name: Fabric
-      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
-      id: 1970351858
+    - name: Glass
+      guid: 2aecf05ceba0a9489123d3514ce020fc
+      id: 2449969375
       PathAndIcons:
       - ElementName: Virtual Acoustics
         ObjectType: 5
@@ -188,13 +86,13 @@ MonoBehaviour:
       - ElementName: Textures
         ObjectType: 4
         guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Fabric
+      - ElementName: Glass
         ObjectType: 15
-        guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric
-    - name: Mountain
-      guid: 313793c51a00b44a98dd9b033a8c8eab
-      id: 513139656
+        guid: 2aecf05ceba0a9489123d3514ce020fc
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Glass
+    - name: Metal
+      guid: 229b249716f0674cbc5fa862c58ebf31
+      id: 2473969246
       PathAndIcons:
       - ElementName: Virtual Acoustics
         ObjectType: 5
@@ -205,10 +103,44 @@ MonoBehaviour:
       - ElementName: Textures
         ObjectType: 4
         guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Mountain
+      - ElementName: Metal
         ObjectType: 15
-        guid: 313793c51a00b44a98dd9b033a8c8eab
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain
+        guid: 229b249716f0674cbc5fa862c58ebf31
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Metal
+    - name: Plastic
+      guid: 00ecd6cf5317fc489f96f8b590003588
+      id: 660835419
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Plastic
+        ObjectType: 15
+        guid: 00ecd6cf5317fc489f96f8b590003588
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Plastic
+    - name: Sound_Absorbing_Material
+      guid: a6bd8281bd6c354ea519d8bd9d942722
+      id: 3997684366
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Sound_Absorbing_Material
+        ObjectType: 15
+        guid: a6bd8281bd6c354ea519d8bd9d942722
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Sound_Absorbing_Material
     - name: Textures
       guid: a3121e7828e3df4a8bba5fb89c74031d
       id: 1276632493
@@ -223,9 +155,9 @@ MonoBehaviour:
         ObjectType: 4
         guid: a3121e7828e3df4a8bba5fb89c74031d
       Path: Virtual Acoustics\Factory Acoustic Textures\Textures
-    - name: Tile
-      guid: c4da82a82a13b747ba9db9907ba29cc0
-      id: 2637588553
+    - name: Wood_Veneer
+      guid: 1e2478dd8b75fb49b7ee148d5698b906
+      id: 1042510844
       PathAndIcons:
       - ElementName: Virtual Acoustics
         ObjectType: 5
@@ -236,61 +168,10 @@ MonoBehaviour:
       - ElementName: Textures
         ObjectType: 4
         guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Tile
+      - ElementName: Wood_Veneer
         ObjectType: 15
-        guid: c4da82a82a13b747ba9db9907ba29cc0
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Tile
-    - name: Wood
-      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
-      id: 2058049674
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Wood
-        ObjectType: 15
-        guid: 96bcff1fe76f9e48ba6c7c14a71391ae
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood
-    - name: Wood_Bright
-      guid: e5d1857ba2c1634e9a13cec54b641adc
-      id: 4262522749
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Wood_Bright
-        ObjectType: 15
-        guid: e5d1857ba2c1634e9a13cec54b641adc
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright
-    - name: Wood_Deep
-      guid: 8e474652dac50c4ea0dec98d1479529a
-      id: 1755085759
-      PathAndIcons:
-      - ElementName: Virtual Acoustics
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Factory Acoustic Textures
-        ObjectType: 12
-        guid: 6b663d46a83ca54f8b4a5fef12b883f6
-      - ElementName: Textures
-        ObjectType: 4
-        guid: a3121e7828e3df4a8bba5fb89c74031d
-      - ElementName: Wood_Deep
-        ObjectType: 15
-        guid: 8e474652dac50c4ea0dec98d1479529a
-      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep
+        guid: 1e2478dd8b75fb49b7ee148d5698b906
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Veneer
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     PathAndIcons:
@@ -303,7 +184,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7da56598dbf1594cb6bbc350b43efc88
     GuidInternal: 
-    m_lastTime: -8585222906066030724
+    m_lastTime: -8585222800439135994
     List:
     - name: Early_Reflection_Bus
       guid: b487c8644d907b44983818d8febf41bb
@@ -1909,7 +1790,7 @@ MonoBehaviour:
     m_lastTime: -8585242350812978746
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000060000000700000008000000090000001600000017000000180000001a0000001b0000001c0000001f000000200000002100000022000000240000002a0000002b0000002c0000005f8c00005c8d00005d8d0000
+  ExpandedWaapiItemIds: 01000000060000000700000008000000090000000b0000000d0000000e0000001600000017000000180000001a0000001b0000001c0000001f000000200000002100000022000000240000002a0000002b0000002c0000003b0000003d0000003e0000005f8c00005c8d00005d8d0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

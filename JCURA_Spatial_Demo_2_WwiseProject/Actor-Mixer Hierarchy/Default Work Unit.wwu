@@ -76,6 +76,11 @@
 										<Sound Name="Reference_Jethro_Tull_L_Spatial" ID="{0626FABF-2241-41CE-96F8-EB65D34AA965}" ShortID="949662763">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -86,6 +91,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -105,6 +113,11 @@
 										<Sound Name="Reference_Jethro_Tull_R_Spatial" ID="{1C6303E7-9451-4954-80CB-BD42844E2142}" ShortID="557740408">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -115,6 +128,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -164,6 +180,11 @@
 										<Sound Name="User_Jethro_Tull_L_Spatial" ID="{5640059E-A681-4850-B466-AD6FDA3231E2}" ShortID="481802213">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -174,6 +195,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -193,6 +217,11 @@
 										<Sound Name="User_Jethro_Tull_R_Spatial" ID="{B85F2511-9B7D-4043-8A17-3034CB1FCA5E}" ShortID="14420313">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -203,6 +232,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -562,6 +594,11 @@
 										<Sound Name="Reference_AG_L_Spatial" ID="{F42C0B14-20D3-42F6-AEF4-F09FAF149DFE}" ShortID="774376832">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -569,6 +606,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -588,6 +628,11 @@
 										<Sound Name="Reference_AG_R_Spatial" ID="{A181DEBE-C59C-4C9D-8A2D-3F3D43A42315}" ShortID="262822950">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -595,6 +640,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -644,6 +692,11 @@
 										<Sound Name="User_AG_L_Spatial" ID="{EE313271-804D-45DB-A41E-8802DA90158D}" ShortID="318218512">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -651,6 +704,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -670,6 +726,11 @@
 										<Sound Name="User_AG_R_Spatial" ID="{DE85EAA8-A3E8-41BD-9F57-C39F894A0664}" ShortID="832476938">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -677,6 +738,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -790,6 +854,11 @@
 										<Sound Name="Reference_Bass_L_Spatial" ID="{4B0C2D34-6F40-4609-BB29-D7EEF297AD3E}" ShortID="668459314">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -797,6 +866,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -816,6 +888,11 @@
 										<Sound Name="Reference_Bass_R_Spatial" ID="{F22CDE99-FEE5-4173-B15A-0B8F33E90CA8}" ShortID="163977070">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -823,6 +900,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -872,6 +952,11 @@
 										<Sound Name="User_Bass_L_Spatial" ID="{B378A625-5402-4697-8DAB-AFD6550DCC00}" ShortID="404041866">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -879,6 +964,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -898,6 +986,11 @@
 										<Sound Name="User_Bass_R_Spatial" ID="{595E6A0C-50F9-4C13-A9C5-1613B93870B2}" ShortID="47713739">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -905,6 +998,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1018,6 +1114,11 @@
 										<Sound Name="Reference_Bassoon_L_Spatial" ID="{78009CBA-CE01-43D8-A642-905F2A9157C1}" ShortID="980159380">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1025,6 +1126,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1044,6 +1148,11 @@
 										<Sound Name="Reference_Bassoon_R_Spatial" ID="{3235BE9C-4EF8-4BAE-82B8-7101261B52FC}" ShortID="598101827">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1051,6 +1160,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1100,6 +1212,11 @@
 										<Sound Name="User_Bassoon_L_Spatial" ID="{2FE59108-F590-462E-BCC9-76C0416C66A5}" ShortID="259340549">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1107,6 +1224,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1126,6 +1246,11 @@
 										<Sound Name="User_Bassoon_R_Spatial" ID="{D5792F10-AEB6-480C-94AD-32A3A4CDBE07}" ShortID="14469800">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1133,6 +1258,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1246,6 +1374,11 @@
 										<Sound Name="Reference_Kick_and_Snare_L_Spatial" ID="{BF524143-7044-457F-AF39-EB66F39570BB}" ShortID="221012718">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1253,6 +1386,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1272,6 +1408,11 @@
 										<Sound Name="Reference_Kick_and_Snare_R_Spatial" ID="{2044AE45-6357-4CB1-86CB-BF3372E1B729}" ShortID="75019538">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1279,6 +1420,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1328,6 +1472,11 @@
 										<Sound Name="User_Kick_and_Snare_L_Spatial" ID="{0FAF3853-3DC8-4710-9F32-F3390247AA31}" ShortID="367387439">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1335,6 +1484,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1354,6 +1506,11 @@
 										<Sound Name="User_Kick_and_Snare_R_Spatial" ID="{236CCF57-BC53-46D1-889F-2B69E21BE43D}" ShortID="403567214">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1361,6 +1518,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1474,6 +1634,11 @@
 										<Sound Name="Reference_Voice_L_Spatial" ID="{A3C810DA-479F-4993-9AEA-C06C902D9812}" ShortID="735606551">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1481,6 +1646,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1500,6 +1668,11 @@
 										<Sound Name="Reference_Voice_R_Spatial" ID="{BB634F83-9592-44D1-9015-49585BA5B1E3}" ShortID="85848007">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1507,6 +1680,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1556,6 +1732,11 @@
 										<Sound Name="User_Voice_L_Spatial" ID="{4D88207F-BC82-4A05-A510-C55B3D3CAE5F}" ShortID="377769470">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1563,6 +1744,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1582,6 +1766,11 @@
 										<Sound Name="User_Voice_R_Spatial" ID="{50658089-CD12-45F6-98F7-0C63A0C91A3B}" ShortID="661182247">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="ReflectionsVolume" Type="Real64">
+													<ValueList>
+														<Value>-24</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1589,6 +1778,9 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+												<Reference Name="ReflectionsAuxSend">
+													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
