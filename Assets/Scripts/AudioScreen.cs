@@ -20,9 +20,9 @@ public class AudioScreen : Screen
     public override void Close()
     {
         base.Close();
+        WwiseManager.wwiseManagerSingleton.closeWwiseScene();
         WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Stop_All");
         WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent("Stop_All");
-        WwiseManager.wwiseManagerSingleton.closeWwiseScene();
         
     }
 
@@ -34,20 +34,25 @@ public class AudioScreen : Screen
         // Stereo functionality
         if (stereoSpatialFlag == 0)
         {
+            string selectedEvent = selectPostEvent();
+
             if (testType == "Pan")
             {
                 WwiseManager.wwiseManagerSingleton.setTestType("Pan", 0);
-                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
+                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent(selectedEvent);
+                //WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "Reverb")
             {
                 WwiseManager.wwiseManagerSingleton.setTestType("Reverb", 0);
-                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
+                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent(selectedEvent);
+                //WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "Gain")
             {
                 WwiseManager.wwiseManagerSingleton.setTestType("Gain", 0);
-                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
+                WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent(selectedEvent);
+                //WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "VolumeSetup")
             {
@@ -90,5 +95,34 @@ public class AudioScreen : Screen
         {
             Debug.LogWarning("AudioScreen Open: Invalid value for stereoSpatialFlag: " + stereoSpatialFlag);
         }
+    }
+
+    public string selectPostEvent()
+    {
+        int trackSelect = Random.Range(0, 5);
+        string postEvent = "";
+
+        if (trackSelect == 0)
+        {
+            postEvent = "AG";
+        }
+        else if (trackSelect == 1)
+        {
+            postEvent = "Bass";
+        }
+        else if (trackSelect == 2)
+        {
+            postEvent = "Bassoon";
+        }
+        else if (trackSelect == 3)
+        {
+            postEvent = "Kick and Snare";
+        }
+        else if (trackSelect == 4)
+        {
+            postEvent = "Voice";
+        }
+
+        return postEvent;
     }
 }

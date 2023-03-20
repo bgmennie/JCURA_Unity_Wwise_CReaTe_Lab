@@ -1,24 +1,66 @@
 Event	ID	Name			Wwise Object Path	Notes
+	5071667	Play_User_Bass			\Default Work Unit\Play_User_Bass	
+	91596406	Play_User_Voice_Sub_Spatial			\Default Work Unit\Play_User_Voice_Sub_Spatial	
+	210445075	Play_User_Bassoon_Sub_Spatial			\Default Work Unit\Play_User_Bassoon_Sub_Spatial	
 	243939828	Play_User_Jethro_Tull_R_Spatial			\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_R_Spatial	
 	452547817	Stop_All			\Default Work Unit\Stop_All	
+	509070408	Play_Reference_Voice_Sub_Spatial			\Default Work Unit\Play_Reference_Voice_Sub_Spatial	
+	684886802	Play_User_Kick_and_Snare_R_Spatial			\Default Work Unit\Play_User_Kick_and_Snare_R_Spatial	
 	750340830	Play_Reference_Jethro_Tull_R_Spatial			\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_R_Spatial	
 	824084648	Play_User_Jethro_Tull_Mother_Goose			\Default Work Unit\Jethro_Tull\Play_User_Jethro_Tull_Mother_Goose	
+	861268446	Play_User_AG			\Default Work Unit\Play_User_AG	
+	958062908	Play_User_Voice			\Default Work Unit\Play_User_Voice	
+	963364879	Play_User_Bass_L_Spatial			\Default Work Unit\Play_User_Bass_L_Spatial	
+	1262816836	Play_User_Kick_and_Snare_L_Spatial			\Default Work Unit\Play_User_Kick_and_Snare_L_Spatial	
 	1402898358	Play_Reference_Jethro_Tull_Sub_Spatial			\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_Sub_Spatial	
+	1459694020	Play_User_AG_Sub_Spatial			\Default Work Unit\Play_User_AG_Sub_Spatial	
+	1483207928	Play_User_AG_R_Spatial			\Default Work Unit\Play_User_AG_R_Spatial	
 	1634674446	Play_Reference_Jethro_Tull_Mother_Goose			\Default Work Unit\Jethro_Tull\Play_Reference_Jethro_Tull_Mother_Goose	
+	1688917067	Play_Reference_Bassoon			\Default Work Unit\Play_Reference_Bassoon	
+	1703140329	Play_User_Bassoon			\Default Work Unit\Play_User_Bassoon	
+	2044896852	Play_Reference_Voice_R_Spatial			\Default Work Unit\Play_Reference_Voice_R_Spatial	
+	2107522504	Play_User_Voice_L_Spatial			\Default Work Unit\Play_User_Voice_L_Spatial	
 	2119947682	Play_User_Jethro_Tull_L_Spatial			\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_L_Spatial	
 	2202538504	Play_Reference_Jethro_Tull_L_Spatial			\Default Work Unit\Jethro_Tull\Spatial\Reference\Play_Reference_Jethro_Tull_L_Spatial	
+	2212394356	Play_Reference_Kick_and_Snare_R_Spatial			\Default Work Unit\Play_Reference_Kick_and_Snare_R_Spatial	
+	2546460418	Play_Reference_Voice_L_Spatial			\Default Work Unit\Play_Reference_Voice_L_Spatial	
+	2574811890	Play_User_Kick_and_Snare_Sub_Spatial			\Default Work Unit\Play_User_Kick_and_Snare_Sub_Spatial	
+	2850551802	Play_Reference_Voice			\Default Work Unit\Play_Reference_Voice	
+	2864457769	Play_User_Bass_R_Spatial			\Default Work Unit\Play_User_Bass_R_Spatial	
+	2885399656	Play_Reference_Kick_and_Snare_Sub_Spatial			\Default Work Unit\Play_Reference_Kick_and_Snare_Sub_Spatial	
+	2964536316	Play_Reference_AG_L_Spatial			\Default Work Unit\Play_Reference_AG_L_Spatial	
+	2980121537	Play_Reference_Bassoon_R_Spatial			\Default Work Unit\Play_Reference_Bassoon_R_Spatial	
+	3034766702	Play_User_AG_L_Spatial			\Default Work Unit\Play_User_AG_L_Spatial	
+	3124993438	Play_User_Voice_R_Spatial			\Default Work Unit\Play_User_Voice_R_Spatial	
+	3202613480	Play_Reference_AG			\Default Work Unit\Play_Reference_AG	
+	3243513167	Play_Reference_Bass_Sub_Spatial			\Default Work Unit\Play_Reference_Bass_Sub_Spatial	
+	3253307136	Play_User_Kick_and_Snare			\Default Work Unit\Play_User_Kick_and_Snare	
+	3263655401	Play_User_Bassoon_L_Spatial			\Default Work Unit\Play_User_Bassoon_L_Spatial	
 	3286096225	Play_Pink_Noise			\Default Work Unit\Play_Pink_Noise	
+	3311444055	Play_Reference_Bassoon_L_Spatial			\Default Work Unit\Play_Reference_Bassoon_L_Spatial	
+	3514419779	Play_Reference_Bass_R_Spatial			\Default Work Unit\Play_Reference_Bass_R_Spatial	
+	3637355001	Play_User_Bass_Sub_Spatial			\Default Work Unit\Play_User_Bass_Sub_Spatial	
+	3674149914	Play_Reference_Kick_and_Snare			\Default Work Unit\Play_Reference_Kick_and_Snare	
+	3833327386	Play_Reference_AG_Sub_Spatial			\Default Work Unit\Play_Reference_AG_Sub_Spatial	
+	3840212506	Play_Reference_AG_R_Spatial			\Default Work Unit\Play_Reference_AG_R_Spatial	
+	3843960013	Play_Reference_Bass			\Default Work Unit\Play_Reference_Bass	
+	3927108209	Play_Reference_Bassoon_Sub_Spatial			\Default Work Unit\Play_Reference_Bassoon_Sub_Spatial	
+	3975576213	Play_Reference_Bass_L_Spatial			\Default Work Unit\Play_Reference_Bass_L_Spatial	
 	4044639464	Play_User_Jethro_Tull_Sub_Spatial			\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_Sub_Spatial	
+	4088402210	Play_Reference_Kick_and_Snare_L_Spatial			\Default Work Unit\Play_Reference_Kick_and_Snare_L_Spatial	
+	4215215311	Play_User_Bassoon_R_Spatial			\Default Work Unit\Play_User_Bassoon_R_Spatial	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	694743187	Stereo_User_Reverb_Length			\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length	
-	752449211	Stereo_User_Wet_Level			\Default Work Unit\Stereo\User\Stereo_User_Wet_Level	
 	1409897668	Bus_Switch			\Default Work Unit\Bus_Switch	
-	1966853395	Stereo_Reference_Pan			\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan	
-	2332693969	Stereo_User_Gain			\Default Work Unit\Stereo\User\Stereo_User_Gain	
+	1447113290	Reference_Reverb_Length			\Default Work Unit\Reference\Reference_Reverb_Length	
+	1684779072	Reference_Pan			\Default Work Unit\Reference\Reference_Pan	
+	1696562406	User_Gain			\Default Work Unit\User\User_Gain	
+	1887793322	User_Reverb_Length			\Default Work Unit\User\User_Reverb_Length	
+	2256666278	User_Wet_Level			\Default Work Unit\User\User_Wet_Level	
 	2573722612	Master_Bus_Mute			\Default Work Unit\Master_Bus_Mute	
-	3227346317	Stereo_User_Pan			\Default Work Unit\Stereo\User\Stereo_User_Pan	
-	4117303583	Stereo_Reference_Gain			\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain	
+	3244571974	Reference_Gain			\Default Work Unit\Reference\Reference_Gain	
+	3256913760	User_Pan			\Default Work Unit\User\User_Pan	
+	3910040902	Reference_Wet_Level			\Default Work Unit\Reference\Reference_Wet_Level	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	378350335	Spatial			\Default Work Unit\Master Audio Bus\Spatial	
@@ -40,22 +82,41 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3567840041	Early_Reflection_Bus			\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
-	124259413	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
-	273603602	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
-	735023202	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	21493978	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	127386002	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	133771582	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	650598196	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	794142418	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
-	908979033	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	813674469	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	885904873	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	908632732	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	927685878	LR_Emitter_Parametric_EQ	Wwise Parametric EQ			
+	953085506	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	966971050	Wwise Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	1011516121	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	2545004126	Wwise_Reflect	Wwise Reflect			
 	3459526528	Sub_Emitter_Parametric_EQ	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	54130080	User_Kick_and_Snare_R_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Kick_and_Snare_R_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kick and Snare\Spatial\User\User_Kick_and_Snare_R_Spatial		1234864
+	74803668	Reference_AG_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\AG_L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AG\Spatial\Reference\Reference_AG_L_Spatial		1675864
 	137534949	Reference_Jethro_Tull_R_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\Reference\Reference_Jethro_Tull_R_Spatial		22348864
 	275939375	User_Jethro_Tull_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\User\User_Jethro_Tull_Sub_Spatial		22348864
+	292033815	Reference_Voice_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Operatic_Voice_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voice\Spatial\Reference\Reference_Voice_Sub_Spatial		882064
+	298596890	Reference_AG	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\AG_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AG\Stereo\Reference_AG		1675864
 	345248522	User_Jethro_Tull_Mother_Goose	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Stereo-04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Stereo\User_Jethro_Tull_Mother_Goose		44697664
+	379161240	User_Bass_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\BASS_L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bass\Spatial\User\User_Bass_L_Spatial		1234864
+	493522854	User_Bassoon_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Bassoon_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bassoon\Spatial\User\User_Bassoon_L_Spatial		486330
+	502097503	User_Kick_and_Snare_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Kick_Snare_mono_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kick and Snare\Spatial\User\User_Kick_and_Snare_Sub_Spatial		1234864
 	523312821	Pink Noise	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Pink Noise_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test Signals\Pink Noise		960064
+	647817188	User_Bass_R_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\BASS_R_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bass\Spatial\User\User_Bass_R_Spatial		1234864
+	732133952	Reference_AG_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\AG_mono_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AG\Spatial\Reference\Reference_AG_Sub_Spatial		1675864
+	826149229	User_Bass_Sub_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\BASS_mono_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bass\Spatial\User\User_Bass_Sub_Spatial		1234864
+	910911016	Reference_Kick_and_Snare	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Kick_and_Snare_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kick and Snare\Stereo\Reference_Kick_and_Snare		1234864
+	972147162	User_Bass	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\BASS_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bass\Stereo\User_Bass		1234864
 	1021326720	Reference_Jethro_Tull_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jethro_Tull\Jethro_Tull_Spatial\Reference\Reference_Jethro_Tull_L_Spatial		22348864
+	1048410464	Reference_AG_R_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\AG_R_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\AG\Spatial\Reference\Reference_AG_R_Spatial		1675864
+	1049595979	Reference_Kick_and_Snare_L_Spatial	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\SFX\Kick_and_Snare_L_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Kick and Snare\Spatial\Reference\Reference_Kick_and_Snare_L_Spatial		1234864
 
 Plug-in Media	ID	Name	Source file	Type	Wwise Object Path	Notes	Data Size
 	1013251151	Wwise Convolution Reverb (Custom)	C:\Users\G14\Documents\School Work\5A\JCURA\Model\Learning Unity\JCURA_Spatial_Demo_2\JCURA_Spatial_Demo_2_WwiseProject\.cache\Windows\Plugins\Wwise Convolution Reverb\CReaTe_Lab_IR_Multichannel_DED178AB.wem	Wwise Convolution Reverb (Custom)	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Late_Reverberation_Bus\Wwise Convolution Reverb (Custom)		268640

@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7da56598dbf1594cb6bbc350b43efc88
     GuidInternal: 
-    m_lastTime: -8585223314345520639
+    m_lastTime: -8585222906066030724
     List:
     - name: Early_Reflection_Bus
       guid: b487c8644d907b44983818d8febf41bb
@@ -637,7 +637,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d888197aaf70b34ea4713c1eb773d01b
     GuidInternal: 
-    m_lastTime: -8585223292166599978
+    m_lastTime: -8585222909575180954
     List:
     - name: Main
       guid: ea7bf672993b584cb081a1c3e3d3fc5f
@@ -665,7 +665,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
     GuidInternal: 
-    m_lastTime: -8585224438624861124
+    m_lastTime: -8585222909574740944
     List:
     - name: Jethro_Tull
       guid: 24c0962d5fd75943a9adee640e53daa7
@@ -698,6 +698,210 @@ MonoBehaviour:
         ObjectType: 3
         guid: 30da365c9f220e4fa8829006ccc29365
       Path: Events\Default Work Unit\Play_Pink_Noise
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_AG
+      guid: d0e8b11f38491c40a6ca381711077e83
+      id: 3202613480
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_AG
+        ObjectType: 3
+        guid: d0e8b11f38491c40a6ca381711077e83
+      Path: Events\Default Work Unit\Play_Reference_AG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_AG_L_Spatial
+      guid: c435e0321a24c143afdfdb101204327c
+      id: 2964536316
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_AG_L_Spatial
+        ObjectType: 3
+        guid: c435e0321a24c143afdfdb101204327c
+      Path: Events\Default Work Unit\Play_Reference_AG_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_AG_R_Spatial
+      guid: fd064211c467f04eba247885c581c0b4
+      id: 3840212506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_AG_R_Spatial
+        ObjectType: 3
+        guid: fd064211c467f04eba247885c581c0b4
+      Path: Events\Default Work Unit\Play_Reference_AG_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_AG_Sub_Spatial
+      guid: ec2b2665a88fd14ca9f95e06440af1aa
+      id: 3833327386
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_AG_Sub_Spatial
+        ObjectType: 3
+        guid: ec2b2665a88fd14ca9f95e06440af1aa
+      Path: Events\Default Work Unit\Play_Reference_AG_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Bass
+      guid: 44451a9fc615714eb0c3dbe605fa1d73
+      id: 3843960013
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Bass
+        ObjectType: 3
+        guid: 44451a9fc615714eb0c3dbe605fa1d73
+      Path: Events\Default Work Unit\Play_Reference_Bass
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Bass_L_Spatial
+      guid: 22e7e163471c3f43a42d7e6b467de16c
+      id: 3975576213
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Bass_L_Spatial
+        ObjectType: 3
+        guid: 22e7e163471c3f43a42d7e6b467de16c
+      Path: Events\Default Work Unit\Play_Reference_Bass_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Bass_R_Spatial
+      guid: e6d166b860e2504a9e9693553bea6adc
+      id: 3514419779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Bass_R_Spatial
+        ObjectType: 3
+        guid: e6d166b860e2504a9e9693553bea6adc
+      Path: Events\Default Work Unit\Play_Reference_Bass_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Bass_Sub_Spatial
+      guid: 0dad8782d6660348b856d52e01072915
+      id: 3243513167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Bass_Sub_Spatial
+        ObjectType: 3
+        guid: 0dad8782d6660348b856d52e01072915
+      Path: Events\Default Work Unit\Play_Reference_Bass_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Bassoon
+      guid: bfc917a66a1f6c4caf40e006c962a531
+      id: 1688917067
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Bassoon
+        ObjectType: 3
+        guid: bfc917a66a1f6c4caf40e006c962a531
+      Path: Events\Default Work Unit\Play_Reference_Bassoon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Bassoon_L_Spatial
+      guid: 5cc87028d771a248a0373f2e522052b8
+      id: 3311444055
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Bassoon_L_Spatial
+        ObjectType: 3
+        guid: 5cc87028d771a248a0373f2e522052b8
+      Path: Events\Default Work Unit\Play_Reference_Bassoon_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Bassoon_R_Spatial
+      guid: 34c64c91da96194ba6f7f59ea2b61bc1
+      id: 2980121537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Bassoon_R_Spatial
+        ObjectType: 3
+        guid: 34c64c91da96194ba6f7f59ea2b61bc1
+      Path: Events\Default Work Unit\Play_Reference_Bassoon_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Bassoon_Sub_Spatial
+      guid: e35767a6cb47594ab178cb94793ba42d
+      id: 3927108209
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Bassoon_Sub_Spatial
+        ObjectType: 3
+        guid: e35767a6cb47594ab178cb94793ba42d
+      Path: Events\Default Work Unit\Play_Reference_Bassoon_Sub_Spatial
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -799,6 +1003,346 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 232.8
       minDuration: 232.8
+    - name: Play_Reference_Kick_and_Snare
+      guid: a429c40479548440b09669a743936223
+      id: 3674149914
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Kick_and_Snare
+        ObjectType: 3
+        guid: a429c40479548440b09669a743936223
+      Path: Events\Default Work Unit\Play_Reference_Kick_and_Snare
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Kick_and_Snare_L_Spatial
+      guid: 00661a2e854768448df28203ec048293
+      id: 4088402210
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Kick_and_Snare_L_Spatial
+        ObjectType: 3
+        guid: 00661a2e854768448df28203ec048293
+      Path: Events\Default Work Unit\Play_Reference_Kick_and_Snare_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Kick_and_Snare_R_Spatial
+      guid: cbf784d40ef4614c853e197b1c30f45a
+      id: 2212394356
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Kick_and_Snare_R_Spatial
+        ObjectType: 3
+        guid: cbf784d40ef4614c853e197b1c30f45a
+      Path: Events\Default Work Unit\Play_Reference_Kick_and_Snare_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Kick_and_Snare_Sub_Spatial
+      guid: 494d0b49842f4d43982bf430f39262c0
+      id: 2885399656
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Kick_and_Snare_Sub_Spatial
+        ObjectType: 3
+        guid: 494d0b49842f4d43982bf430f39262c0
+      Path: Events\Default Work Unit\Play_Reference_Kick_and_Snare_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Voice
+      guid: e0cfc1159a244b41adceab6b6a536cb6
+      id: 2850551802
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Voice
+        ObjectType: 3
+        guid: e0cfc1159a244b41adceab6b6a536cb6
+      Path: Events\Default Work Unit\Play_Reference_Voice
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Voice_L_Spatial
+      guid: c8fd3e0e6f3018459468420be18176c9
+      id: 2546460418
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Voice_L_Spatial
+        ObjectType: 3
+        guid: c8fd3e0e6f3018459468420be18176c9
+      Path: Events\Default Work Unit\Play_Reference_Voice_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Voice_R_Spatial
+      guid: 98ca3b523dd8c04ea0d826ede96dd224
+      id: 2044896852
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Voice_R_Spatial
+        ObjectType: 3
+        guid: 98ca3b523dd8c04ea0d826ede96dd224
+      Path: Events\Default Work Unit\Play_Reference_Voice_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Reference_Voice_Sub_Spatial
+      guid: c06a7902df9a17439aed066673912e09
+      id: 509070408
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_Reference_Voice_Sub_Spatial
+        ObjectType: 3
+        guid: c06a7902df9a17439aed066673912e09
+      Path: Events\Default Work Unit\Play_Reference_Voice_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_AG
+      guid: 820c57bfb3458148a6d7e37af459beb4
+      id: 861268446
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_AG
+        ObjectType: 3
+        guid: 820c57bfb3458148a6d7e37af459beb4
+      Path: Events\Default Work Unit\Play_User_AG
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_AG_L_Spatial
+      guid: d47fb2eb20ff524c9c5f450d464d12ad
+      id: 3034766702
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_AG_L_Spatial
+        ObjectType: 3
+        guid: d47fb2eb20ff524c9c5f450d464d12ad
+      Path: Events\Default Work Unit\Play_User_AG_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_AG_R_Spatial
+      guid: a2f6c201b7bea846914b5e7c8ef38a76
+      id: 1483207928
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_AG_R_Spatial
+        ObjectType: 3
+        guid: a2f6c201b7bea846914b5e7c8ef38a76
+      Path: Events\Default Work Unit\Play_User_AG_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_AG_Sub_Spatial
+      guid: 21515aa2189c844286acad0af823bba1
+      id: 1459694020
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_AG_Sub_Spatial
+        ObjectType: 3
+        guid: 21515aa2189c844286acad0af823bba1
+      Path: Events\Default Work Unit\Play_User_AG_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Bass
+      guid: d1333a7a7838d44f812f14c42d6bfb0f
+      id: 5071667
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Bass
+        ObjectType: 3
+        guid: d1333a7a7838d44f812f14c42d6bfb0f
+      Path: Events\Default Work Unit\Play_User_Bass
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Bass_L_Spatial
+      guid: cbf770ff14dd184aa53a5926b3cc508f
+      id: 963364879
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Bass_L_Spatial
+        ObjectType: 3
+        guid: cbf770ff14dd184aa53a5926b3cc508f
+      Path: Events\Default Work Unit\Play_User_Bass_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Bass_R_Spatial
+      guid: 890cae00ddb64741b43caac16a837468
+      id: 2864457769
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Bass_R_Spatial
+        ObjectType: 3
+        guid: 890cae00ddb64741b43caac16a837468
+      Path: Events\Default Work Unit\Play_User_Bass_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Bass_Sub_Spatial
+      guid: f8b0f58281d09241a98e427733be4001
+      id: 3637355001
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Bass_Sub_Spatial
+        ObjectType: 3
+        guid: f8b0f58281d09241a98e427733be4001
+      Path: Events\Default Work Unit\Play_User_Bass_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Bassoon
+      guid: 7f88da9023e8164db2a7e796b235bb90
+      id: 1703140329
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Bassoon
+        ObjectType: 3
+        guid: 7f88da9023e8164db2a7e796b235bb90
+      Path: Events\Default Work Unit\Play_User_Bassoon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Bassoon_L_Spatial
+      guid: 4084a57a9c6a81479dd8a4d9862b7ade
+      id: 3263655401
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Bassoon_L_Spatial
+        ObjectType: 3
+        guid: 4084a57a9c6a81479dd8a4d9862b7ade
+      Path: Events\Default Work Unit\Play_User_Bassoon_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Bassoon_R_Spatial
+      guid: 669e238fe8489140ab7dc51af5dbeec2
+      id: 4215215311
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Bassoon_R_Spatial
+        ObjectType: 3
+        guid: 669e238fe8489140ab7dc51af5dbeec2
+      Path: Events\Default Work Unit\Play_User_Bassoon_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Bassoon_Sub_Spatial
+      guid: a7bae4da1982cb4fbe66c63b7bb1260c
+      id: 210445075
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Bassoon_Sub_Spatial
+        ObjectType: 3
+        guid: a7bae4da1982cb4fbe66c63b7bb1260c
+      Path: Events\Default Work Unit\Play_User_Bassoon_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_User_Jethro_Tull_L_Spatial
       guid: 607606b345081f449d1a2475cef1afe5
       id: 2119947682
@@ -897,6 +1441,142 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 232.8
       minDuration: 232.8
+    - name: Play_User_Kick_and_Snare
+      guid: f5794d3a0e17b44196f4be141b06fd5c
+      id: 3253307136
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Kick_and_Snare
+        ObjectType: 3
+        guid: f5794d3a0e17b44196f4be141b06fd5c
+      Path: Events\Default Work Unit\Play_User_Kick_and_Snare
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Kick_and_Snare_L_Spatial
+      guid: 0347cf38cb2a14429c0ac835008149c5
+      id: 1262816836
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Kick_and_Snare_L_Spatial
+        ObjectType: 3
+        guid: 0347cf38cb2a14429c0ac835008149c5
+      Path: Events\Default Work Unit\Play_User_Kick_and_Snare_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Kick_and_Snare_R_Spatial
+      guid: c34c9bc14e680b449c1f7c0228487873
+      id: 684886802
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Kick_and_Snare_R_Spatial
+        ObjectType: 3
+        guid: c34c9bc14e680b449c1f7c0228487873
+      Path: Events\Default Work Unit\Play_User_Kick_and_Snare_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Kick_and_Snare_Sub_Spatial
+      guid: 7514bb1381b3f44d8eab066c7846fc5c
+      id: 2574811890
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Kick_and_Snare_Sub_Spatial
+        ObjectType: 3
+        guid: 7514bb1381b3f44d8eab066c7846fc5c
+      Path: Events\Default Work Unit\Play_User_Kick_and_Snare_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Voice
+      guid: 022167ce2a863842af9d10411b4e8d18
+      id: 958062908
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Voice
+        ObjectType: 3
+        guid: 022167ce2a863842af9d10411b4e8d18
+      Path: Events\Default Work Unit\Play_User_Voice
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Voice_L_Spatial
+      guid: ed94f5c6d4cb6e4ab894847905bc0be2
+      id: 2107522504
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Voice_L_Spatial
+        ObjectType: 3
+        guid: ed94f5c6d4cb6e4ab894847905bc0be2
+      Path: Events\Default Work Unit\Play_User_Voice_L_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Voice_R_Spatial
+      guid: d467b752c411754187663c0903bdd574
+      id: 3124993438
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Voice_R_Spatial
+        ObjectType: 3
+        guid: d467b752c411754187663c0903bdd574
+      Path: Events\Default Work Unit\Play_User_Voice_R_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_User_Voice_Sub_Spatial
+      guid: 209a811d82c067489c1c002eb2d56fb7
+      id: 91596406
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d5aba0ec2e989408ff4c6d3f7a58ed2
+      - ElementName: Play_User_Voice_Sub_Spatial
+        ObjectType: 3
+        guid: 209a811d82c067489c1c002eb2d56fb7
+      Path: Events\Default Work Unit\Play_User_Voice_Sub_Spatial
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Reference
       guid: 1b3000b20308c94b9f7aa76ea9614edf
       id: 1785692004
@@ -992,7 +1672,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 67123ff321e29840beb185de33e568a0
     GuidInternal: 
-    m_lastTime: -8585223314963195473
+    m_lastTime: -8585223174706999669
     List:
     - name: Bus_Switch
       guid: f9f67a5a146eb2449f8e033a3749a15b
@@ -1032,78 +1712,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
-        ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
       - ElementName: Reference
         ObjectType: 4
         guid: 901f3c14a7fc7648a5d86be637dd89f6
-      Path: Game Parameters\Default Work Unit\Stereo\Reference
-    - name: Spatial
-      guid: 3dedea129cd74749aaad49150b869309
-      id: 378350335
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Spatial
-        ObjectType: 4
-        guid: 3dedea129cd74749aaad49150b869309
-      Path: Game Parameters\Default Work Unit\Spatial
-    - name: Spatial_Pan_L_Channel
-      guid: ab0e217f9cea4d45b09d8a32d833cad6
-      id: 3148723270
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Spatial
-        ObjectType: 4
-        guid: 3dedea129cd74749aaad49150b869309
-      - ElementName: Spatial_Pan_L_Channel
-        ObjectType: 13
-        guid: ab0e217f9cea4d45b09d8a32d833cad6
-      Path: Game Parameters\Default Work Unit\Spatial\Spatial_Pan_L_Channel
-    - name: Spatial_Pan_R_Channel
-      guid: c074d95fa710284885a09362c39f40e4
-      id: 106087048
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Spatial
-        ObjectType: 4
-        guid: 3dedea129cd74749aaad49150b869309
-      - ElementName: Spatial_Pan_R_Channel
-        ObjectType: 13
-        guid: c074d95fa710284885a09362c39f40e4
-      Path: Game Parameters\Default Work Unit\Spatial\Spatial_Pan_R_Channel
-    - name: Stereo
-      guid: 81be546737937c48a55bac40554e7aaf
-      id: 3729966089
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
-        ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
-      Path: Game Parameters\Default Work Unit\Stereo
-    - name: Stereo_Reference_Gain
+      Path: Game Parameters\Default Work Unit\Reference
+    - name: Reference_Gain
       guid: 22718c0b504e8549871576f8eb64f047
-      id: 4117303583
+      id: 3244571974
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -1111,19 +1726,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
-        ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
       - ElementName: Reference
         ObjectType: 4
         guid: 901f3c14a7fc7648a5d86be637dd89f6
-      - ElementName: Stereo_Reference_Gain
+      - ElementName: Reference_Gain
         ObjectType: 13
         guid: 22718c0b504e8549871576f8eb64f047
-      Path: Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain
-    - name: Stereo_Reference_Pan
+      Path: Game Parameters\Default Work Unit\Reference\Reference_Gain
+    - name: Reference_Pan
       guid: 2329bcdcbe97764bba8376ee5e5b42cf
-      id: 1966853395
+      id: 1684779072
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -1131,19 +1743,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
-        ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
       - ElementName: Reference
         ObjectType: 4
         guid: 901f3c14a7fc7648a5d86be637dd89f6
-      - ElementName: Stereo_Reference_Pan
+      - ElementName: Reference_Pan
         ObjectType: 13
         guid: 2329bcdcbe97764bba8376ee5e5b42cf
-      Path: Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan
-    - name: Stereo_User_Gain
-      guid: 20eb0bad7c39ca4c9088f1af2f2031dd
-      id: 2332693969
+      Path: Game Parameters\Default Work Unit\Reference\Reference_Pan
+    - name: Reference_Reverb_Length
+      guid: c379648f02dbae429e04ade8deb1e31f
+      id: 1447113290
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -1151,19 +1760,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
+      - ElementName: Reference
         ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
-      - ElementName: User
-        ObjectType: 4
-        guid: 81d7ffd4a3c2f543a7b83c80c005f623
-      - ElementName: Stereo_User_Gain
+        guid: 901f3c14a7fc7648a5d86be637dd89f6
+      - ElementName: Reference_Reverb_Length
         ObjectType: 13
-        guid: 20eb0bad7c39ca4c9088f1af2f2031dd
-      Path: Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Gain
-    - name: Stereo_User_Pan
-      guid: 6c1831d9cb57574aa34e3a998bed907a
-      id: 3227346317
+        guid: c379648f02dbae429e04ade8deb1e31f
+      Path: Game Parameters\Default Work Unit\Reference\Reference_Reverb_Length
+    - name: Reference_Wet_Level
+      guid: 3b3875369436d54cb37cc066676409ce
+      id: 3910040902
       PathAndIcons:
       - ElementName: Game Parameters
         ObjectType: 5
@@ -1171,70 +1777,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
+      - ElementName: Reference
         ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
-      - ElementName: User
-        ObjectType: 4
-        guid: 81d7ffd4a3c2f543a7b83c80c005f623
-      - ElementName: Stereo_User_Pan
+        guid: 901f3c14a7fc7648a5d86be637dd89f6
+      - ElementName: Reference_Wet_Level
         ObjectType: 13
-        guid: 6c1831d9cb57574aa34e3a998bed907a
-      Path: Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Pan
-    - name: Stereo_User_Reverb_Length
-      guid: b799b1b861c357418e4b752701bfac46
-      id: 694743187
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
-        ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
-      - ElementName: User
-        ObjectType: 4
-        guid: 81d7ffd4a3c2f543a7b83c80c005f623
-      - ElementName: Stereo_User_Reverb_Length
-        ObjectType: 13
-        guid: b799b1b861c357418e4b752701bfac46
-      Path: Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length
-    - name: Stereo_User_Wet_Level
-      guid: 9c24bfb5e4baab4a8d6b66b8aeed651c
-      id: 752449211
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
-        ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
-      - ElementName: User
-        ObjectType: 4
-        guid: 81d7ffd4a3c2f543a7b83c80c005f623
-      - ElementName: Stereo_User_Wet_Level
-        ObjectType: 13
-        guid: 9c24bfb5e4baab4a8d6b66b8aeed651c
-      Path: Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Wet_Level
-    - name: Test
-      guid: bea99c0b32c74c48918b098329e14f21
-      id: 3157003241
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Test
-        ObjectType: 13
-        guid: bea99c0b32c74c48918b098329e14f21
-      Path: Game Parameters\Default Work Unit\Test
+        guid: 3b3875369436d54cb37cc066676409ce
+      Path: Game Parameters\Default Work Unit\Reference\Reference_Wet_Level
     - name: User
       guid: 81d7ffd4a3c2f543a7b83c80c005f623
       id: 1303565252
@@ -1245,13 +1794,78 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 67123ff321e29840beb185de33e568a0
-      - ElementName: Stereo
-        ObjectType: 4
-        guid: 81be546737937c48a55bac40554e7aaf
       - ElementName: User
         ObjectType: 4
         guid: 81d7ffd4a3c2f543a7b83c80c005f623
-      Path: Game Parameters\Default Work Unit\Stereo\User
+      Path: Game Parameters\Default Work Unit\User
+    - name: User_Gain
+      guid: 20eb0bad7c39ca4c9088f1af2f2031dd
+      id: 1696562406
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
+      - ElementName: User_Gain
+        ObjectType: 13
+        guid: 20eb0bad7c39ca4c9088f1af2f2031dd
+      Path: Game Parameters\Default Work Unit\User\User_Gain
+    - name: User_Pan
+      guid: 6c1831d9cb57574aa34e3a998bed907a
+      id: 3256913760
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
+      - ElementName: User_Pan
+        ObjectType: 13
+        guid: 6c1831d9cb57574aa34e3a998bed907a
+      Path: Game Parameters\Default Work Unit\User\User_Pan
+    - name: User_Reverb_Length
+      guid: b799b1b861c357418e4b752701bfac46
+      id: 1887793322
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
+      - ElementName: User_Reverb_Length
+        ObjectType: 13
+        guid: b799b1b861c357418e4b752701bfac46
+      Path: Game Parameters\Default Work Unit\User\User_Reverb_Length
+    - name: User_Wet_Level
+      guid: 9c24bfb5e4baab4a8d6b66b8aeed651c
+      id: 2256666278
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 67123ff321e29840beb185de33e568a0
+      - ElementName: User
+        ObjectType: 4
+        guid: 81d7ffd4a3c2f543a7b83c80c005f623
+      - ElementName: User_Wet_Level
+        ObjectType: 13
+        guid: 9c24bfb5e4baab4a8d6b66b8aeed651c
+      Path: Game Parameters\Default Work Unit\User\User_Wet_Level
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -1295,7 +1909,7 @@ MonoBehaviour:
     m_lastTime: -8585242350812978746
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 1600000017000000180000001b0000001c0000002000000021000000220000002a0000002b0000002c0000005f8c00005c8d00005d8d0000
+  ExpandedWaapiItemIds: 01000000060000000700000008000000090000001600000017000000180000001a0000001b0000001c0000001f000000200000002100000022000000240000002a0000002b0000002c0000005f8c00005c8d00005d8d0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

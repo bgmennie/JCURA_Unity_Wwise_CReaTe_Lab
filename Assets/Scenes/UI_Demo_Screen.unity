@@ -2942,7 +2942,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0065612793, y: 32}
+  m_AnchoredPosition: {x: -0.0065612793, y: 72}
   m_SizeDelta: {x: 684.1861, y: 100.9628}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1114208309
@@ -4442,8 +4442,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.006591797, y: -69.410225}
-  m_SizeDelta: {x: 684.1861, y: 155.2207}
+  m_AnchoredPosition: {x: -0.006591797, y: -51.003685}
+  m_SizeDelta: {x: 684.1861, y: 199.228}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374782523
 MonoBehaviour:
@@ -4488,7 +4488,11 @@ MonoBehaviour:
     3. With Max open, find a comfortable
     sitting position
 
-    4. Once found, press the "Zero" button and continue'
+    4. Once found, press the "Zero" button and continue
+
+    5.
+    If you notice the stereo image starting to drift to either the left or right,
+    repeat steps 3 and 4'
 --- !u!222 &1374782524
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5386,7 +5390,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.006591797, y: 32}
+  m_AnchoredPosition: {x: -0.006591797, y: 72}
   m_SizeDelta: {x: 684.1861, y: 100.9628}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1770106503
@@ -5740,7 +5744,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0065612793, y: -20}
+  m_AnchoredPosition: {x: -0.0065612793, y: 0}
   m_SizeDelta: {x: 684.1861, y: 100.9628}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889088527

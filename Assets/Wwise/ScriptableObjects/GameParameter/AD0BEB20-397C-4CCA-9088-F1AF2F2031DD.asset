@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2a5499941acd5c4faaaa42bbb8c98b4, type: 3}
   m_Name: AD0BEB20-397C-4CCA-9088-F1AF2F2031DD
   m_EditorClassIdentifier: 
-  objectName: Stereo_User_Gain
-  id: 2332693969
+  objectName: User_Gain
+  id: 1696562406
   guid: AD0BEB20-397C-4CCA-9088-F1AF2F2031DD

@@ -175,9 +175,6 @@
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
-												<Reference Name="ReflectionsAuxSend">
-													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
-												</Reference>
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="L04-Mother Goose (Mixed And Mastered By Steven Wilson)" ID="{B3D0E01A-3F6D-4258-91D5-68BD11459395}">
@@ -206,9 +203,6 @@
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
-												</Reference>
-												<Reference Name="ReflectionsAuxSend">
-													<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -501,6 +495,1146 @@
 								<ActiveSource Name="Pink Noise" ID="{C8C4EB6D-359D-4D87-8523-4EC466E85AFF}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="AG" ID="{F3697630-8DBD-4E97-A040-EA3D3FFA780A}" ShortID="685575423">
+					<ChildrenList>
+						<Folder Name="Stereo" ID="{8A8F785D-DFA0-458E-8599-EE368AE4BA1E}" ShortID="692177910">
+							<ChildrenList>
+								<Sound Name="Reference_AG" ID="{0F88FE34-BE60-47A7-8B0C-C723B3AD96D5}" ShortID="225745753">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AG" ID="{7C201B74-9812-445E-8431-C224DF370ECB}">
+											<Language>SFX</Language>
+											<AudioFile>AG.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298596890"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AG" ID="{7C201B74-9812-445E-8431-C224DF370ECB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="User_AG" ID="{E4F9E860-DFDC-4C2A-83FE-902ED44EC3A4}" ShortID="722838281">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AG" ID="{5F00E0DB-6B13-47F7-BE09-58B3777F7D44}">
+											<Language>SFX</Language>
+											<AudioFile>AG.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="298596890"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="AG" ID="{5F00E0DB-6B13-47F7-BE09-58B3777F7D44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Spatial" ID="{A5C7DF19-4BCE-4782-B579-6F9B43127282}" ShortID="482724997">
+							<ChildrenList>
+								<Folder Name="Reference" ID="{5EFA16FD-FAB1-4996-996B-728F54F1C8C8}" ShortID="423881765">
+									<ChildrenList>
+										<Sound Name="Reference_AG_L_Spatial" ID="{F42C0B14-20D3-42F6-AEF4-F09FAF149DFE}" ShortID="774376832">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AG_L" ID="{4B334664-A1AA-40B3-AE06-2DC7A9C89B37}">
+													<Language>SFX</Language>
+													<AudioFile>AG_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="74803668"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AG_L" ID="{4B334664-A1AA-40B3-AE06-2DC7A9C89B37}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_AG_R_Spatial" ID="{A181DEBE-C59C-4C9D-8A2D-3F3D43A42315}" ShortID="262822950">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AG_R" ID="{F4199622-69EA-4D12-BFA1-8F18C273BF4F}">
+													<Language>SFX</Language>
+													<AudioFile>AG_R.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1048410464"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AG_R" ID="{F4199622-69EA-4D12-BFA1-8F18C273BF4F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_AG_Sub_Spatial" ID="{9AC9685E-B0A2-454C-8905-B00FD66B1D5A}" ShortID="639666416">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AG_mono" ID="{2C17B0DE-CE11-4604-9A91-870FD445BB84}">
+													<Language>SFX</Language>
+													<AudioFile>AG_mono.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="732133952"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AG_mono" ID="{2C17B0DE-CE11-4604-9A91-870FD445BB84}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="User" ID="{F9D83DD3-74CD-41CF-9E02-4B59D913554A}" ShortID="954514989">
+									<ChildrenList>
+										<Sound Name="User_AG_L_Spatial" ID="{EE313271-804D-45DB-A41E-8802DA90158D}" ShortID="318218512">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AG_L" ID="{308F2C4D-4E58-42FD-8428-0B4D97BC6CE7}">
+													<Language>SFX</Language>
+													<AudioFile>AG_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="74803668"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AG_L" ID="{308F2C4D-4E58-42FD-8428-0B4D97BC6CE7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_AG_R_Spatial" ID="{DE85EAA8-A3E8-41BD-9F57-C39F894A0664}" ShortID="832476938">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AG_R" ID="{A2649A0E-6081-4FAD-BE7F-AF3F4D4300DD}">
+													<Language>SFX</Language>
+													<AudioFile>AG_R.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1048410464"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AG_R" ID="{A2649A0E-6081-4FAD-BE7F-AF3F4D4300DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_AG_Sub_Spatial" ID="{63DF3816-D34A-4E2E-8AAA-B9AAFDB8F332}" ShortID="957267709">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AG_mono" ID="{139E5F8D-A788-45D0-A1FE-E7E0C99C50AD}">
+													<Language>SFX</Language>
+													<AudioFile>AG_mono.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="732133952"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="AG_mono" ID="{139E5F8D-A788-45D0-A1FE-E7E0C99C50AD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Bass" ID="{30D21F34-2E66-4263-BE2A-F034293601EC}" ShortID="300206034">
+					<ChildrenList>
+						<Folder Name="Stereo" ID="{C8B5B182-55A3-4B7A-A3FB-C135373EC4DA}" ShortID="143544334">
+							<ChildrenList>
+								<Sound Name="Reference_Bass" ID="{3C7DDE20-1F2C-412B-8450-88250DA84D80}" ShortID="267722286">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BASS" ID="{A5D62B2F-8601-4079-9B03-069E3AAA3C9B}">
+											<Language>SFX</Language>
+											<AudioFile>BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="972147162"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BASS" ID="{A5D62B2F-8601-4079-9B03-069E3AAA3C9B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="User_Bass" ID="{BC943F9D-7CD9-4ECC-81E5-0E16EFC33751}" ShortID="158238669">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BASS" ID="{D23E9A93-D727-419E-8A1C-368FDC37ED59}">
+											<Language>SFX</Language>
+											<AudioFile>BASS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="972147162"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="BASS" ID="{D23E9A93-D727-419E-8A1C-368FDC37ED59}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Spatial" ID="{7F4589B9-35E9-4505-B8F2-C7FFC8770A76}" ShortID="276990285">
+							<ChildrenList>
+								<Folder Name="Reference" ID="{01C52B24-F2B7-4C7C-BF52-9C95A07C2777}" ShortID="1024312704">
+									<ChildrenList>
+										<Sound Name="Reference_Bass_L_Spatial" ID="{4B0C2D34-6F40-4609-BB29-D7EEF297AD3E}" ShortID="668459314">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BASS_L" ID="{9047AC9A-7CD5-43E8-985C-3CD53A7A796C}">
+													<Language>SFX</Language>
+													<AudioFile>BASS_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="379161240"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BASS_L" ID="{9047AC9A-7CD5-43E8-985C-3CD53A7A796C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_Bass_R_Spatial" ID="{F22CDE99-FEE5-4173-B15A-0B8F33E90CA8}" ShortID="163977070">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BASS_R" ID="{8A45DB2B-695F-4589-A0BF-73BA2D60D1D8}">
+													<Language>SFX</Language>
+													<AudioFile>BASS_R.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="647817188"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BASS_R" ID="{8A45DB2B-695F-4589-A0BF-73BA2D60D1D8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_Bass_Sub_Spatial" ID="{53016883-F20E-4650-B4DE-301A4CDDD485}" ShortID="183673531">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BASS_mono" ID="{301FC652-EE42-4E17-8CC7-0EC0E405975F}">
+													<Language>SFX</Language>
+													<AudioFile>BASS_mono.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="826149229"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BASS_mono" ID="{301FC652-EE42-4E17-8CC7-0EC0E405975F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="User" ID="{7D73F2CE-290E-4BC8-B033-B6A7176F9137}" ShortID="116271744">
+									<ChildrenList>
+										<Sound Name="User_Bass_L_Spatial" ID="{B378A625-5402-4697-8DAB-AFD6550DCC00}" ShortID="404041866">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BASS_L" ID="{373DEC35-C746-41C2-9B5D-7D78474ED157}">
+													<Language>SFX</Language>
+													<AudioFile>BASS_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="379161240"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BASS_L" ID="{373DEC35-C746-41C2-9B5D-7D78474ED157}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_Bass_R_Spatial" ID="{595E6A0C-50F9-4C13-A9C5-1613B93870B2}" ShortID="47713739">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BASS_R" ID="{D0CEA2B9-618F-4A13-9F87-287C93310211}">
+													<Language>SFX</Language>
+													<AudioFile>BASS_R.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="647817188"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BASS_R" ID="{D0CEA2B9-618F-4A13-9F87-287C93310211}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_Bass_Sub_Spatial" ID="{D68920EC-95CF-4D00-9535-451D202B9D1C}" ShortID="907881068">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="BASS_mono" ID="{F22CE612-F328-4EDA-89CB-25B39011D609}">
+													<Language>SFX</Language>
+													<AudioFile>BASS_mono.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="826149229"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="BASS_mono" ID="{F22CE612-F328-4EDA-89CB-25B39011D609}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Bassoon" ID="{6D18AE7B-4A21-4ADC-9CF2-E7B4B377820C}" ShortID="877767487">
+					<ChildrenList>
+						<Folder Name="Stereo" ID="{675FDD16-80B0-401C-AD09-97B5C53A6D43}" ShortID="470518395">
+							<ChildrenList>
+								<Sound Name="Reference_Bassoon" ID="{77A4585D-77A9-4EA9-8397-A93889ACD9F3}" ShortID="509250305">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bassoon" ID="{D581553F-C738-4F00-8423-7B09C0CD4604}">
+											<Language>SFX</Language>
+											<AudioFile>Bassoon.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493522854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Bassoon" ID="{D581553F-C738-4F00-8423-7B09C0CD4604}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="User_Bassoon" ID="{FF1F6819-72EA-4E2F-AEAD-F1051986AE07}" ShortID="477138676">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bassoon" ID="{E1380AB2-77A7-41D0-928C-84EC0FF80A87}">
+											<Language>SFX</Language>
+											<AudioFile>Bassoon.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493522854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Bassoon" ID="{E1380AB2-77A7-41D0-928C-84EC0FF80A87}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Spatial" ID="{A1D8B58D-81DA-4DAF-8C36-BB44896FE95B}" ShortID="510385144">
+							<ChildrenList>
+								<Folder Name="Reference" ID="{12DAFD87-3BAB-48EA-AD16-4AD8B106CF45}" ShortID="556721674">
+									<ChildrenList>
+										<Sound Name="Reference_Bassoon_L_Spatial" ID="{78009CBA-CE01-43D8-A642-905F2A9157C1}" ShortID="980159380">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bassoon" ID="{91A6D856-6405-4F68-B9E5-178EA9CF3739}">
+													<Language>SFX</Language>
+													<AudioFile>Bassoon.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493522854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Bassoon" ID="{91A6D856-6405-4F68-B9E5-178EA9CF3739}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_Bassoon_R_Spatial" ID="{3235BE9C-4EF8-4BAE-82B8-7101261B52FC}" ShortID="598101827">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bassoon" ID="{39F70A48-426F-451E-9169-B27EC98DBABB}">
+													<Language>SFX</Language>
+													<AudioFile>Bassoon.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493522854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Bassoon" ID="{39F70A48-426F-451E-9169-B27EC98DBABB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_Bassoon_Sub_Spatial" ID="{9E52742C-AA61-45D1-8822-BCBE0FD87190}" ShortID="857379331">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bassoon" ID="{84ABC29B-6B04-4FFA-92B8-AC05F2EC278A}">
+													<Language>SFX</Language>
+													<AudioFile>Bassoon.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493522854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Bassoon" ID="{84ABC29B-6B04-4FFA-92B8-AC05F2EC278A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="User" ID="{62FABFCC-5ECC-474D-AC2F-C773DBA4AD62}" ShortID="746150480">
+									<ChildrenList>
+										<Sound Name="User_Bassoon_L_Spatial" ID="{2FE59108-F590-462E-BCC9-76C0416C66A5}" ShortID="259340549">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bassoon" ID="{34F79EF2-2020-44D9-86E7-1557D9C37541}">
+													<Language>SFX</Language>
+													<AudioFile>Bassoon.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493522854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Bassoon" ID="{34F79EF2-2020-44D9-86E7-1557D9C37541}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_Bassoon_R_Spatial" ID="{D5792F10-AEB6-480C-94AD-32A3A4CDBE07}" ShortID="14469800">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bassoon" ID="{96F36CCC-5D99-4BCB-B34F-C59C9498FBA8}">
+													<Language>SFX</Language>
+													<AudioFile>Bassoon.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493522854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Bassoon" ID="{96F36CCC-5D99-4BCB-B34F-C59C9498FBA8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_Bassoon_Sub_Spatial" ID="{42074F0C-C17C-4E57-B9B1-7EBB36365783}" ShortID="90438495">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bassoon" ID="{8A6BFAEA-0EAB-4B6B-B482-2536A316CC11}">
+													<Language>SFX</Language>
+													<AudioFile>Bassoon.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493522854"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Bassoon" ID="{8A6BFAEA-0EAB-4B6B-B482-2536A316CC11}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Kick and Snare" ID="{A686D176-E3D0-4B42-A1C8-F60659F6A683}" ShortID="317277298">
+					<ChildrenList>
+						<Folder Name="Stereo" ID="{A0A1E6EB-8912-4C11-9898-D88C4E138588}" ShortID="1055035105">
+							<ChildrenList>
+								<Sound Name="Reference_Kick_and_Snare" ID="{15081BFE-E747-4E8D-9F0C-27C03DA2E41C}" ShortID="1024530370">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Kick_and_Snare" ID="{6FCBC77F-253B-48C2-A168-9E8C16454080}">
+											<Language>SFX</Language>
+											<AudioFile>Kick_and_Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="910911016"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Kick_and_Snare" ID="{6FCBC77F-253B-48C2-A168-9E8C16454080}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="User_Kick_and_Snare" ID="{3A5092B9-EA20-4BAC-937C-3A89243F19CC}" ShortID="633995739">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Kick_and_Snare" ID="{B312769D-1CA1-40A6-9234-E27D8B00AB4F}">
+											<Language>SFX</Language>
+											<AudioFile>Kick_and_Snare.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="910911016"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Kick_and_Snare" ID="{B312769D-1CA1-40A6-9234-E27D8B00AB4F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Spatial" ID="{05916C71-2C8A-4004-A17B-FEED13EFB65E}" ShortID="326824958">
+							<ChildrenList>
+								<Folder Name="Reference" ID="{2233616F-7B64-474A-AB38-70941EEE2A88}" ShortID="830363918">
+									<ChildrenList>
+										<Sound Name="Reference_Kick_and_Snare_L_Spatial" ID="{BF524143-7044-457F-AF39-EB66F39570BB}" ShortID="221012718">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kick_and_Snare_L" ID="{4E684FAF-70DF-411B-8A68-72FE57DACC61}">
+													<Language>SFX</Language>
+													<AudioFile>Kick_and_Snare_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1049595979"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Kick_and_Snare_L" ID="{4E684FAF-70DF-411B-8A68-72FE57DACC61}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_Kick_and_Snare_R_Spatial" ID="{2044AE45-6357-4CB1-86CB-BF3372E1B729}" ShortID="75019538">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kick_and_Snare_R" ID="{8EFEBE4F-09B4-4595-828B-A1E0C96DD050}">
+													<Language>SFX</Language>
+													<AudioFile>Kick_and_Snare_R.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="54130080"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Kick_and_Snare_R" ID="{8EFEBE4F-09B4-4595-828B-A1E0C96DD050}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_Kick_and_Snare_Sub_Spatial" ID="{29F4CDF9-D9E6-4F79-8F71-CB96A442839C}" ShortID="209378754">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kick_Snare_mono" ID="{98D102FB-B7C8-4770-9EE9-1BA482EDD944}">
+													<Language>SFX</Language>
+													<AudioFile>Kick_Snare_mono.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="502097503"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Kick_Snare_mono" ID="{98D102FB-B7C8-4770-9EE9-1BA482EDD944}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="User" ID="{B2E2D507-7B8A-41EE-B8DE-614A958C2D22}" ShortID="437015425">
+									<ChildrenList>
+										<Sound Name="User_Kick_and_Snare_L_Spatial" ID="{0FAF3853-3DC8-4710-9F32-F3390247AA31}" ShortID="367387439">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kick_and_Snare_L" ID="{A390F3BA-6BD0-4184-B007-EF339FDE9E12}">
+													<Language>SFX</Language>
+													<AudioFile>Kick_and_Snare_L.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1049595979"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Kick_and_Snare_L" ID="{A390F3BA-6BD0-4184-B007-EF339FDE9E12}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_Kick_and_Snare_R_Spatial" ID="{236CCF57-BC53-46D1-889F-2B69E21BE43D}" ShortID="403567214">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kick_and_Snare_R" ID="{4A5EF551-B617-4878-A042-297F26E78DA4}">
+													<Language>SFX</Language>
+													<AudioFile>Kick_and_Snare_R.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="54130080"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Kick_and_Snare_R" ID="{4A5EF551-B617-4878-A042-297F26E78DA4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_Kick_and_Snare_Sub_Spatial" ID="{04737568-BB95-4BCD-B79D-A26CA250B195}" ShortID="933943033">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Kick_Snare_mono" ID="{CD10713E-D440-4429-B3D4-23CE4DF9B0D9}">
+													<Language>SFX</Language>
+													<AudioFile>Kick_Snare_mono.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="502097503"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Kick_Snare_mono" ID="{CD10713E-D440-4429-B3D4-23CE4DF9B0D9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Voice" ID="{AFBCC87B-9C74-4814-AD45-EC823C61A702}" ShortID="91693424">
+					<ChildrenList>
+						<Folder Name="Stereo" ID="{8F59FBA9-EA2E-4A27-BBD3-7AC3CC3DA501}" ShortID="653587308">
+							<ChildrenList>
+								<Sound Name="Reference_Voice" ID="{5FB52E69-8E7E-457A-AE5C-24D0C6EB9ED4}" ShortID="361025406">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Operatic_Voice" ID="{69194B9A-2FC9-4CA0-A0CA-3EB51E7704BF}">
+											<Language>SFX</Language>
+											<AudioFile>Operatic_Voice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="292033815"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Operatic_Voice" ID="{69194B9A-2FC9-4CA0-A0CA-3EB51E7704BF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="User_Voice" ID="{9A0172ED-F6DE-41CC-A1D4-DE9DFBE067FE}" ShortID="151321455">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Operatic_Voice" ID="{A28D04D4-7B5C-4BCC-983A-33608E72F2C6}">
+											<Language>SFX</Language>
+											<AudioFile>Operatic_Voice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="292033815"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Operatic_Voice" ID="{A28D04D4-7B5C-4BCC-983A-33608E72F2C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Spatial" ID="{FCFF8163-BCAA-49A4-8511-4E01DE5FC8B2}" ShortID="82477069">
+							<ChildrenList>
+								<Folder Name="Reference" ID="{94FC48C8-21AA-49B2-8D91-9CE02B35DF30}" ShortID="7821125">
+									<ChildrenList>
+										<Sound Name="Reference_Voice_L_Spatial" ID="{A3C810DA-479F-4993-9AEA-C06C902D9812}" ShortID="735606551">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Operatic_Voice" ID="{342B07E1-B3EA-4267-B51F-CA9B04702EEC}">
+													<Language>SFX</Language>
+													<AudioFile>Operatic_Voice.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="292033815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Operatic_Voice" ID="{342B07E1-B3EA-4267-B51F-CA9B04702EEC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_Voice_R_Spatial" ID="{BB634F83-9592-44D1-9015-49585BA5B1E3}" ShortID="85848007">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Operatic_Voice" ID="{A118DBFD-6220-44E4-B786-81D3415907EF}">
+													<Language>SFX</Language>
+													<AudioFile>Operatic_Voice.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="292033815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Operatic_Voice" ID="{A118DBFD-6220-44E4-B786-81D3415907EF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Reference_Voice_Sub_Spatial" ID="{0C9F4C90-5F95-48C6-B92D-33E658EA7F67}" ShortID="474066997">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Operatic_Voice" ID="{4A0BE5E0-2E7D-471A-8900-4ED01EE2217D}">
+													<Language>SFX</Language>
+													<AudioFile>Operatic_Voice.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="292033815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Operatic_Voice" ID="{4A0BE5E0-2E7D-471A-8900-4ED01EE2217D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="User" ID="{5F995017-60AB-4077-844B-42D34BCC3034}" ShortID="121672523">
+									<ChildrenList>
+										<Sound Name="User_Voice_L_Spatial" ID="{4D88207F-BC82-4A05-A510-C55B3D3CAE5F}" ShortID="377769470">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Operatic_Voice" ID="{18DBD015-4A8F-478B-AD5B-F84EF284ECF2}">
+													<Language>SFX</Language>
+													<AudioFile>Operatic_Voice.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="292033815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Operatic_Voice" ID="{18DBD015-4A8F-478B-AD5B-F84EF284ECF2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_Voice_R_Spatial" ID="{50658089-CD12-45F6-98F7-0C63A0C91A3B}" ShortID="661182247">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Operatic_Voice" ID="{62F05E16-B602-486D-B537-3FAA004030DD}">
+													<Language>SFX</Language>
+													<AudioFile>Operatic_Voice.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="292033815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Operatic_Voice" ID="{62F05E16-B602-486D-B537-3FAA004030DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="User_Voice_Sub_Spatial" ID="{5A50F46A-4879-4005-A556-7CBF61E060E6}" ShortID="268158949">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Operatic_Voice" ID="{A9E8CD4E-8717-45C1-A71D-72C40CF6C883}">
+													<Language>SFX</Language>
+													<AudioFile>Operatic_Voice.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="292033815"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Operatic_Voice" ID="{A9E8CD4E-8717-45C1-A71D-72C40CF6C883}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

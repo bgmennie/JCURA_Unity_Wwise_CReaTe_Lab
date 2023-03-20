@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2a5499941acd5c4faaaa42bbb8c98b4, type: 3}
   m_Name: B8B199B7-C361-4157-8E4B-752701BFAC46
   m_EditorClassIdentifier: 
-  objectName: Stereo_User_Reverb_Length
-  id: 694743187
+  objectName: User_Reverb_Length
+  id: 1887793322
   guid: B8B199B7-C361-4157-8E4B-752701BFAC46

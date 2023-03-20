@@ -5,11 +5,29 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{72F67BEA-3B99-4C58-B081-A1C3E3D3FC5F}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_Reference_AG" ID="{1FB1E8D0-4938-401C-A6CA-381711077E83}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Kick_and_Snare" ID="{04C429A4-5479-4084-B096-69A743936223}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Bassoon_R_Spatial" ID="{8F239E66-48E8-4091-AB7D-C51AF5DBEEC2}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Bass_R_Spatial" ID="{00AE0C89-B6DD-4147-B43C-AAC16A837468}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Voice" ID="{15C1CFE0-249A-414B-ADCE-AB6B6A536CB6}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Voice_R_Spatial" ID="{52B767D4-11C4-4175-8766-3C0903BDD574}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Bass_Sub_Spatial" ID="{82F5B0F8-D081-4192-A98E-427733BE4001}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Kick_and_Snare" ID="{3A4D79F5-170E-41B4-96F4-BE141B06FD5C}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Kick_and_Snare_L_Spatial" ID="{38CF4703-2ACB-4214-9C0A-C835008149C5}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Voice" ID="{CE672102-862A-4238-AF9D-10411B4E8D18}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_AG_Sub_Spatial" ID="{A25A5121-9C18-4284-86AC-AD0AF823BBA1}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Reference_Jethro_Tull_Mother_Goose" ID="{5B59C1A5-7160-42A0-B3F8-E54FBC0DF626}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Voice_Sub_Spatial" ID="{02796AC0-9ADF-4317-9AED-066673912E09}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Bass_L_Spatial" ID="{63E1E722-1C47-433F-A42D-7E6B467DE16C}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Kick_and_Snare_Sub_Spatial" ID="{490B4D49-2F84-434D-982B-F430F39262C0}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_AG_L_Spatial" ID="{32E035C4-241A-43C1-AFDF-DB101204327C}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Kick_and_Snare_R_Spatial" ID="{C19B4CC3-684E-440B-9C1F-7C0228487873}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_User_Jethro_Tull_L_Spatial" ID="{B3067660-0845-441F-9D1A-2475CEF1AFE5}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Kick_and_Snare_L_Spatial" ID="{2E1A6600-4785-4468-8DF2-8203EC048293}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Voice_L_Spatial" ID="{0E3EFDC8-306F-4518-9468-420BE18176C9}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_All" ID="{4AD9D052-0FF4-45D1-8D8D-0FC9519DB5CD}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
@@ -17,14 +35,36 @@
 						<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Reference_Jethro_Tull_L_Spatial" ID="{8A0F8D7E-26D0-46A8-A946-359D8CE4B3DD}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_AG_R_Spatial" ID="{01C2F6A2-BEB7-46A8-914B-5E7C8EF38A76}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Bassoon_L_Spatial" ID="{7AA58440-6A9C-4781-9DD8-A4D9862B7ADE}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Late_Reverberation_Bus" ID="{43C9D32E-6EE6-47D5-86E9-D127DB9D3718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Bass_Sub_Spatial" ID="{8287AD0D-66D6-4803-B856-D52E01072915}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_User_Jethro_Tull_Mother_Goose" ID="{72ADC24C-49D5-4805-89E7-077E458D59A1}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Reference_Jethro_Tull_R_Spatial" ID="{3219EB14-0E57-480E-9432-FA8538FFED02}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Voice_Sub_Spatial" ID="{1D819A20-C082-4867-9C1C-002EB2D56FB7}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_AG" ID="{BF570C82-45B3-4881-A6D7-E37AF459BEB4}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Bassoon_L_Spatial" ID="{2870C85C-71D7-48A2-A037-3F2E522052B8}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Bass_L_Spatial" ID="{FF70F7CB-DD14-4A18-A53A-5926B3CC508F}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Bass_R_Spatial" ID="{B866D1E6-E260-4A50-9E96-93553BEA6ADC}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Bassoon_Sub_Spatial" ID="{A66757E3-47CB-4A59-B178-CB94793BA42D}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Voice_L_Spatial" ID="{C6F594ED-CBD4-4A6E-B894-847905BC0BE2}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Bassoon_R_Spatial" ID="{914CC634-96DA-4B19-A6F7-F59EA2B61BC1}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_AG_L_Spatial" ID="{EBB27FD4-FF20-4C52-9C5F-450D464D12AD}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Kick_and_Snare_R_Spatial" ID="{D484F7CB-F40E-4C61-853E-197B1C30F45A}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Bassoon" ID="{A617C9BF-1F6A-4C6C-AF40-E006C962A531}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_AG_Sub_Spatial" ID="{65262BEC-8FA8-4CD1-A9F9-5E06440AF1AA}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Bassoon" ID="{90DA887F-E823-4D16-B2A7-E796B235BB90}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_User_Jethro_Tull_Sub_Spatial" ID="{AB1F80C4-4D15-4DC1-8A75-F4CDED243F57}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Kick_and_Snare_Sub_Spatial" ID="{13BB1475-B381-4DF4-8EAB-066C7846FC5C}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stereo_User" ID="{6398F5DB-8D0C-4DFE-94A0-F15049937C1E}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Bass" ID="{9F1A4544-15C6-4E71-B0C3-DBE605FA1D73}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_Voice_R_Spatial" ID="{523BCA98-D83D-4EC0-A0D8-26EDE96DD224}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Reference_AG_R_Spatial" ID="{114206FD-67C4-4EF0-BA24-7885C581C0B4}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Pink_Noise" ID="{5C36DA30-229F-4F0E-A882-9006CCC29365}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Bassoon_Sub_Spatial" ID="{DAE4BAA7-8219-4FCB-BE66-C63B7BB1260C}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_User_Jethro_Tull_R_Spatial" ID="{EEE7F2FB-9FF8-4FCE-893A-EDE6C6FDC4A0}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_User_Bass" ID="{7A3A33D1-3878-4FD4-812F-14C42D6BFB0F}" WorkUnitID="{0EBA5A1D-E9C2-4089-8FF4-C6D3F7A58ED2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

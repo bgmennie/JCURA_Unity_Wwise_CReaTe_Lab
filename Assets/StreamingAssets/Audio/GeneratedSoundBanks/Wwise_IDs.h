@@ -14,14 +14,54 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_PINK_NOISE = 3286096225U;
+        static const AkUniqueID PLAY_REFERENCE_AG = 3202613480U;
+        static const AkUniqueID PLAY_REFERENCE_AG_L_SPATIAL = 2964536316U;
+        static const AkUniqueID PLAY_REFERENCE_AG_R_SPATIAL = 3840212506U;
+        static const AkUniqueID PLAY_REFERENCE_AG_SUB_SPATIAL = 3833327386U;
+        static const AkUniqueID PLAY_REFERENCE_BASS = 3843960013U;
+        static const AkUniqueID PLAY_REFERENCE_BASS_L_SPATIAL = 3975576213U;
+        static const AkUniqueID PLAY_REFERENCE_BASS_R_SPATIAL = 3514419779U;
+        static const AkUniqueID PLAY_REFERENCE_BASS_SUB_SPATIAL = 3243513167U;
+        static const AkUniqueID PLAY_REFERENCE_BASSOON = 1688917067U;
+        static const AkUniqueID PLAY_REFERENCE_BASSOON_L_SPATIAL = 3311444055U;
+        static const AkUniqueID PLAY_REFERENCE_BASSOON_R_SPATIAL = 2980121537U;
+        static const AkUniqueID PLAY_REFERENCE_BASSOON_SUB_SPATIAL = 3927108209U;
         static const AkUniqueID PLAY_REFERENCE_JETHRO_TULL_L_SPATIAL = 2202538504U;
         static const AkUniqueID PLAY_REFERENCE_JETHRO_TULL_MOTHER_GOOSE = 1634674446U;
         static const AkUniqueID PLAY_REFERENCE_JETHRO_TULL_R_SPATIAL = 750340830U;
         static const AkUniqueID PLAY_REFERENCE_JETHRO_TULL_SUB_SPATIAL = 1402898358U;
+        static const AkUniqueID PLAY_REFERENCE_KICK_AND_SNARE = 3674149914U;
+        static const AkUniqueID PLAY_REFERENCE_KICK_AND_SNARE_L_SPATIAL = 4088402210U;
+        static const AkUniqueID PLAY_REFERENCE_KICK_AND_SNARE_R_SPATIAL = 2212394356U;
+        static const AkUniqueID PLAY_REFERENCE_KICK_AND_SNARE_SUB_SPATIAL = 2885399656U;
+        static const AkUniqueID PLAY_REFERENCE_VOICE = 2850551802U;
+        static const AkUniqueID PLAY_REFERENCE_VOICE_L_SPATIAL = 2546460418U;
+        static const AkUniqueID PLAY_REFERENCE_VOICE_R_SPATIAL = 2044896852U;
+        static const AkUniqueID PLAY_REFERENCE_VOICE_SUB_SPATIAL = 509070408U;
+        static const AkUniqueID PLAY_USER_AG = 861268446U;
+        static const AkUniqueID PLAY_USER_AG_L_SPATIAL = 3034766702U;
+        static const AkUniqueID PLAY_USER_AG_R_SPATIAL = 1483207928U;
+        static const AkUniqueID PLAY_USER_AG_SUB_SPATIAL = 1459694020U;
+        static const AkUniqueID PLAY_USER_BASS = 5071667U;
+        static const AkUniqueID PLAY_USER_BASS_L_SPATIAL = 963364879U;
+        static const AkUniqueID PLAY_USER_BASS_R_SPATIAL = 2864457769U;
+        static const AkUniqueID PLAY_USER_BASS_SUB_SPATIAL = 3637355001U;
+        static const AkUniqueID PLAY_USER_BASSOON = 1703140329U;
+        static const AkUniqueID PLAY_USER_BASSOON_L_SPATIAL = 3263655401U;
+        static const AkUniqueID PLAY_USER_BASSOON_R_SPATIAL = 4215215311U;
+        static const AkUniqueID PLAY_USER_BASSOON_SUB_SPATIAL = 210445075U;
         static const AkUniqueID PLAY_USER_JETHRO_TULL_L_SPATIAL = 2119947682U;
         static const AkUniqueID PLAY_USER_JETHRO_TULL_MOTHER_GOOSE = 824084648U;
         static const AkUniqueID PLAY_USER_JETHRO_TULL_R_SPATIAL = 243939828U;
         static const AkUniqueID PLAY_USER_JETHRO_TULL_SUB_SPATIAL = 4044639464U;
+        static const AkUniqueID PLAY_USER_KICK_AND_SNARE = 3253307136U;
+        static const AkUniqueID PLAY_USER_KICK_AND_SNARE_L_SPATIAL = 1262816836U;
+        static const AkUniqueID PLAY_USER_KICK_AND_SNARE_R_SPATIAL = 684886802U;
+        static const AkUniqueID PLAY_USER_KICK_AND_SNARE_SUB_SPATIAL = 2574811890U;
+        static const AkUniqueID PLAY_USER_VOICE = 958062908U;
+        static const AkUniqueID PLAY_USER_VOICE_L_SPATIAL = 2107522504U;
+        static const AkUniqueID PLAY_USER_VOICE_R_SPATIAL = 3124993438U;
+        static const AkUniqueID PLAY_USER_VOICE_SUB_SPATIAL = 91596406U;
         static const AkUniqueID STOP_ALL = 452547817U;
     } // namespace EVENTS
 
@@ -29,15 +69,14 @@ namespace AK
     {
         static const AkUniqueID BUS_SWITCH = 1409897668U;
         static const AkUniqueID MASTER_BUS_MUTE = 2573722612U;
-        static const AkUniqueID SPATIAL_PAN_L_CHANNEL = 3148723270U;
-        static const AkUniqueID SPATIAL_PAN_R_CHANNEL = 106087048U;
-        static const AkUniqueID STEREO_REFERENCE_GAIN = 4117303583U;
-        static const AkUniqueID STEREO_REFERENCE_PAN = 1966853395U;
-        static const AkUniqueID STEREO_USER_GAIN = 2332693969U;
-        static const AkUniqueID STEREO_USER_PAN = 3227346317U;
-        static const AkUniqueID STEREO_USER_REVERB_LENGTH = 694743187U;
-        static const AkUniqueID STEREO_USER_WET_LEVEL = 752449211U;
-        static const AkUniqueID TEST = 3157003241U;
+        static const AkUniqueID REFERENCE_GAIN = 3244571974U;
+        static const AkUniqueID REFERENCE_PAN = 1684779072U;
+        static const AkUniqueID REFERENCE_REVERB_LENGTH = 1447113290U;
+        static const AkUniqueID REFERENCE_WET_LEVEL = 3910040902U;
+        static const AkUniqueID USER_GAIN = 1696562406U;
+        static const AkUniqueID USER_PAN = 3256913760U;
+        static const AkUniqueID USER_REVERB_LENGTH = 1887793322U;
+        static const AkUniqueID USER_WET_LEVEL = 2256666278U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2a5499941acd5c4faaaa42bbb8c98b4, type: 3}
   m_Name: D931186C-57CB-4A57-A34E-3A998BED907A
   m_EditorClassIdentifier: 
-  objectName: Stereo_User_Pan
-  id: 3227346317
+  objectName: User_Pan
+  id: 3256913760
   guid: D931186C-57CB-4A57-A34E-3A998BED907A

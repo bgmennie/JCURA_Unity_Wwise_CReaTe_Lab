@@ -12,15 +12,30 @@
 					<ChildrenList>
 						<Bus Name="Spatial" ID="{071A1D13-5328-414D-9B82-CEE93EF89791}">
 							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>528</Value>
+									</ValueList>
+								</Property>
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList>
-								<Reference Name="ReflectionsAuxSend">
-									<ObjectRef Name="Early_Reflection_Bus" ID="{64C887B4-904D-447B-9838-18D8FEBF41BB}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
-								</Reference>
-							</ReferenceList>
+							<ReferenceList/>
 							<ChildrenList>
 								<Bus Name="Spatial_Reference" ID="{94AA1216-40A6-4C90-9C9E-9DC2C8680114}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>528</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Resonance Audio Renderer (Custom)" ID="{BEB0C524-25A3-405B-AAB4-56E1D986E4C6}" ShortID="813674469" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
 										<Bus Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}">
 											<PropertyList>
@@ -82,7 +97,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-96.00001</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
+																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -143,9 +158,9 @@
 																				<PointList>
 																					<Point>
 																						<XPos>0</XPos>
-																						<YPos>-40</YPos>
+																						<YPos>-50</YPos>
 																						<Flags>5</Flags>
-																						<SegmentShape>Exp1</SegmentShape>
+																						<SegmentShape>Log2</SegmentShape>
 																					</Point>
 																					<Point>
 																						<XPos>1</XPos>
@@ -163,11 +178,6 @@
 												</Reference>
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
-												</Reference>
-												<Reference Name="Effect2">
-													<Custom>
-														<Effect Name="Resonance Audio Renderer (Custom)" ID="{D1512E16-42DC-4557-900A-B326703AA387}" ShortID="124259413" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
-													</Custom>
 												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
@@ -232,7 +242,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-96.00001</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
+																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -296,9 +306,9 @@
 																				<PointList>
 																					<Point>
 																						<XPos>0</XPos>
-																						<YPos>-40</YPos>
+																						<YPos>-50</YPos>
 																						<Flags>5</Flags>
-																						<SegmentShape>Exp1</SegmentShape>
+																						<SegmentShape>Log2</SegmentShape>
 																					</Point>
 																					<Point>
 																						<XPos>1</XPos>
@@ -316,11 +326,6 @@
 												</Reference>
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
-												</Reference>
-												<Reference Name="Effect2">
-													<Custom>
-														<Effect Name="Resonance Audio Renderer (Custom)" ID="{AA83D5D6-30DE-4210-858F-2982821B4D33}" ShortID="908979033" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
-													</Custom>
 												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
@@ -344,7 +349,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-96.00001</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
+																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -358,7 +363,72 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Matrix Reverb (Custom)" ID="{7B9E736A-1544-410B-875C-FBAB7E3D1A2D}" ShortID="908632732" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+															<PropertyList>
+																<Property Name="ReverbTime" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{96DAB5D4-B81B-440B-BD94-79A19B1EE82B}" ShortID="356849303">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Reference_Reverb_Length" ID="{8F6479C3-DB02-42AE-9E04-ADE8DEB1E31F}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{68DF7962-950C-4D35-965D-B1983422E770}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>2</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>7</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="WetLevel" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{976A6030-D707-4EE2-87EB-141D400E829E}" ShortID="870098931">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Reference_Wet_Level" ID="{3675383B-3694-4CD5-B37C-C066676409CE}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{7F60A770-6656-4D29-9012-6BC1A1AFA25C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-50</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Log2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>-10</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="Sub_Emitter_Parametric_EQ" ID="{9C81F0A8-D033-418B-8E4B-149AAD37EA5D}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
 											</ReferenceList>
@@ -368,6 +438,20 @@
 									<ObjectLists/>
 								</Bus>
 								<Bus Name="Spatial_User" ID="{A5C5BB5B-EA06-4CE8-B66D-7CCDCD349C09}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>528</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Resonance Audio Renderer (Custom)" ID="{A820402A-C461-4CE6-8F54-8EA283826F7C}" ShortID="1011516121" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
 										<Bus Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}">
 											<PropertyList>
@@ -429,7 +513,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-96.00001</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
+																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -490,13 +574,13 @@
 																				<PointList>
 																					<Point>
 																						<XPos>0</XPos>
-																						<YPos>-40</YPos>
+																						<YPos>-50</YPos>
 																						<Flags>5</Flags>
-																						<SegmentShape>Exp1</SegmentShape>
+																						<SegmentShape>Log2</SegmentShape>
 																					</Point>
 																					<Point>
 																						<XPos>1</XPos>
-																						<YPos>-15</YPos>
+																						<YPos>-10</YPos>
 																						<Flags>37</Flags>
 																					</Point>
 																				</PointList>
@@ -510,11 +594,6 @@
 												</Reference>
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
-												</Reference>
-												<Reference Name="Effect2">
-													<Custom>
-														<Effect Name="Resonance Audio Renderer (Custom)" ID="{FABDF055-B2F7-45E2-85D0-1F331A0E58D5}" ShortID="735023202" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
-													</Custom>
 												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
@@ -579,7 +658,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-96.00001</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
+																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -643,13 +722,13 @@
 																				<PointList>
 																					<Point>
 																						<XPos>0</XPos>
-																						<YPos>-40</YPos>
+																						<YPos>-50</YPos>
 																						<Flags>5</Flags>
-																						<SegmentShape>Exp1</SegmentShape>
+																						<SegmentShape>Log2</SegmentShape>
 																					</Point>
 																					<Point>
 																						<XPos>1</XPos>
-																						<YPos>-15</YPos>
+																						<YPos>-10</YPos>
 																						<Flags>37</Flags>
 																					</Point>
 																				</PointList>
@@ -663,11 +742,6 @@
 												</Reference>
 												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
-												</Reference>
-												<Reference Name="Effect2">
-													<Custom>
-														<Effect Name="Resonance Audio Renderer (Custom)" ID="{8EF39EEA-9AC3-476F-A1FB-E817B8DE9EC9}" ShortID="273603602" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
-													</Custom>
 												</Reference>
 											</ReferenceList>
 											<ObjectLists/>
@@ -691,7 +765,7 @@
 																		<XPos>0</XPos>
 																		<YPos>-96.00001</YPos>
 																		<Flags>5</Flags>
-																		<SegmentShape>Exp1</SegmentShape>
+																		<SegmentShape>Log2</SegmentShape>
 																	</Point>
 																	<Point>
 																		<XPos>1</XPos>
@@ -752,13 +826,13 @@
 																				<PointList>
 																					<Point>
 																						<XPos>0</XPos>
-																						<YPos>-40</YPos>
+																						<YPos>-50</YPos>
 																						<Flags>5</Flags>
-																						<SegmentShape>Exp1</SegmentShape>
+																						<SegmentShape>Log2</SegmentShape>
 																					</Point>
 																					<Point>
 																						<XPos>1</XPos>
-																						<YPos>-15</YPos>
+																						<YPos>-10</YPos>
 																						<Flags>37</Flags>
 																					</Point>
 																				</PointList>
@@ -951,7 +1025,7 @@
 																<XPos>0</XPos>
 																<YPos>-96</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Exp1</SegmentShape>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
@@ -970,6 +1044,7 @@
 											<Custom>
 												<Effect Name="Wwise Matrix Reverb (Custom)" ID="{B8467F07-AC96-4853-916F-2B558BC209AC}" ShortID="127386002" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 													<PropertyList>
+														<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
 														<Property Name="ReverbTime" Type="Real32">
 															<RTPCList>
 																<RTPC Name="" ID="{24F51773-418A-43B9-9CBC-EEF8FE30182D}" ShortID="589895192">
@@ -1013,13 +1088,13 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-40</YPos>
+																				<YPos>-50</YPos>
 																				<Flags>5</Flags>
-																				<SegmentShape>Exp1</SegmentShape>
+																				<SegmentShape>Log2</SegmentShape>
 																			</Point>
 																			<Point>
 																				<XPos>1</XPos>
-																				<YPos>-15</YPos>
+																				<YPos>-10</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -1126,7 +1201,7 @@
 																<XPos>0</XPos>
 																<YPos>-96.00001</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Exp1</SegmentShape>
+																<SegmentShape>Log2</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>1</XPos>
@@ -1189,13 +1264,13 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-40</YPos>
+																				<YPos>-50</YPos>
 																				<Flags>5</Flags>
-																				<SegmentShape>Exp1</SegmentShape>
+																				<SegmentShape>Log2</SegmentShape>
 																			</Point>
 																			<Point>
 																				<XPos>1</XPos>
-																				<YPos>-15</YPos>
+																				<YPos>-10</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>

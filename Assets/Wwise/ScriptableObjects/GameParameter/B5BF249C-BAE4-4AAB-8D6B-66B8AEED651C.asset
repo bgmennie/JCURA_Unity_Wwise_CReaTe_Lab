@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2a5499941acd5c4faaaa42bbb8c98b4, type: 3}
   m_Name: B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C
   m_EditorClassIdentifier: 
-  objectName: Stereo_User_Wet_Level
-  id: 752449211
+  objectName: User_Wet_Level
+  id: 2256666278
   guid: B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C

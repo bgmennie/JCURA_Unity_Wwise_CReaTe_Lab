@@ -2124,6 +2124,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   testType: 
+  testNumber: 0
+  stereoSpatialFlag: 0
   Play_Reference_Jethro_Tull_Mother_Goose_L:
     idInternal: 0
     valueGuidInternal: 
@@ -2148,11 +2150,129 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: e2f532009e738a74490d547ce91fae30, type: 2}
+  Play_Reference_AG_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ad4c7b07dbe5d724a90297e304218b5a, type: 2}
+  Play_Reference_AG_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2154e5df7a834734db2d5755b6484376, type: 2}
+  Play_Reference_AG_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 326a5aa485965b442b14f92de9d0f476, type: 2}
+  Play_User_AG_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8732190e3b47a3644bb0153cf229a96b, type: 2}
+  Play_User_AG_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: aebad6236872c4a43878197f24b5e383, type: 2}
+  Play_User_AG_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f89dfc6320b786c42aa85cedc09ddbad, type: 2}
+  Play_Reference_Bass_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4341abd3bc5011b4797c3da7103e6a9a, type: 2}
+  Play_Reference_Bass_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 20e1403c1293f0f44b02e532b150ad24, type: 2}
+  Play_Reference_Bass_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cea82f8d9a3de7c49964d14e6d9a8fd1, type: 2}
+  Play_User_Bass_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e82ba4752c3b6f94fba92eab42ab9993, type: 2}
+  Play_User_Bass_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dd3f7cef60f2c744798abcc4aac78da7, type: 2}
+  Play_User_Bass_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e4464d2010072554d9518121993714f9, type: 2}
+  Play_Reference_Bassoon_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f3d7be7134087be479ad0163380275dd, type: 2}
+  Play_Reference_Bassoon_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d13f883d465d92149a95ae9d63e62897, type: 2}
+  Play_Reference_Bassoon_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 34e61027c2a0bd9438be037bceb54e64, type: 2}
+  Play_User_Bassoon_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9852c99d53a05d949a339b6c18e94bbb, type: 2}
+  Play_User_Bassoon_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 482a0ee1fd2cb7242a5cfe2bed0627b0, type: 2}
+  Play_User_Bassoon_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 19ba49367f59f9b498c8011ad31c8bf6, type: 2}
+  Play_Reference_Kick_and_Snare_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 23818b681c1f8744cb76f7fdf75318b3, type: 2}
+  Play_Reference_Kick_and_Snare_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d65aabe136c25964e82a43964e418d5b, type: 2}
+  Play_Reference_Kick_and_Snare_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4c72d0a5ff633434396b910a46ff18b7, type: 2}
+  Play_User_Kick_and_Snare_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 55c4be6a635de14438b62c042063ae11, type: 2}
+  Play_User_Kick_and_Snare_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f943afdb229daa4499c8359d1aa0915a, type: 2}
+  Play_User_Kick_and_Snare_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ece059e5392845c41812ab9d6fdf3c89, type: 2}
+  Play_Reference_Voice_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 749eb0420da3c614c9905094921eaa0d, type: 2}
+  Play_Reference_Voice_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f4dafbc799000d34f97be467f5cde406, type: 2}
+  Play_Reference_Voice_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 34e61027c2a0bd9438be037bceb54e64, type: 2}
+  Play_User_Voice_L:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f26683a5efe418340a4a4976402037f3, type: 2}
+  Play_User_Voice_R:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9443ffe6a0d398343b4765cd35e60b03, type: 2}
+  Play_User_Voice_Sub:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2046956ecf4e4634da0a2044b4c9ea4e, type: 2}
   leftEmitter: {fileID: 894650028}
   rightEmitter: {fileID: 1225720507}
   subEmitter: {fileID: 724217201}
-  stereoReferenceWwiseEvents: []
-  stereoUserWwiseEvents: []
   stereoEventIndex: 0
   Play_Reference_Jethro_Tull_Mother_Goose:
     idInternal: 0
@@ -2162,6 +2282,46 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: fd0e4d17876dacb40b57ea14378c2b62, type: 2}
+  Play_Reference_AG:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8a1c520629987774e83d35b504ba990a, type: 2}
+  Play_User_AG:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2af7678dd70d00544be1b3b504fe9f24, type: 2}
+  Play_Reference_Bass:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8e28f75ea5aba014298a531343638c5d, type: 2}
+  Play_User_Bass:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 379fab1ced8789440a379f7007be013b, type: 2}
+  Play_Reference_Bassoon:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: afaf6f20404390f4dbbac464b43e0a3f, type: 2}
+  Play_User_Bassoon:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d11472fd63c4a61488a678e6e59e7937, type: 2}
+  Play_Reference_Kick_and_Snare:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b3b04b664ae251045b70dc1483bc5d66, type: 2}
+  Play_User_Kick_and_Snare:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9a3898f23a0624942af8dca4ad6c1a2f, type: 2}
+  Play_Reference_Voice:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 67f295d202c422d439da5ee97b5d05ca, type: 2}
+  Play_User_Voice:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1a3de56f1fda2f54cab7b9b75510e767, type: 2}
   stereoUserEmitter: {fileID: 741721693}
   Play_Pink_Noise:
     idInternal: 0
@@ -2179,10 +2339,22 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2b26f71312d3929458a0a6a8c151ee95, type: 2}
+  referencePan: 0
   Stereo_Reference_Gain:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: b45580411e374ef48bfd979b8710601f, type: 2}
+  referenceGain: 0
+  Stereo_Reference_Reverb_Length:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0c20d030239b18c499231d0219139bae, type: 2}
+  referenceReverbLength: 0
+  Stereo_Reference_Wet_Level:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8ee0ed6cef9ad6c409805561fdf34972, type: 2}
+  referenceWetLevel: 0
   Stereo_User_Pan:
     idInternal: 0
     valueGuidInternal: 
@@ -2221,6 +2393,7 @@ MonoBehaviour:
   mk3MidiKnob6: 75
   mk3MidiKnob7: 76
   mk3MidiKnob8: 77
+  resultsPath: 
 --- !u!4 &1228200182
 Transform:
   m_ObjectHideFlags: 0

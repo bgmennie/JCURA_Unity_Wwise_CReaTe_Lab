@@ -1,23 +1,25 @@
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
-	694743187	Stereo_User_Reverb_Length			\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length	
-	752449211	Stereo_User_Wet_Level			\Default Work Unit\Stereo\User\Stereo_User_Wet_Level	
 	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
 	1409897668	Bus_Switch			\Default Work Unit\Bus_Switch	
+	1447113290	Reference_Reverb_Length			\Default Work Unit\Reference\Reference_Reverb_Length	
+	1684779072	Reference_Pan			\Default Work Unit\Reference\Reference_Pan	
+	1696562406	User_Gain			\Default Work Unit\User\User_Gain	
 	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
 	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
-	1966853395	Stereo_Reference_Pan			\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan	
+	1887793322	User_Reverb_Length			\Default Work Unit\User\User_Reverb_Length	
 	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
 	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
-	2332693969	Stereo_User_Gain			\Default Work Unit\Stereo\User\Stereo_User_Gain	
+	2256666278	User_Wet_Level			\Default Work Unit\User\User_Wet_Level	
 	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
 	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
 	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
 	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
-	3227346317	Stereo_User_Pan			\Default Work Unit\Stereo\User\Stereo_User_Pan	
+	3244571974	Reference_Gain			\Default Work Unit\Reference\Reference_Gain	
+	3256913760	User_Pan			\Default Work Unit\User\User_Pan	
 	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
-	4117303583	Stereo_Reference_Gain			\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain	
+	3910040902	Reference_Wet_Level			\Default Work Unit\Reference\Reference_Wet_Level	
 	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
@@ -42,13 +44,18 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3567840041	Early_Reflection_Bus			\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
-	124259413	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
-	273603602	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
-	735023202	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	21493978	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	127386002	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	133771582	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	650598196	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	794142418	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
-	908979033	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	813674469	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
+	885904873	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
+	908632732	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	927685878	LR_Emitter_Parametric_EQ	Wwise Parametric EQ			
+	953085506	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	966971050	Wwise Convolution Reverb (Custom)	Wwise Convolution Reverb			
+	1011516121	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	2545004126	Wwise_Reflect	Wwise Reflect			
 	3459526528	Sub_Emitter_Parametric_EQ	Wwise Parametric EQ			
 

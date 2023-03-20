@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f3a4b04c0583a4ca83f1cbe2dbc4a7, type: 3}
+  m_Name: 3A4D79F5-170E-41B4-96F4-BE141B06FD5C
+  m_EditorClassIdentifier: 
+  objectName: Play_User_Kick_and_Snare
+  id: 3253307136
+  guid: 3A4D79F5-170E-41B4-96F4-BE141B06FD5C

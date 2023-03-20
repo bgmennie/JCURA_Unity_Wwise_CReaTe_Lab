@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3761355549">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1773142741">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -26,16 +26,18 @@
 				</File>
 			</ExcludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="694743187" Name="Stereo_User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length"/>
-				<GameParameter Id="752449211" Name="Stereo_User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Wet_Level"/>
 				<GameParameter Id="1409897668" Name="Bus_Switch" ObjectPath="\Game Parameters\Default Work Unit\Bus_Switch"/>
-				<GameParameter Id="1966853395" Name="Stereo_Reference_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan"/>
-				<GameParameter Id="2332693969" Name="Stereo_User_Gain" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Gain"/>
-				<GameParameter Id="3227346317" Name="Stereo_User_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Pan"/>
-				<GameParameter Id="4117303583" Name="Stereo_Reference_Gain" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain"/>
+				<GameParameter Id="1447113290" Name="Reference_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Reverb_Length"/>
+				<GameParameter Id="1684779072" Name="Reference_Pan" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Pan"/>
+				<GameParameter Id="1696562406" Name="User_Gain" ObjectPath="\Game Parameters\Default Work Unit\User\User_Gain"/>
+				<GameParameter Id="1887793322" Name="User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\User\User_Reverb_Length"/>
+				<GameParameter Id="2256666278" Name="User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\User\User_Wet_Level"/>
+				<GameParameter Id="3244571974" Name="Reference_Gain" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Gain"/>
+				<GameParameter Id="3256913760" Name="User_Pan" ObjectPath="\Game Parameters\Default Work Unit\User\User_Pan"/>
+				<GameParameter Id="3910040902" Name="Reference_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Wet_Level"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2437386861">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2520080396">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -45,6 +47,102 @@
 						<File Id="523312821" Language="SFX">
 							<ShortName>Pink Noise.wav</ShortName>
 							<Path>SFX\Pink Noise_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3202613480" Name="Play_Reference_AG" ObjectPath="\Events\Default Work Unit\Play_Reference_AG" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="298596890" Language="SFX">
+							<ShortName>AG.wav</ShortName>
+							<Path>SFX\AG_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2964536316" Name="Play_Reference_AG_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_AG_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="74803668" Language="SFX">
+							<ShortName>AG_L.wav</ShortName>
+							<Path>SFX\AG_L_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3840212506" Name="Play_Reference_AG_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_AG_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1048410464" Language="SFX">
+							<ShortName>AG_R.wav</ShortName>
+							<Path>SFX\AG_R_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3833327386" Name="Play_Reference_AG_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_AG_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="732133952" Language="SFX">
+							<ShortName>AG_mono.wav</ShortName>
+							<Path>SFX\AG_mono_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3843960013" Name="Play_Reference_Bass" ObjectPath="\Events\Default Work Unit\Play_Reference_Bass" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="972147162" Language="SFX">
+							<ShortName>BASS.wav</ShortName>
+							<Path>SFX\BASS_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3975576213" Name="Play_Reference_Bass_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bass_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="379161240" Language="SFX">
+							<ShortName>BASS_L.wav</ShortName>
+							<Path>SFX\BASS_L_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3514419779" Name="Play_Reference_Bass_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bass_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="647817188" Language="SFX">
+							<ShortName>BASS_R.wav</ShortName>
+							<Path>SFX\BASS_R_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3243513167" Name="Play_Reference_Bass_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bass_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="826149229" Language="SFX">
+							<ShortName>BASS_mono.wav</ShortName>
+							<Path>SFX\BASS_mono_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1688917067" Name="Play_Reference_Bassoon" ObjectPath="\Events\Default Work Unit\Play_Reference_Bassoon" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="493522854" Language="SFX">
+							<ShortName>Bassoon.wav</ShortName>
+							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3311444055" Name="Play_Reference_Bassoon_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bassoon_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="493522854" Language="SFX">
+							<ShortName>Bassoon.wav</ShortName>
+							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2980121537" Name="Play_Reference_Bassoon_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bassoon_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="493522854" Language="SFX">
+							<ShortName>Bassoon.wav</ShortName>
+							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3927108209" Name="Play_Reference_Bassoon_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Bassoon_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="493522854" Language="SFX">
+							<ShortName>Bassoon.wav</ShortName>
+							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -80,6 +178,166 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3674149914" Name="Play_Reference_Kick_and_Snare" ObjectPath="\Events\Default Work Unit\Play_Reference_Kick_and_Snare" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="910911016" Language="SFX">
+							<ShortName>Kick_and_Snare.wav</ShortName>
+							<Path>SFX\Kick_and_Snare_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4088402210" Name="Play_Reference_Kick_and_Snare_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Kick_and_Snare_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1049595979" Language="SFX">
+							<ShortName>Kick_and_Snare_L.wav</ShortName>
+							<Path>SFX\Kick_and_Snare_L_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2212394356" Name="Play_Reference_Kick_and_Snare_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Kick_and_Snare_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="54130080" Language="SFX">
+							<ShortName>Kick_and_Snare_R.wav</ShortName>
+							<Path>SFX\Kick_and_Snare_R_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2885399656" Name="Play_Reference_Kick_and_Snare_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Kick_and_Snare_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="502097503" Language="SFX">
+							<ShortName>Kick_Snare_mono.wav</ShortName>
+							<Path>SFX\Kick_Snare_mono_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2850551802" Name="Play_Reference_Voice" ObjectPath="\Events\Default Work Unit\Play_Reference_Voice" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="292033815" Language="SFX">
+							<ShortName>Operatic_Voice.wav</ShortName>
+							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2546460418" Name="Play_Reference_Voice_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Voice_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="292033815" Language="SFX">
+							<ShortName>Operatic_Voice.wav</ShortName>
+							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2044896852" Name="Play_Reference_Voice_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Voice_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="292033815" Language="SFX">
+							<ShortName>Operatic_Voice.wav</ShortName>
+							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="509070408" Name="Play_Reference_Voice_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_Reference_Voice_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="292033815" Language="SFX">
+							<ShortName>Operatic_Voice.wav</ShortName>
+							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="861268446" Name="Play_User_AG" ObjectPath="\Events\Default Work Unit\Play_User_AG" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="298596890" Language="SFX">
+							<ShortName>AG.wav</ShortName>
+							<Path>SFX\AG_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3034766702" Name="Play_User_AG_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_AG_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="74803668" Language="SFX">
+							<ShortName>AG_L.wav</ShortName>
+							<Path>SFX\AG_L_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1483207928" Name="Play_User_AG_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_AG_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1048410464" Language="SFX">
+							<ShortName>AG_R.wav</ShortName>
+							<Path>SFX\AG_R_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1459694020" Name="Play_User_AG_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_AG_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="732133952" Language="SFX">
+							<ShortName>AG_mono.wav</ShortName>
+							<Path>SFX\AG_mono_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="5071667" Name="Play_User_Bass" ObjectPath="\Events\Default Work Unit\Play_User_Bass" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="972147162" Language="SFX">
+							<ShortName>BASS.wav</ShortName>
+							<Path>SFX\BASS_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="963364879" Name="Play_User_Bass_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bass_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="379161240" Language="SFX">
+							<ShortName>BASS_L.wav</ShortName>
+							<Path>SFX\BASS_L_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2864457769" Name="Play_User_Bass_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bass_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="647817188" Language="SFX">
+							<ShortName>BASS_R.wav</ShortName>
+							<Path>SFX\BASS_R_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3637355001" Name="Play_User_Bass_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bass_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="826149229" Language="SFX">
+							<ShortName>BASS_mono.wav</ShortName>
+							<Path>SFX\BASS_mono_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1703140329" Name="Play_User_Bassoon" ObjectPath="\Events\Default Work Unit\Play_User_Bassoon" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="493522854" Language="SFX">
+							<ShortName>Bassoon.wav</ShortName>
+							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3263655401" Name="Play_User_Bassoon_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bassoon_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="493522854" Language="SFX">
+							<ShortName>Bassoon.wav</ShortName>
+							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4215215311" Name="Play_User_Bassoon_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bassoon_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="493522854" Language="SFX">
+							<ShortName>Bassoon.wav</ShortName>
+							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="210445075" Name="Play_User_Bassoon_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Bassoon_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="493522854" Language="SFX">
+							<ShortName>Bassoon.wav</ShortName>
+							<Path>SFX\Bassoon_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2119947682" Name="Play_User_Jethro_Tull_L_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_L_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
 						<File Id="1021326720" Language="SFX">
@@ -87,9 +345,6 @@
 							<Path>SFX\L04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="824084648" Name="Play_User_Jethro_Tull_Mother_Goose" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Play_User_Jethro_Tull_Mother_Goose" DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
@@ -106,15 +361,76 @@
 							<Path>SFX\R04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="3567840041" Name="Early_Reflection_Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Spatial\Early_Reflection_Bus"/>
-					</AuxBusSends>
 				</Event>
 				<Event Id="4044639464" Name="Play_User_Jethro_Tull_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Jethro_Tull\Spatial\User\Play_User_Jethro_Tull_Sub_Spatial" MaxAttenuation="10." DurationType="OneShot" DurationMin="232.800003" DurationMax="232.800003">
 					<IncludedMemoryFiles>
 						<File Id="275939375" Language="SFX">
 							<ShortName>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</ShortName>
 							<Path>SFX\Sub04-Mother Goose (Mixed And Mastered By Steven Wilson)_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3253307136" Name="Play_User_Kick_and_Snare" ObjectPath="\Events\Default Work Unit\Play_User_Kick_and_Snare" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="910911016" Language="SFX">
+							<ShortName>Kick_and_Snare.wav</ShortName>
+							<Path>SFX\Kick_and_Snare_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1262816836" Name="Play_User_Kick_and_Snare_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Kick_and_Snare_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1049595979" Language="SFX">
+							<ShortName>Kick_and_Snare_L.wav</ShortName>
+							<Path>SFX\Kick_and_Snare_L_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="684886802" Name="Play_User_Kick_and_Snare_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Kick_and_Snare_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="54130080" Language="SFX">
+							<ShortName>Kick_and_Snare_R.wav</ShortName>
+							<Path>SFX\Kick_and_Snare_R_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2574811890" Name="Play_User_Kick_and_Snare_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Kick_and_Snare_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="502097503" Language="SFX">
+							<ShortName>Kick_Snare_mono.wav</ShortName>
+							<Path>SFX\Kick_Snare_mono_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="958062908" Name="Play_User_Voice" ObjectPath="\Events\Default Work Unit\Play_User_Voice" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="292033815" Language="SFX">
+							<ShortName>Operatic_Voice.wav</ShortName>
+							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2107522504" Name="Play_User_Voice_L_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Voice_L_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="292033815" Language="SFX">
+							<ShortName>Operatic_Voice.wav</ShortName>
+							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3124993438" Name="Play_User_Voice_R_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Voice_R_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="292033815" Language="SFX">
+							<ShortName>Operatic_Voice.wav</ShortName>
+							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="91596406" Name="Play_User_Voice_Sub_Spatial" ObjectPath="\Events\Default Work Unit\Play_User_Voice_Sub_Spatial" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="292033815" Language="SFX">
+							<ShortName>Operatic_Voice.wav</ShortName>
+							<Path>SFX\Operatic_Voice_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -131,14 +447,16 @@
 				</File>
 			</IncludedMemoryFiles>
 			<GameParameters>
-				<GameParameter Id="694743187" Name="Stereo_User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Reverb_Length"/>
-				<GameParameter Id="752449211" Name="Stereo_User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Wet_Level"/>
 				<GameParameter Id="1409897668" Name="Bus_Switch" ObjectPath="\Game Parameters\Default Work Unit\Bus_Switch"/>
-				<GameParameter Id="1966853395" Name="Stereo_Reference_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Pan"/>
-				<GameParameter Id="2332693969" Name="Stereo_User_Gain" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Gain"/>
+				<GameParameter Id="1447113290" Name="Reference_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Reverb_Length"/>
+				<GameParameter Id="1684779072" Name="Reference_Pan" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Pan"/>
+				<GameParameter Id="1696562406" Name="User_Gain" ObjectPath="\Game Parameters\Default Work Unit\User\User_Gain"/>
+				<GameParameter Id="1887793322" Name="User_Reverb_Length" ObjectPath="\Game Parameters\Default Work Unit\User\User_Reverb_Length"/>
+				<GameParameter Id="2256666278" Name="User_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\User\User_Wet_Level"/>
 				<GameParameter Id="2573722612" Name="Master_Bus_Mute" ObjectPath="\Game Parameters\Default Work Unit\Master_Bus_Mute"/>
-				<GameParameter Id="3227346317" Name="Stereo_User_Pan" ObjectPath="\Game Parameters\Default Work Unit\Stereo\User\Stereo_User_Pan"/>
-				<GameParameter Id="4117303583" Name="Stereo_Reference_Gain" ObjectPath="\Game Parameters\Default Work Unit\Stereo\Reference\Stereo_Reference_Gain"/>
+				<GameParameter Id="3244571974" Name="Reference_Gain" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Gain"/>
+				<GameParameter Id="3256913760" Name="User_Pan" ObjectPath="\Game Parameters\Default Work Unit\User\User_Pan"/>
+				<GameParameter Id="3910040902" Name="Reference_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Wet_Level"/>
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
