@@ -184,7 +184,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 7da56598dbf1594cb6bbc350b43efc88
     GuidInternal: 
-    m_lastTime: -8585222800439135994
+    m_lastTime: -8585222782848507770
     List:
     - name: Early_Reflection_Bus
       guid: b487c8644d907b44983818d8febf41bb
@@ -613,7 +613,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c435e0321a24c143afdfdb101204327c
       Path: Events\Default Work Unit\Play_Reference_AG_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_AG_R_Spatial
@@ -630,7 +630,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: fd064211c467f04eba247885c581c0b4
       Path: Events\Default Work Unit\Play_Reference_AG_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_AG_Sub_Spatial
@@ -647,7 +647,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ec2b2665a88fd14ca9f95e06440af1aa
       Path: Events\Default Work Unit\Play_Reference_AG_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Bass
@@ -681,7 +681,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 22e7e163471c3f43a42d7e6b467de16c
       Path: Events\Default Work Unit\Play_Reference_Bass_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Bass_R_Spatial
@@ -698,7 +698,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e6d166b860e2504a9e9693553bea6adc
       Path: Events\Default Work Unit\Play_Reference_Bass_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Bass_Sub_Spatial
@@ -715,7 +715,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0dad8782d6660348b856d52e01072915
       Path: Events\Default Work Unit\Play_Reference_Bass_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Bassoon
@@ -749,7 +749,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5cc87028d771a248a0373f2e522052b8
       Path: Events\Default Work Unit\Play_Reference_Bassoon_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Bassoon_R_Spatial
@@ -766,7 +766,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 34c64c91da96194ba6f7f59ea2b61bc1
       Path: Events\Default Work Unit\Play_Reference_Bassoon_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Bassoon_Sub_Spatial
@@ -783,7 +783,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: e35767a6cb47594ab178cb94793ba42d
       Path: Events\Default Work Unit\Play_Reference_Bassoon_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Jethro_Tull_L_Spatial
@@ -915,7 +915,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 00661a2e854768448df28203ec048293
       Path: Events\Default Work Unit\Play_Reference_Kick_and_Snare_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Kick_and_Snare_R_Spatial
@@ -932,7 +932,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cbf784d40ef4614c853e197b1c30f45a
       Path: Events\Default Work Unit\Play_Reference_Kick_and_Snare_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Kick_and_Snare_Sub_Spatial
@@ -949,7 +949,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 494d0b49842f4d43982bf430f39262c0
       Path: Events\Default Work Unit\Play_Reference_Kick_and_Snare_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Voice
@@ -983,7 +983,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c8fd3e0e6f3018459468420be18176c9
       Path: Events\Default Work Unit\Play_Reference_Voice_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Voice_R_Spatial
@@ -1000,7 +1000,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 98ca3b523dd8c04ea0d826ede96dd224
       Path: Events\Default Work Unit\Play_Reference_Voice_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_Reference_Voice_Sub_Spatial
@@ -1017,7 +1017,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c06a7902df9a17439aed066673912e09
       Path: Events\Default Work Unit\Play_Reference_Voice_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_AG
@@ -1051,7 +1051,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d47fb2eb20ff524c9c5f450d464d12ad
       Path: Events\Default Work Unit\Play_User_AG_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_AG_R_Spatial
@@ -1068,7 +1068,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a2f6c201b7bea846914b5e7c8ef38a76
       Path: Events\Default Work Unit\Play_User_AG_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_AG_Sub_Spatial
@@ -1085,7 +1085,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 21515aa2189c844286acad0af823bba1
       Path: Events\Default Work Unit\Play_User_AG_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Bass
@@ -1119,7 +1119,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: cbf770ff14dd184aa53a5926b3cc508f
       Path: Events\Default Work Unit\Play_User_Bass_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Bass_R_Spatial
@@ -1136,7 +1136,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 890cae00ddb64741b43caac16a837468
       Path: Events\Default Work Unit\Play_User_Bass_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Bass_Sub_Spatial
@@ -1153,7 +1153,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f8b0f58281d09241a98e427733be4001
       Path: Events\Default Work Unit\Play_User_Bass_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Bassoon
@@ -1187,7 +1187,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4084a57a9c6a81479dd8a4d9862b7ade
       Path: Events\Default Work Unit\Play_User_Bassoon_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Bassoon_R_Spatial
@@ -1204,7 +1204,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 669e238fe8489140ab7dc51af5dbeec2
       Path: Events\Default Work Unit\Play_User_Bassoon_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Bassoon_Sub_Spatial
@@ -1221,7 +1221,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: a7bae4da1982cb4fbe66c63b7bb1260c
       Path: Events\Default Work Unit\Play_User_Bassoon_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Jethro_Tull_L_Spatial
@@ -1353,7 +1353,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0347cf38cb2a14429c0ac835008149c5
       Path: Events\Default Work Unit\Play_User_Kick_and_Snare_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Kick_and_Snare_R_Spatial
@@ -1370,7 +1370,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: c34c9bc14e680b449c1f7c0228487873
       Path: Events\Default Work Unit\Play_User_Kick_and_Snare_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Kick_and_Snare_Sub_Spatial
@@ -1387,7 +1387,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7514bb1381b3f44d8eab066c7846fc5c
       Path: Events\Default Work Unit\Play_User_Kick_and_Snare_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Voice
@@ -1421,7 +1421,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: ed94f5c6d4cb6e4ab894847905bc0be2
       Path: Events\Default Work Unit\Play_User_Voice_L_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Voice_R_Spatial
@@ -1438,7 +1438,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d467b752c411754187663c0903bdd574
       Path: Events\Default Work Unit\Play_User_Voice_R_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Play_User_Voice_Sub_Spatial
@@ -1455,7 +1455,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 209a811d82c067489c1c002eb2d56fb7
       Path: Events\Default Work Unit\Play_User_Voice_Sub_Spatial
-      maxAttenuation: 0
+      maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
     - name: Reference
@@ -1790,7 +1790,7 @@ MonoBehaviour:
     m_lastTime: -8585242350812978746
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000060000000700000008000000090000000b0000000d0000000e0000001600000017000000180000001a0000001b0000001c0000001f000000200000002100000022000000240000002a0000002b0000002c0000003b0000003d0000003e0000005f8c00005c8d00005d8d0000
+  ExpandedWaapiItemIds: 01000000060000000700000008000000090000000b0000000d0000000e0000001600000017000000180000001a0000001b0000001c0000001f000000200000002100000022000000240000002a0000002b0000002c0000003b0000003d0000003e0000004800000051000000520000005f8c00005c8d00005d8d0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

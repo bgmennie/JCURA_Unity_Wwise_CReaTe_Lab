@@ -67,23 +67,27 @@ public class AudioScreen : Screen
         } 
         else if (stereoSpatialFlag == 1)
         {
-            WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent("Jethro_Tull");
+            string selectedEvent = selectPostEvent();
+            //WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent("Jethro_Tull");
 
             if (testType == "Pan")
             {
                 WwiseManager.wwiseManagerSingleton.setTestType("Pan", 1);
-                Debug.Log("Spatial Pan");
+                WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent(selectedEvent);
+                //Debug.Log("Spatial Pan");
 
             }
             else if (testType == "Reverb")
             {
                 WwiseManager.wwiseManagerSingleton.setTestType("Reverb", 1);
-                Debug.Log("Spatial Reverb");
+                WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent(selectedEvent);
+                //Debug.Log("Spatial Reverb");
             }
             else if (testType == "Gain")
             {
                 WwiseManager.wwiseManagerSingleton.setTestType("Gain", 1);
-                Debug.Log("Spatial Gain");
+                WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent(selectedEvent);
+                //Debug.Log("Spatial Gain");
 
             }
             else

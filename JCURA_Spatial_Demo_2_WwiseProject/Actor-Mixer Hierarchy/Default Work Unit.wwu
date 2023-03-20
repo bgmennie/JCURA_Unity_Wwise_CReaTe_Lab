@@ -76,6 +76,7 @@
 										<Sound Name="Reference_Jethro_Tull_L_Spatial" ID="{0626FABF-2241-41CE-96F8-EB65D34AA965}" ShortID="949662763">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
 														<Value>-24</Value>
@@ -101,7 +102,7 @@
 													<Language>SFX</Language>
 													<AudioFile>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1021326720"/>
+														<MediaID ID="142004928"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -113,6 +114,7 @@
 										<Sound Name="Reference_Jethro_Tull_R_Spatial" ID="{1C6303E7-9451-4954-80CB-BD42844E2142}" ShortID="557740408">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
 														<Value>-24</Value>
@@ -138,7 +140,7 @@
 													<Language>SFX</Language>
 													<AudioFile>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="137534949"/>
+														<MediaID ID="487268733"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -148,6 +150,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Reference_Jethro_Tull_Sub_Spatial" ID="{6E09B375-AE1A-49CA-9174-DFB51A87D91F}" ShortID="934784239">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
@@ -164,7 +169,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="275939375"/>
+														<MediaID ID="255729797"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -180,6 +185,7 @@
 										<Sound Name="User_Jethro_Tull_L_Spatial" ID="{5640059E-A681-4850-B466-AD6FDA3231E2}" ShortID="481802213">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
 														<Value>-24</Value>
@@ -205,7 +211,7 @@
 													<Language>SFX</Language>
 													<AudioFile>L04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1021326720"/>
+														<MediaID ID="142004928"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -217,6 +223,7 @@
 										<Sound Name="User_Jethro_Tull_R_Spatial" ID="{B85F2511-9B7D-4043-8A17-3034CB1FCA5E}" ShortID="14420313">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
 														<Value>-24</Value>
@@ -242,7 +249,7 @@
 													<Language>SFX</Language>
 													<AudioFile>R04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="137534949"/>
+														<MediaID ID="487268733"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -252,6 +259,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="User_Jethro_Tull_Sub_Spatial" ID="{7C664B6F-538C-484E-BBEA-16DF7ED0E192}" ShortID="448492117">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
@@ -268,7 +278,7 @@
 													<Language>SFX</Language>
 													<AudioFile>Sub04-Mother Goose (Mixed And Mastered By Steven Wilson).wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="275939375"/>
+														<MediaID ID="255729797"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -593,6 +603,7 @@
 									<ChildrenList>
 										<Sound Name="Reference_AG_L_Spatial" ID="{F42C0B14-20D3-42F6-AEF4-F09FAF149DFE}" ShortID="774376832">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -601,6 +612,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -627,6 +641,7 @@
 										</Sound>
 										<Sound Name="Reference_AG_R_Spatial" ID="{A181DEBE-C59C-4C9D-8A2D-3F3D43A42315}" ShortID="262822950">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -635,6 +650,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -664,6 +682,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -691,6 +712,7 @@
 									<ChildrenList>
 										<Sound Name="User_AG_L_Spatial" ID="{EE313271-804D-45DB-A41E-8802DA90158D}" ShortID="318218512">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -699,6 +721,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -725,6 +750,7 @@
 										</Sound>
 										<Sound Name="User_AG_R_Spatial" ID="{DE85EAA8-A3E8-41BD-9F57-C39F894A0664}" ShortID="832476938">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -733,6 +759,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -762,6 +791,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -853,6 +885,7 @@
 									<ChildrenList>
 										<Sound Name="Reference_Bass_L_Spatial" ID="{4B0C2D34-6F40-4609-BB29-D7EEF297AD3E}" ShortID="668459314">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -861,6 +894,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -887,6 +923,7 @@
 										</Sound>
 										<Sound Name="Reference_Bass_R_Spatial" ID="{F22CDE99-FEE5-4173-B15A-0B8F33E90CA8}" ShortID="163977070">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -895,6 +932,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -924,6 +964,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -951,6 +994,7 @@
 									<ChildrenList>
 										<Sound Name="User_Bass_L_Spatial" ID="{B378A625-5402-4697-8DAB-AFD6550DCC00}" ShortID="404041866">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -959,6 +1003,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -985,6 +1032,7 @@
 										</Sound>
 										<Sound Name="User_Bass_R_Spatial" ID="{595E6A0C-50F9-4C13-A9C5-1613B93870B2}" ShortID="47713739">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -993,6 +1041,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1022,6 +1073,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1113,6 +1167,7 @@
 									<ChildrenList>
 										<Sound Name="Reference_Bassoon_L_Spatial" ID="{78009CBA-CE01-43D8-A642-905F2A9157C1}" ShortID="980159380">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1121,6 +1176,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1147,6 +1205,7 @@
 										</Sound>
 										<Sound Name="Reference_Bassoon_R_Spatial" ID="{3235BE9C-4EF8-4BAE-82B8-7101261B52FC}" ShortID="598101827">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1155,6 +1214,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1184,6 +1246,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1211,6 +1276,7 @@
 									<ChildrenList>
 										<Sound Name="User_Bassoon_L_Spatial" ID="{2FE59108-F590-462E-BCC9-76C0416C66A5}" ShortID="259340549">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1219,6 +1285,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1245,6 +1314,7 @@
 										</Sound>
 										<Sound Name="User_Bassoon_R_Spatial" ID="{D5792F10-AEB6-480C-94AD-32A3A4CDBE07}" ShortID="14469800">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1253,6 +1323,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1282,6 +1355,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1373,6 +1449,7 @@
 									<ChildrenList>
 										<Sound Name="Reference_Kick_and_Snare_L_Spatial" ID="{BF524143-7044-457F-AF39-EB66F39570BB}" ShortID="221012718">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1381,6 +1458,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1407,6 +1487,7 @@
 										</Sound>
 										<Sound Name="Reference_Kick_and_Snare_R_Spatial" ID="{2044AE45-6357-4CB1-86CB-BF3372E1B729}" ShortID="75019538">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1415,6 +1496,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1444,6 +1528,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1471,6 +1558,7 @@
 									<ChildrenList>
 										<Sound Name="User_Kick_and_Snare_L_Spatial" ID="{0FAF3853-3DC8-4710-9F32-F3390247AA31}" ShortID="367387439">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1479,6 +1567,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1505,6 +1596,7 @@
 										</Sound>
 										<Sound Name="User_Kick_and_Snare_R_Spatial" ID="{236CCF57-BC53-46D1-889F-2B69E21BE43D}" ShortID="403567214">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1513,6 +1605,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1542,6 +1637,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1633,6 +1731,7 @@
 									<ChildrenList>
 										<Sound Name="Reference_Voice_L_Spatial" ID="{A3C810DA-479F-4993-9AEA-C06C902D9812}" ShortID="735606551">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1641,6 +1740,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1667,6 +1769,7 @@
 										</Sound>
 										<Sound Name="Reference_Voice_R_Spatial" ID="{BB634F83-9592-44D1-9015-49585BA5B1E3}" ShortID="85848007">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1675,6 +1778,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1704,6 +1810,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1731,6 +1840,7 @@
 									<ChildrenList>
 										<Sound Name="User_Voice_L_Spatial" ID="{4D88207F-BC82-4A05-A510-C55B3D3CAE5F}" ShortID="377769470">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1739,6 +1849,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1765,6 +1878,7 @@
 										</Sound>
 										<Sound Name="User_Voice_R_Spatial" ID="{50658089-CD12-45F6-98F7-0C63A0C91A3B}" ShortID="661182247">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="ReflectionsVolume" Type="Real64">
 													<ValueList>
@@ -1773,6 +1887,9 @@
 												</Property>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
@@ -1802,6 +1919,9 @@
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Sub" ID="{09737F0C-9FC1-498D-B36C-13A1A913DF11}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>

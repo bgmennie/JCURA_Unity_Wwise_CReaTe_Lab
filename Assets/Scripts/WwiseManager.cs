@@ -582,10 +582,70 @@ public class WwiseManager : MonoBehaviour
             Play_Reference_Jethro_Tull_Mother_Goose_R.Post(rightEmitter);
             Play_Reference_Jethro_Tull_Mother_Goose_Sub.Post(subEmitter);
 
-            //// User
-            //Play_User_Jethro_Tull_Mother_Goose_L.Post(leftEmitter);
-            //Play_User_Jethro_Tull_Mother_Goose_R.Post(rightEmitter);
-            //Play_User_Jethro_Tull_Mother_Goose_Sub.Post(subEmitter);
+            // User
+            Play_User_Jethro_Tull_Mother_Goose_L.Post(leftEmitter);
+            Play_User_Jethro_Tull_Mother_Goose_R.Post(rightEmitter);
+            Play_User_Jethro_Tull_Mother_Goose_Sub.Post(subEmitter);
+        }
+        else if (eventName == "AG")
+        {
+            // Reference
+            Play_Reference_AG_L.Post(leftEmitter);
+            Play_Reference_AG_R.Post(rightEmitter);
+            Play_Reference_AG_Sub.Post(subEmitter);
+
+            // User
+            Play_User_AG_L.Post(leftEmitter);
+            Play_User_AG_R.Post(rightEmitter);
+            Play_User_AG_Sub.Post(subEmitter);
+        }
+        else if (eventName == "Bass")
+        {
+            // Reference
+            Play_Reference_Bass_L.Post(leftEmitter);
+            Play_Reference_Bass_R.Post(rightEmitter);
+            Play_Reference_Bass_Sub.Post(subEmitter);
+
+            // User
+            Play_User_Bass_L.Post(leftEmitter);
+            Play_User_Bass_R.Post(rightEmitter);
+            Play_User_Bass_Sub.Post(subEmitter);
+        }
+        else if (eventName == "Bassoon")
+        {
+            // Reference
+            Play_Reference_Bassoon_L.Post(leftEmitter);
+            Play_Reference_Bassoon_R.Post(rightEmitter);
+            Play_Reference_Bassoon_Sub.Post(subEmitter);
+
+            // User
+            Play_User_Bassoon_L.Post(leftEmitter);
+            Play_User_Bassoon_R.Post(rightEmitter);
+            Play_User_Bassoon_Sub.Post(subEmitter);
+        }
+        else if (eventName == "Kick and Snare")
+        {
+            // Reference
+            Play_Reference_Kick_and_Snare_L.Post(leftEmitter);
+            Play_Reference_Kick_and_Snare_R.Post(rightEmitter);
+            Play_Reference_Kick_and_Snare_Sub.Post(subEmitter);
+
+            // User
+            Play_User_Kick_and_Snare_L.Post(leftEmitter);
+            Play_User_Kick_and_Snare_R.Post(rightEmitter);
+            Play_User_Kick_and_Snare_Sub.Post(subEmitter);
+        }
+        else if (eventName == "Voice")
+        {
+            // Reference
+            Play_Reference_Voice_L.Post(leftEmitter);
+            Play_Reference_Voice_R.Post(rightEmitter);
+            Play_Reference_Voice_Sub.Post(subEmitter);
+
+            // User
+            Play_User_Voice_L.Post(leftEmitter);
+            Play_User_Voice_R.Post(rightEmitter);
+            Play_User_Voice_Sub.Post(subEmitter);
         }
     }
 }

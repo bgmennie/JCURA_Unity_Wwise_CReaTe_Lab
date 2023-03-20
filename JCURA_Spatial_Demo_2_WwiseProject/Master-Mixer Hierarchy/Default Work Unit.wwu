@@ -67,6 +67,40 @@
 																</PointList>
 															</Curve>
 														</RTPC>
+														<RTPC Name="" ID="{12F4CCD7-BCA3-40C9-8B97-8B458B2BFDFF}" ShortID="964114616">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Bus_Switch" ID="{5A7AF6F9-6E14-44B2-9F8E-033A3749A15B}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D62F8B0A-A73D-44C6-B1A1-35081891E131}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.40415</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.61162</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
 													</RTPCList>
 												</Property>
 												<Property Name="CenterPercentage" Type="int32">
@@ -74,7 +108,6 @@
 														<Value>0</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 												<Property Name="MakeUpGain" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{8F7D1A98-57A3-4725-9888-E56A532D7D86}" ShortID="869097685">
@@ -215,6 +248,40 @@
 																</PointList>
 															</Curve>
 														</RTPC>
+														<RTPC Name="" ID="{66A555C8-DD2E-46B4-8094-96307E444104}" ShortID="554292622">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Bus_Switch" ID="{5A7AF6F9-6E14-44B2-9F8E-033A3749A15B}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{E8A447CA-63D7-4843-9B1E-26542998E881}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.46556</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.62822</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
 													</RTPCList>
 												</Property>
 												<Property Name="CenterPercentage" Type="int32">
@@ -222,7 +289,6 @@
 														<Value>0</Value>
 													</ValueList>
 												</Property>
-												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 												<Property Name="MakeUpGain" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{1E8C9CC1-EAA3-4E0B-9A23-ADBC6B313E09}" ShortID="612026937">
@@ -338,6 +404,44 @@
 										</Bus>
 										<Bus Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}">
 											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{4EAD8EF6-CB2E-4ABA-BF88-CE2D119371F2}" ShortID="651911705">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Bus_Switch" ID="{5A7AF6F9-6E14-44B2-9F8E-033A3749A15B}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{5F03A756-606E-43F7-BC5F-96B108EE84CD}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.44149</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.63402</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="MakeUpGain" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{E1B29AE0-8C16-4004-B186-37EB6C516D84}" ShortID="103388762">
@@ -497,6 +601,40 @@
 																</PointList>
 															</Curve>
 														</RTPC>
+														<RTPC Name="" ID="{5B96CCDB-27BC-4D85-80A1-3C1260BB9E03}" ShortID="1050688656">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Bus_Switch" ID="{5A7AF6F9-6E14-44B2-9F8E-033A3749A15B}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{FABA6F40-2886-4078-B0B7-59CC2F88D8CE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.42988</XPos>
+																		<YPos>-199.99999</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.58091</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
 													</RTPCList>
 												</Property>
 												<Property Name="CenterPercentage" Type="int32">
@@ -645,6 +783,40 @@
 																</PointList>
 															</Curve>
 														</RTPC>
+														<RTPC Name="" ID="{5D9E2996-3701-490F-9A4A-9F40F30507A3}" ShortID="547096350">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Bus_Switch" ID="{5A7AF6F9-6E14-44B2-9F8E-033A3749A15B}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{EB649891-E72E-4246-9258-BC6F3448D1ED}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.4332</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.65477</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
 													</RTPCList>
 												</Property>
 												<Property Name="CenterPercentage" Type="int32">
@@ -768,6 +940,44 @@
 										</Bus>
 										<Bus Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}">
 											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{03E02E04-0FC9-40F1-94B2-B03A1B37A001}" ShortID="422946695">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Bus_Switch" ID="{5A7AF6F9-6E14-44B2-9F8E-033A3749A15B}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{BF6D5EFA-52E2-4F4B-8B79-CDFE2725093C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.4332</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.60166</XPos>
+																		<YPos>-0</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="MakeUpGain" Type="Real64">
 													<RTPCList>
 														<RTPC Name="" ID="{0E2E9D43-DCD1-4045-9F1C-D34D7EB383AA}" ShortID="638771525">
@@ -996,9 +1206,6 @@
 								<Bus Name="Stereo_Reference" ID="{F96D6C4E-69A8-4052-BEB2-769187204C50}">
 									<PropertyList>
 										<Property Name="BusVolume" Type="Real64">
-											<ValueList>
-												<Value>-0.3</Value>
-											</ValueList>
 											<RTPCList>
 												<RTPC Name="" ID="{0238FF75-7B4A-4212-8A7A-3997562EA495}" ShortID="298302943">
 													<ReferenceList>
@@ -1013,12 +1220,12 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0.3</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 															</Point>
 															<Point>
 																<XPos>0.45898</XPos>
-																<YPos>-0.3</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
