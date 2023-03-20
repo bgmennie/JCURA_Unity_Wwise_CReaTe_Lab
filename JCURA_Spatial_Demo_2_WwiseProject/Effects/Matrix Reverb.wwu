@@ -6,34 +6,6 @@
 				<Effect Name="Stereo_Matrix_Reverb" ID="{19CBA189-0F49-4F86-80FD-63AECF986120}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 					<PropertyList>
 						<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
-						<Property Name="ReverbTime" Type="Real32">
-							<RTPCList>
-								<RTPC Name="" ID="{DAEAE5F2-6DEB-4A1F-85C0-D4A345A6B6DF}" ShortID="206042123">
-									<ReferenceList>
-										<Reference Name="ControlInput">
-											<ObjectRef Name="Test" ID="{0B9CA9BE-C732-484C-918B-098329E14F21}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
-										</Reference>
-									</ReferenceList>
-									<Curve Name="" ID="{0CE1B9B8-41E6-4F33-A1CA-252E5773106D}">
-										<PropertyList>
-											<Property Name="Flags" Type="int32" Value="1"/>
-										</PropertyList>
-										<PointList>
-											<Point>
-												<XPos>0</XPos>
-												<YPos>0.1</YPos>
-												<Flags>5</Flags>
-											</Point>
-											<Point>
-												<XPos>100</XPos>
-												<YPos>4</YPos>
-												<Flags>37</Flags>
-											</Point>
-										</PointList>
-									</Curve>
-								</RTPC>
-							</RTPCList>
-						</Property>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

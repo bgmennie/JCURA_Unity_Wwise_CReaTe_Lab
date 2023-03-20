@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/UI_Demo_Screen.unity
     guid: a3b86f505042b4546bb051fcf981a932
   - enabled: 1
-    path: Assets/Scenes/Basic_Room_Spatial_Demo_w_Headtracking.unity
-    guid: 0dc558ec2b4842846b1de17feb36240a
+    path: Assets/Scenes/CReaTe_Lab_Spatial_Demo_w_Headtracking.unity
+    guid: 024c945e78495a74eb5f7a0da099ae62
   m_configObjects: {}

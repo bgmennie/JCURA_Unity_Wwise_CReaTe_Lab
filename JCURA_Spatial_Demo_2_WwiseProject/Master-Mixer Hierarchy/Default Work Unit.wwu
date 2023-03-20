@@ -30,18 +30,141 @@
 														<Value>528</Value>
 													</ValueList>
 												</Property>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{80CF17D1-92D5-4E5C-B747-F7E988A9111A}" ShortID="339155127">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Reference_Pan" ID="{DCBC2923-97BE-4B76-BA83-76EE5E5B42CF}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{04CDA6A0-A03A-4D84-A228-B363E8EF2F1F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{8F7D1A98-57A3-4725-9888-E56A532D7D86}" ShortID="869097685">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Reference_Gain" ID="{0B8C7122-4E50-4985-8715-76F8EB64F047}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{311F0C6A-7C1A-4E12-A838-658D278D1CC4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.00001</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Matrix Reverb (Custom)" ID="{9EFF17F2-15BA-4B28-A66D-7CAEC27665D1}" ShortID="650598196" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+															<PropertyList>
+																<Property Name="ReverbTime" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{ED6F26E6-0CBD-46EE-ADA7-BBBFDC9A576E}" ShortID="1022490313">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Reference_Reverb_Length" ID="{8F6479C3-DB02-42AE-9E04-ADE8DEB1E31F}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{B1A608F3-3B43-4B2B-996A-8731F7A00EF1}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>2</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>7</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="WetLevel" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{FAC428EE-8A96-4168-8125-4A9094FE06EE}" ShortID="10632263">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Reference_Wet_Level" ID="{3675383B-3694-4CD5-B37C-C066676409CE}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{EC092E76-1888-4EA2-92E2-3C75792797B6}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-40</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Exp1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>-15</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
-												<Reference Name="Effect1">
+												<Reference Name="Effect2">
 													<Custom>
 														<Effect Name="Resonance Audio Renderer (Custom)" ID="{D1512E16-42DC-4557-900A-B326703AA387}" ShortID="124259413" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
 													</Custom>
@@ -57,21 +180,144 @@
 														<Value>528</Value>
 													</ValueList>
 												</Property>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{BABF98B4-A0E3-40A4-85BE-F1E9B82E34ED}" ShortID="716843815">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Reference_Pan" ID="{DCBC2923-97BE-4B76-BA83-76EE5E5B42CF}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{F021D4CB-A027-4007-810C-47913526AC4A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
 													</ValueList>
 												</Property>
 												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{1E8C9CC1-EAA3-4E0B-9A23-ADBC6B313E09}" ShortID="612026937">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Reference_Gain" ID="{0B8C7122-4E50-4985-8715-76F8EB64F047}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D799409A-D5CD-47CC-8D0F-4FAA1A522C4D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.00001</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
 												</Reference>
-												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Matrix Reverb (Custom)" ID="{9E9432C9-F73C-4B08-A1AE-D5EA46242EDC}" ShortID="133771582" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+															<PropertyList>
+																<Property Name="ReverbTime" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{410A434F-6B59-47E7-96D0-FDAAF1316DEF}" ShortID="823136120">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Reference_Reverb_Length" ID="{8F6479C3-DB02-42AE-9E04-ADE8DEB1E31F}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{A97020E3-4049-4BE7-9031-5B76A3C875A5}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>2</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>7</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="WetLevel" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{7BEB3AB4-5895-49C2-B197-75BED4F1E1D5}" ShortID="624566057">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Reference_Wet_Level" ID="{3675383B-3694-4CD5-B37C-C066676409CE}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{60F40E58-3BF0-49D0-92DD-51F002E6ED81}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-40</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Exp1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>-15</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
-												<Reference Name="Effect1">
+												<Reference Name="Effect2">
 													<Custom>
 														<Effect Name="Resonance Audio Renderer (Custom)" ID="{AA83D5D6-30DE-4210-858F-2982821B4D33}" ShortID="908979033" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
 													</Custom>
@@ -80,6 +326,37 @@
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{E1B29AE0-8C16-4004-B186-37EB6C516D84}" ShortID="103388762">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Reference_Gain" ID="{0B8C7122-4E50-4985-8715-76F8EB64F047}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{AAB0842F-2B57-4D36-95E4-0B95F4BDB7D5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.00001</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="Sub_Emitter_Parametric_EQ" ID="{9C81F0A8-D033-418B-8E4B-149AAD37EA5D}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
@@ -100,18 +377,141 @@
 														<Value>528</Value>
 													</ValueList>
 												</Property>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F1F11FB1-FA75-4F90-BC31-54F41268DC6C}" ShortID="1069666538">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D8A4A4AE-591B-4C24-898D-AE617B9B5A00}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
 													</ValueList>
 												</Property>
 												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{F3F8AEB7-F0CE-4318-820A-F249F889252C}" ShortID="214955580">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="User_Gain" ID="{AD0BEB20-397C-4CCA-9088-F1AF2F2031DD}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{E3E34F55-5FB4-43AF-91ED-63CE59EF0BBB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.00001</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Matrix Reverb (Custom)" ID="{FD50D604-182E-4D15-830B-5087C241DB58}" ShortID="21493978" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+															<PropertyList>
+																<Property Name="ReverbTime" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{33E2E51E-5094-41DA-9E75-76B5CD8F084C}" ShortID="196467740">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{18EF3D39-5CC9-493B-8777-A7726F852A65}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>2</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>7</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="WetLevel" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{F45B15F0-04A5-44D4-928B-CA2F26B95B26}" ShortID="943410180">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{2B32A381-7F55-4C64-9E1D-4A280129C62F}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-40</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Exp1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>-15</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
-												<Reference Name="Effect1">
+												<Reference Name="Effect2">
 													<Custom>
 														<Effect Name="Resonance Audio Renderer (Custom)" ID="{FABDF055-B2F7-45E2-85D0-1F331A0E58D5}" ShortID="735023202" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
 													</Custom>
@@ -127,21 +527,144 @@
 														<Value>528</Value>
 													</ValueList>
 												</Property>
+												<Property Name="BusVolume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{44618550-7102-4FDA-AD18-F484D7FEF50D}" ShortID="517711767">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{DB62320C-E34F-406D-83ED-4BDACE39570F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 												<Property Name="CenterPercentage" Type="int32">
 													<ValueList>
 														<Value>0</Value>
 													</ValueList>
 												</Property>
 												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="MakeUpGain" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{E6F18AC1-F53B-4536-9563-41BA6420CB38}" ShortID="655316301">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="User_Gain" ID="{AD0BEB20-397C-4CCA-9088-F1AF2F2031DD}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{34282FB2-3955-461B-95D3-34422C931B86}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.00001</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<ObjectRef Name="LR_Emitters" ID="{647B0EF0-7A38-4F71-96D5-6843EC4BCEC8}" WorkUnitID="{95F77887-F0B1-43B7-A556-1C954EA833BB}"/>
 												</Reference>
-												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Matrix Reverb (Custom)" ID="{663CDF6C-357C-4DD9-865A-92E926A7EB17}" ShortID="953085506" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+															<PropertyList>
+																<Property Name="ReverbTime" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{46C86353-E510-4DB6-9185-EBA1EE8E0771}" ShortID="159724457">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{B219B4C2-63E9-41FA-A5C8-FB26C6B82F5C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>2</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>7</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="WetLevel" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{0CE9FD98-599E-4DBA-B07F-BA7D6FA2E905}" ShortID="274391962">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{45F03EBF-6E70-417C-BABC-293321179419}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-40</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Exp1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>-15</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="LR_Emitter_Parametric_EQ" ID="{1B392C9C-79AD-4D5B-99E6-415F229B3DCF}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
-												<Reference Name="Effect1">
+												<Reference Name="Effect2">
 													<Custom>
 														<Effect Name="Resonance Audio Renderer (Custom)" ID="{8EF39EEA-9AC3-476F-A1FB-E817B8DE9EC9}" ShortID="273603602" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
 													</Custom>
@@ -150,8 +673,104 @@
 											<ObjectLists/>
 										</Bus>
 										<Bus Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{0E2E9D43-DCD1-4045-9F1C-D34D7EB383AA}" ShortID="638771525">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="User_Gain" ID="{AD0BEB20-397C-4CCA-9088-F1AF2F2031DD}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{BF02F0C5-A774-4C1F-ABBA-2E309BC0C3FA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96.00001</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
-												<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Matrix Reverb (Custom)" ID="{CD0F92F8-E5AB-40C2-809A-E61CF0DC0DCC}" ShortID="885904873" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+															<PropertyList>
+																<Property Name="ReverbTime" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{CDE559C5-BE47-49D3-8166-208A3966593A}" ShortID="69722250">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{B29B4590-3395-4893-9F9D-6110F8EC195F}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>2</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>7</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="WetLevel" Type="Real32">
+																	<RTPCList>
+																		<RTPC Name="" ID="{3FB7C7C4-041B-49B7-925C-72EB6905E007}" ShortID="528671875">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{007AA8DD-7DB7-4F8E-8ECC-E04B583A3830}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-40</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Exp1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>-15</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 													<ObjectRef Name="Sub_Emitter_Parametric_EQ" ID="{9C81F0A8-D033-418B-8E4B-149AAD37EA5D}" WorkUnitID="{57D2B533-20E6-4243-973A-7AAB36DEE299}"/>
 												</Reference>
 											</ReferenceList>
@@ -320,7 +939,7 @@
 												<RTPC Name="" ID="{D3EDA1B9-CC78-421F-935D-63EDD99E53C3}" ShortID="887499030">
 													<ReferenceList>
 														<Reference Name="ControlInput">
-															<ObjectRef Name="Stereo_Reference_Gain" ID="{0B8C7122-4E50-4985-8715-76F8EB64F047}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+															<ObjectRef Name="Reference_Gain" ID="{0B8C7122-4E50-4985-8715-76F8EB64F047}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
 														</Reference>
 													</ReferenceList>
 													<Curve Name="" ID="{2CD1CC7F-2211-4234-8D9C-53FC11E22C10}">
@@ -346,6 +965,73 @@
 										</Property>
 										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Wwise Matrix Reverb (Custom)" ID="{B8467F07-AC96-4853-916F-2B558BC209AC}" ShortID="127386002" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<PropertyList>
+														<Property Name="ReverbTime" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{24F51773-418A-43B9-9CBC-EEF8FE30182D}" ShortID="589895192">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Reference_Reverb_Length" ID="{8F6479C3-DB02-42AE-9E04-ADE8DEB1E31F}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{DDB1AC38-2376-4D8A-A475-18F8A19EBEF7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>2</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>7</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+														<Property Name="WetLevel" Type="Real32">
+															<RTPCList>
+																<RTPC Name="" ID="{65B8E285-BAAD-4E09-A73E-A25C001771AC}" ShortID="529783870">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="Reference_Wet_Level" ID="{3675383B-3694-4CD5-B37C-C066676409CE}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{7780D02F-60E8-4CCC-B969-C961B8EC2F41}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-40</YPos>
+																				<Flags>5</Flags>
+																				<SegmentShape>Exp1</SegmentShape>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-15</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
 									<PositioningInfo>
 										<Panner Name="" ID="{9A19454B-A101-4C8A-939B-FF2B6CDB7B15}">
 											<PropertyList>
@@ -354,7 +1040,7 @@
 														<RTPC Name="" ID="{09A1A381-0CCB-4DE8-B837-89B89C21C381}" ShortID="625340437">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Stereo_Reference_Pan" ID="{DCBC2923-97BE-4B76-BA83-76EE5E5B42CF}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																	<ObjectRef Name="Reference_Pan" ID="{DCBC2923-97BE-4B76-BA83-76EE5E5B42CF}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{7A469FB7-AD90-4A0A-8B7A-39E200FCA092}">
@@ -428,7 +1114,7 @@
 												<RTPC Name="" ID="{5592F777-FB7D-4678-84D2-4425F066D7E1}" ShortID="945851968">
 													<ReferenceList>
 														<Reference Name="ControlInput">
-															<ObjectRef Name="Stereo_User_Gain" ID="{AD0BEB20-397C-4CCA-9088-F1AF2F2031DD}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+															<ObjectRef Name="User_Gain" ID="{AD0BEB20-397C-4CCA-9088-F1AF2F2031DD}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
 														</Reference>
 													</ReferenceList>
 													<Curve Name="" ID="{E2824404-B0C9-4452-8EE9-AEFE2988BFAE}">
@@ -465,7 +1151,7 @@
 																<RTPC Name="" ID="{F8EE1233-63AC-4CC4-A5CD-E112D53E187A}" ShortID="3077605">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
-																			<ObjectRef Name="Stereo_User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																			<ObjectRef Name="User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<Curve Name="" ID="{BBA0F866-6E9E-4B17-9A61-FD45A5763D69}">
@@ -493,7 +1179,7 @@
 																<RTPC Name="" ID="{6AE3EF68-26B0-47FE-9CC9-66D0C11ECADD}" ShortID="1026891571">
 																	<ReferenceList>
 																		<Reference Name="ControlInput">
-																			<ObjectRef Name="Stereo_User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																			<ObjectRef Name="User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
 																		</Reference>
 																	</ReferenceList>
 																	<Curve Name="" ID="{4298EB56-EAAC-4B6E-9E1C-5F56E95862AC}">
@@ -530,7 +1216,7 @@
 														<RTPC Name="" ID="{E2E5969B-9270-4B45-969B-CA775C742919}" ShortID="278725667">
 															<ReferenceList>
 																<Reference Name="ControlInput">
-																	<ObjectRef Name="Stereo_User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+																	<ObjectRef Name="User_Pan" ID="{D931186C-57CB-4A57-A34E-3A998BED907A}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
 																</Reference>
 															</ReferenceList>
 															<Curve Name="" ID="{6DBEEE36-5445-4AF8-BC8E-420F6745541C}">

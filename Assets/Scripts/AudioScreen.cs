@@ -22,7 +22,7 @@ public class AudioScreen : Screen
         base.Close();
         WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Stop_All");
         WwiseManager.wwiseManagerSingleton.postSpatialWwiseEvent("Stop_All");
-
+        WwiseManager.wwiseManagerSingleton.closeWwiseScene();
         
     }
 
@@ -36,23 +36,23 @@ public class AudioScreen : Screen
         {
             if (testType == "Pan")
             {
-                WwiseManager.wwiseManagerSingleton.setTestType("Pan");
+                WwiseManager.wwiseManagerSingleton.setTestType("Pan", 0);
                 WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "Reverb")
             {
-                WwiseManager.wwiseManagerSingleton.setTestType("Reverb");
+                WwiseManager.wwiseManagerSingleton.setTestType("Reverb", 0);
                 WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "Gain")
             {
-                WwiseManager.wwiseManagerSingleton.setTestType("Gain");
+                WwiseManager.wwiseManagerSingleton.setTestType("Gain", 0);
                 WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Jethro_Tull");
             }
             else if (testType == "VolumeSetup")
             {
                 Debug.Log("VolumeSetup testType set");
-                WwiseManager.wwiseManagerSingleton.setTestType("VolumeSetup");
+                WwiseManager.wwiseManagerSingleton.setTestType("VolumeSetup", 0);
                 WwiseManager.wwiseManagerSingleton.postStereoWwiseEvent("Pink_Noise");
             }
             else
@@ -66,14 +66,19 @@ public class AudioScreen : Screen
 
             if (testType == "Pan")
             {
+                WwiseManager.wwiseManagerSingleton.setTestType("Pan", 1);
+                Debug.Log("Spatial Pan");
 
             }
             else if (testType == "Reverb")
             {
-
+                WwiseManager.wwiseManagerSingleton.setTestType("Reverb", 1);
+                Debug.Log("Spatial Reverb");
             }
             else if (testType == "Gain")
             {
+                WwiseManager.wwiseManagerSingleton.setTestType("Gain", 1);
+                Debug.Log("Spatial Gain");
 
             }
             else

@@ -1,3 +1,4 @@
+using System.IO;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,8 @@ public class WwiseManager : MonoBehaviour
 {
     public static WwiseManager wwiseManagerSingleton { get; private set; }
     public string testType;
+    public int testNumber;
+    public int stereoSpatialFlag;
 
     [Header("Spatial WwiseEvents")]
     public AK.Wwise.Event Play_Reference_Jethro_Tull_Mother_Goose_L;
@@ -66,8 +69,9 @@ public class WwiseManager : MonoBehaviour
     public float outputBusVolumeValue;
     
     // Timer
-    private float screenLoadDelayTimer;
+    private float switchBusDelayTimer;
     public float screenLoadDelay = 0.1f;
+    private float timeToCompleteTimer;
 
     // MIDI Pads and Knobs
     #region
@@ -118,33 +122,34 @@ public class WwiseManager : MonoBehaviour
 
     #endregion
 
+    // Path for recorded results
+    public string resultsPath;
 
     private void Awake()
     {
         GameObject temp = gameObject;
-        //if (wwiseManagerSingleton != null && wwiseManagerSingleton != this)
         if (wwiseManagerSingleton != null)
         {
             Debug.Log("There's a problem, more than one singleton");
-            //Destroy(this);
         }
-        //else
-        //{
         wwiseManagerSingleton = this;
-
-        //}
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        screenLoadDelayTimer = 0.0f;
+        switchBusDelayTimer = 0.0f;
+        timeToCompleteTimer = 0.0f;
+        testNumber = 0;
+
+        Debug.Log("WwiseManager - resultPath: " + resultsPath);
     }
 
     // Update is called once per frame
     void Update()
     {
-        screenLoadDelayTimer += Time.deltaTime;
+        switchBusDelayTimer += Time.deltaTime;
+        timeToCompleteTimer += Time.deltaTime;
         updateWwiseRTPCs();
     }
 
@@ -157,8 +162,12 @@ public class WwiseManager : MonoBehaviour
     // 1. Pan
     // 2. Reverb
     // 3. Gain
-    public void setTestType(string inputTestType)
+    public void setTestType(string inputTestType, int inputStereoSpatialFlag)
     {
+        timeToCompleteTimer = 0.0f;
+
+        stereoSpatialFlag = inputStereoSpatialFlag;
+
         if (inputTestType == "Pan")
         { 
             testType = inputTestType;
@@ -247,7 +256,7 @@ public class WwiseManager : MonoBehaviour
 
         // Delay when loading new screen such that MIDI messages don't
         // start the events multiple times
-        if (screenLoadDelayTimer >= screenLoadDelay)
+        if (switchBusDelayTimer >= screenLoadDelay)
         {
             if (mk3MidiPad1Value > 0.0 && mk3MidiPad2Value > 0.0)
             {
@@ -257,7 +266,7 @@ public class WwiseManager : MonoBehaviour
             {
                 // Reference
                 Bus_Switch.SetGlobalValue(0.0f);
-                screenLoadDelayTimer = 0.0f;
+                switchBusDelayTimer = 0.0f;
                 if (testType == "VolumeSetup") // Volume Setup mute button
                 {
                     outputBusVolumeValue = (outputBusVolumeValue + 1.0f) % 2.0f;
@@ -268,7 +277,7 @@ public class WwiseManager : MonoBehaviour
             {
                 // User
                 Bus_Switch.SetGlobalValue(1.0f);
-                screenLoadDelayTimer = 0.0f;
+                switchBusDelayTimer = 0.0f;
             }
             else if (mk3MidiPad1Value == 0.0 && mk3MidiPad2Value == 0.0)
             {
@@ -339,12 +348,82 @@ public class WwiseManager : MonoBehaviour
         Stereo_User_Wet_Level.SetGlobalValue(0.5f);
         Stereo_User_Reverb_Length.SetGlobalValue(0.5f);
 
-        writeResults();
+        // Creating path for results text file in MyDocuments/JCURA
+        string userResultsFile = "userResultsTest" + testNumber + ".txt";
+        string userResultsFolder = "userResults";
+        string jcuraFolder = "JCURA";
+        string myDocuments = System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments);
+        resultsPath = Path.Combine(myDocuments, jcuraFolder, userResultsFolder, userResultsFile);
+
+        if (testNumber < 54)
+        {
+            if (testType == "Pan" || testType == "Reverb" || testType == "Gain")
+            {
+                Debug.Log("WwiseManager - Write results called");
+                writeResults();
+            }
+        }
+
+        // Iterate testNumber
+        testNumber++;
     }
 
     public void writeResults()
     {
-        // This is where the RTPC value and event name will be returned
+        string[] userOutput = new string[9];
+
+        // Test Number
+        userOutput[0] = "TestNumber: " + testNumber.ToString();
+
+        // Modality
+        if (testNumber < 18)
+        {
+            userOutput[1] = "Modality: Speakers";
+        }
+        else if (testNumber >= 18 && testNumber < 36)
+        {
+            userOutput[1] = "Modality: Stereo Headphones";
+        }
+        else if (testNumber >= 36 && testNumber < 54)
+        {
+            userOutput[1] = "Modality: Virtual Mixing Environment";
+        }
+
+        // Track Name
+        userOutput[2] = "Track name: ";
+
+        // Test Type
+        userOutput[3] = "Test type: " + testType;
+
+        // Expected + User Value
+        // TODO: Add reverb
+        if (testType == "Pan")
+        {
+            userOutput[4] = "Reference Pan Value: " + referencePan;
+            userOutput[5] = "User Pan Value: " + mk3MidiKnob1Value;
+            userOutput[6] = "-";
+            userOutput[7] = "-";
+        }
+        else if (testType == "Reverb")
+        {
+            userOutput[4] = "Reference Reverb Length Value: ";
+            userOutput[5] = "User Reverb Length Value: ";
+            userOutput[6] = "Reference Wet Level Value: ";
+            userOutput[7] = "User Wet Level Value: ";
+        }
+        else if (testType == "Gain")
+        {
+            userOutput[4] = "Reference Gain Value: " + referenceGain;
+            userOutput[5] = "User Gain Value: " + mk3MidiKnob1Value;
+            userOutput[6] = "-";
+            userOutput[7] = "-";
+        }
+
+        // Time to complete
+        userOutput[8] = "Time to complete (seconds): " + timeToCompleteTimer.ToString();
+
+        // Write to file
+        File.WriteAllLines(resultsPath, userOutput);
     }
 
     public void postStereoWwiseEvent(string eventName)

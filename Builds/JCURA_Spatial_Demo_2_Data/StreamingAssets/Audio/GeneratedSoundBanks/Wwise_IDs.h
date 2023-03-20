@@ -31,7 +31,9 @@ namespace AK
         static const AkUniqueID MASTER_BUS_MUTE = 2573722612U;
         static const AkUniqueID SPATIAL_PAN_L_CHANNEL = 3148723270U;
         static const AkUniqueID SPATIAL_PAN_R_CHANNEL = 106087048U;
+        static const AkUniqueID STEREO_REFERENCE_GAIN = 4117303583U;
         static const AkUniqueID STEREO_REFERENCE_PAN = 1966853395U;
+        static const AkUniqueID STEREO_USER_GAIN = 2332693969U;
         static const AkUniqueID STEREO_USER_PAN = 3227346317U;
         static const AkUniqueID STEREO_USER_REVERB_LENGTH = 694743187U;
         static const AkUniqueID STEREO_USER_WET_LEVEL = 752449211U;
