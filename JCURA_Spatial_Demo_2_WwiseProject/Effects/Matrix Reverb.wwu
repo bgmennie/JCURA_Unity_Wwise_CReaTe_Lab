@@ -6,6 +6,187 @@
 				<Effect Name="Stereo_Matrix_Reverb" ID="{19CBA189-0F49-4F86-80FD-63AECF986120}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
 					<PropertyList>
 						<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+						<Property Name="ReverbTime" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{A81B6F7C-0D6B-4500-A9B0-C327287F8A3B}" ShortID="910411532">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D0E58972-D0FC-4AA4-9A02-A6C515E84A7C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>2</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>7</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="WetLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{C5E536E8-079E-4F2E-9240-43BD7882929F}" ShortID="515596129">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{43B40586-EBBF-4EB6-BBC1-8D594BA4A504}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-50</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-10</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+						<Property Name="ReverbTime" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{A74E6874-63A5-4507-840E-997DFCF80560}" ShortID="542132366">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Reference_Reverb_Length" ID="{8F6479C3-DB02-42AE-9E04-ADE8DEB1E31F}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F4F6D69C-F441-4C5B-81D8-F8BDD5EEB4C8}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>2</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>7</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="WetLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{99DF9FF6-58AE-4494-8703-B2B7C870FD0F}" ShortID="944431205">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Reference_Wet_Level" ID="{3675383B-3694-4CD5-B37C-C066676409CE}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{B42D5636-E611-4E76-BE99-85119F41E0C4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-50</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-10</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+					<PropertyList>
+						<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+						<Property Name="ReverbTime" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{EDB413A3-BC9A-431A-8447-4B1A2910CA9D}" ShortID="642039963">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="User_Reverb_Length" ID="{B8B199B7-C361-4157-8E4B-752701BFAC46}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{C9A2031B-4D3E-4940-98F6-2A36EE36CA6C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>2</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>7</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="WetLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{093BE763-57E5-4878-87FE-D7AC08330C5A}" ShortID="482957318">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="User_Wet_Level" ID="{B5BF249C-BAE4-4AAB-8D6B-66B8AEED651C}" WorkUnitID="{F33F1267-E221-4098-BEB1-85DE33E568A0}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6989CB40-100B-486B-B3C0-CAFA67ED7AFE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-50</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log2</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-10</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

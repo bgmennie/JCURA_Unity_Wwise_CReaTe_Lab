@@ -618,6 +618,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -656,6 +659,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -687,6 +693,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -727,6 +736,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -765,6 +777,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -796,6 +811,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -900,6 +918,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -938,6 +959,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -969,6 +993,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -1009,6 +1036,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1047,6 +1077,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1078,6 +1111,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -1182,6 +1218,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1220,6 +1259,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1251,6 +1293,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -1291,6 +1336,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1329,6 +1377,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1360,6 +1411,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -1464,6 +1518,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1502,6 +1559,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1533,6 +1593,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -1573,6 +1636,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1611,6 +1677,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1642,6 +1711,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -1746,6 +1818,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Left_Channel" ID="{70B2E5B1-53B1-41AE-98A6-E3E980B3147F}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1784,6 +1859,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Right_Channel" ID="{6106C466-DD49-4955-9378-A31D13355718}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1815,6 +1893,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="Reference_Spatial_Matrix_Reverb" ID="{DC271CBE-5E99-45B6-9B80-3DC7A6769EA7}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_Reference_Sub_Channel" ID="{C32F1876-B0E3-461E-9CB3-33A551EAD007}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
@@ -1855,6 +1936,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Left_Channel" ID="{03BFD678-8D59-45DA-B6C8-C7A5E62EBD31}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1893,6 +1977,9 @@
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
 												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
+												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Right_Channel" ID="{D8A8B6BB-1FA7-4612-9AA0-6EBF20CE1CB8}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>
 												</Reference>
@@ -1924,6 +2011,9 @@
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{87B780F5-46CD-4079-B963-DD224A91B8A7}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+													<ObjectRef Name="User_Spatial_Matrix_Reverb" ID="{31F294AD-A0EB-4F10-97A5-44701DEC7015}" WorkUnitID="{400F0DBF-8390-46AF-BB6D-13228B7859C3}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Spatial_User_Sub_Channel" ID="{673BD1A7-981E-4542-812B-33204D5B17BD}" WorkUnitID="{9865A57D-F1DB-4C59-B6BB-C350B43EFC88}"/>

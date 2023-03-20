@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1996951349">
+		<SoundBank Id="1355168291" Language="SFX" Hash="4214864623">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -37,7 +37,7 @@
 				<GameParameter Id="3910040902" Name="Reference_Wet_Level" ObjectPath="\Game Parameters\Default Work Unit\Reference\Reference_Wet_Level"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3672938014">
+		<SoundBank Id="3161908922" Language="SFX" Hash="912750548">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>

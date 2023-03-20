@@ -4164,7 +4164,7 @@ MonoBehaviour:
   Play_Reference_Bassoon_Sub:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 34e61027c2a0bd9438be037bceb54e64, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 040f71ac3da864c4b93980dd212ea7eb, type: 2}
   Play_User_Bassoon_L:
     idInternal: 0
     valueGuidInternal: 

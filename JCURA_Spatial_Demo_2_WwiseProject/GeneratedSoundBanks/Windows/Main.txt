@@ -84,17 +84,16 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	21493978	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	127386002	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
-	133771582	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
-	650598196	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	794142418	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	813674469	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	885904873	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
-	908632732	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	927685878	LR_Emitter_Parametric_EQ	Wwise Parametric EQ			
 	953085506	Wwise Matrix Reverb (Custom)	Wwise Matrix Reverb			
 	966971050	Wwise Convolution Reverb (Custom)	Wwise Convolution Reverb			
 	1011516121	Resonance Audio Renderer (Custom)	Resonance Audio Renderer			
 	2545004126	Wwise_Reflect	Wwise Reflect			
+	2805517482	User_Spatial_Matrix_Reverb	Wwise Matrix Reverb			
+	3406538378	Reference_Spatial_Matrix_Reverb	Wwise Matrix Reverb			
 	3459526528	Sub_Emitter_Parametric_EQ	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
